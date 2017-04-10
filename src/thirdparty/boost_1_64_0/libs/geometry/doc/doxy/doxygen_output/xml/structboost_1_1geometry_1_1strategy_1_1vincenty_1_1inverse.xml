@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1vincenty_1_1inverse" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::vincenty::inverse</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">formula::vincenty_inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</basecompoundref>
+    <includes local="no">parameters.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CT</type>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableDistance</declname>
+        <defname>EnableDistance</defname>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableAzimuth</declname>
+        <defname>EnableAzimuth</defname>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableReverseAzimuth</declname>
+        <defname>EnableReverseAzimuth</defname>
+        <defval>false</defval>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableReducedLength</declname>
+        <defname>EnableReducedLength</defname>
+        <defval>false</defval>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableGeodesicScale</declname>
+        <defname>EnableGeodesicScale</defname>
+        <defval>false</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1844">
+        <label>boost::geometry::strategy::vincenty::inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1vincenty_1_1inverse"/>
+        <childnode refid="1845" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1845">
+        <label>formula::vincenty_inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1846">
+        <label>boost::geometry::strategy::vincenty::inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1vincenty_1_1inverse"/>
+        <childnode refid="1847" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1847">
+        <label>formula::vincenty_inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" line="85" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" bodystart="78" bodyend="85"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="combine__if_8hpp" kind="file">
+    <compoundname>combine_if.hpp</compoundname>
+    <includes local="no">boost/mpl/fold.hpp</includes>
+    <includes local="no">boost/mpl/if.hpp</includes>
+    <includes local="no">boost/mpl/bind.hpp</includes>
+    <includes local="no">boost/mpl/set.hpp</includes>
+    <includes local="no">boost/mpl/insert.hpp</includes>
+    <includes local="no">boost/mpl/placeholders.hpp</includes>
+    <includedby refid="comparable__distance__result_8hpp" local="no">/home/ubuntu/boost/boost/geometry/strategies/comparable_distance_result.hpp</includedby>
+    <includedby refid="distance__result_8hpp" local="no">/home/ubuntu/boost/boost/geometry/strategies/distance_result.hpp</includedby>
+    <incdepgraph>
+      <node id="71264">
+        <label>boost/mpl/set.hpp</label>
+      </node>
+      <node id="71261">
+        <label>boost/mpl/fold.hpp</label>
+      </node>
+      <node id="71262">
+        <label>boost/mpl/if.hpp</label>
+      </node>
+      <node id="71263">
+        <label>boost/mpl/bind.hpp</label>
+      </node>
+      <node id="71266">
+        <label>boost/mpl/placeholders.hpp</label>
+      </node>
+      <node id="71265">
+        <label>boost/mpl/insert.hpp</label>
+      </node>
+      <node id="71260">
+        <label>/home/ubuntu/boost/boost/geometry/util/combine_if.hpp</label>
+        <link refid="combine_if.hpp"/>
+        <childnode refid="71261" relation="include">
+        </childnode>
+        <childnode refid="71262" relation="include">
+        </childnode>
+        <childnode refid="71263" relation="include">
+        </childnode>
+        <childnode refid="71264" relation="include">
+        </childnode>
+        <childnode refid="71265" relation="include">
+        </childnode>
+        <childnode refid="71266" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="71281">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/default_distance_result.hpp</label>
+        <link refid="default__distance__result_8hpp"/>
+        <childnode refid="71277" relation="include">
+        </childnode>
+        <childnode refid="71279" relation="include">
+        </childnode>
+        <childnode refid="71282" relation="include">
+        </childnode>
+        <childnode refid="71283" relation="include">
+        </childnode>
+      </node>
+      <node id="71274">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/turn_in_piece_visitor.hpp</label>
+        <link refid="turn__in__piece__visitor_8hpp"/>
+        <childnode refid="71271" relation="include">
+        </childnode>
+      </node>
+      <node id="71276">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/distance_result.hpp</label>
+        <link refid="distance__result_8hpp"/>
+        <childnode refid="71277" relation="include">
+        </childnode>
+        <childnode refid="71281" relation="include">
+        </childnode>
+      </node>
+      <node id="71277">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp</label>
+        <link refid="distance_2interface_8hpp"/>
+        <childnode refid="71278" relation="include">
+        </childnode>
+        <childnode refid="71269" relation="include">
+        </childnode>
+        <childnode refid="71279" relation="include">
+        </childnode>
+      </node>
+      <node id="71270">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/comparable_distance.hpp</label>
+        <link refid="comparable__distance_8hpp"/>
+        <childnode refid="71271" relation="include">
+        </childnode>
+        <childnode refid="71274" relation="include">
+        </childnode>
+      </node>
+      <node id="71269">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp</label>
+        <link refid="comparable__distance_2interface_8hpp"/>
+        <childnode refid="71270" relation="include">
+        </childnode>
+      </node>
+      <node id="71282">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp</label>
+        <link refid="distance__projected__point_8hpp"/>
+        <childnode refid="71280" relation="include">
+        </childnode>
+        <childnode refid="71283" relation="include">
+        </childnode>
+      </node>
+      <node id="71278">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/distance.hpp</label>
+        <link refid="algorithms_2distance_8hpp"/>
+      </node>
+      <node id="71280">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/strategies.hpp</label>
+        <link refid="strategies_8hpp"/>
+      </node>
+      <node id="71272">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffer_inserter.hpp</label>
+        <link refid="buffer__inserter_8hpp"/>
+        <childnode refid="71273" relation="include">
+        </childnode>
+      </node>
+      <node id="71283">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_projected_point_ax.hpp</label>
+        <link refid="distance__projected__point__ax_8hpp"/>
+        <childnode refid="71280" relation="include">
+        </childnode>
+      </node>
+      <node id="71268">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/comparable_distance_result.hpp</label>
+        <link refid="comparable__distance__result_8hpp"/>
+        <childnode refid="71269" relation="include">
+        </childnode>
+        <childnode refid="71275" relation="include">
+        </childnode>
+      </node>
+      <node id="71267">
+        <label>/home/ubuntu/boost/boost/geometry/util/combine_if.hpp</label>
+        <link refid="combine_if.hpp"/>
+        <childnode refid="71268" relation="include">
+        </childnode>
+        <childnode refid="71276" relation="include">
+        </childnode>
+      </node>
+      <node id="71271">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_piece_collection.hpp</label>
+        <link refid="buffered__piece__collection_8hpp"/>
+        <childnode refid="71272" relation="include">
+        </childnode>
+      </node>
+      <node id="71279">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/cartesian/centroid_weighted_length.hpp</label>
+        <link refid="centroid__weighted__length_8hpp"/>
+        <childnode refid="71280" relation="include">
+        </childnode>
+      </node>
+      <node id="71275">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/default_comparable_distance_result.hpp</label>
+        <link refid="default__comparable__distance__result_8hpp"/>
+        <childnode refid="71269" relation="include">
+        </childnode>
+      </node>
+      <node id="71273">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp</label>
+        <link refid="algorithms_2buffer_8hpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structboost_1_1geometry_1_1util_1_1combine__if" prot="public">boost::geometry::util::combine_if</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1util_1_1combine__if_1_1combine" prot="public">boost::geometry::util::combine_if::combine</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1util_1_1combine__if_1_1combine_1_1apply" prot="public">boost::geometry::util::combine_if::combine::apply</innerclass>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry_1_1util">boost::geometry::util</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/util/combine_if.hpp"/>
+  </compounddef>
+</doxygen>

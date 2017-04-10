@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail_1_1compute__tmin__tmax__per__dim" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::disjoint::detail::compute_tmin_tmax_per_dim</compoundname>
+    <includes local="no">disjoint_segment_box.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>std::size_t</type>
+        <declname>I</declname>
+        <defname>I</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail_1_1compute__tmin__tmax__per__dim_1a0c4d7ddf0e0e7cadbbcfb2fce2c23854" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SegmentPoint</type>
+          </param>
+          <param>
+            <type>typename Box</type>
+          </param>
+          <param>
+            <type>typename RelativeDistance</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void boost::geometry::strategy::disjoint::detail::compute_tmin_tmax_per_dim&lt; I &gt;::apply</definition>
+        <argsstring>(SegmentPoint const &amp;p0, SegmentPoint const &amp;p1, Box const &amp;box, RelativeDistance &amp;ti_min, RelativeDistance &amp;ti_max, RelativeDistance &amp;diff)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>SegmentPoint const &amp;</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>SegmentPoint const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Box const &amp;</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>RelativeDistance &amp;</type>
+          <declname>ti_min</declname>
+        </param>
+        <param>
+          <type>RelativeDistance &amp;</type>
+          <declname>ti_max</declname>
+        </param>
+        <param>
+          <type>RelativeDistance &amp;</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" line="50" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" bodystart="50" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" line="48" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" bodystart="47" bodyend="96"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail_1_1compute__tmin__tmax__per__dim_1a0c4d7ddf0e0e7cadbbcfb2fce2c23854" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::disjoint::detail::compute_tmin_tmax_per_dim</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

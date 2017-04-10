@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="has__non__finite__coordinate_8hpp" kind="file">
+    <compoundname>has_non_finite_coordinate.hpp</compoundname>
+    <includes local="no">boost/type_traits/is_floating_point.hpp</includes>
+    <includes refid="coordinate__type_8hpp" local="no">boost/geometry/core/coordinate_type.hpp</includes>
+    <includes refid="has__nan__coordinate_8hpp" local="no">boost/geometry/util/has_nan_coordinate.hpp</includes>
+    <includes local="no">boost/math/special_functions/fpclassify.hpp</includes>
+    <includedby refid="has__invalid__coordinate_8hpp" local="no">/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/has_invalid_coordinate.hpp</includedby>
+    <incdepgraph>
+      <node id="71815">
+        <label>boost/geometry/core/coordinate_dimension.hpp</label>
+        <link refid="coordinate__dimension_8hpp"/>
+        <childnode refid="71811" relation="include">
+        </childnode>
+        <childnode refid="71796" relation="include">
+        </childnode>
+        <childnode refid="71816" relation="include">
+        </childnode>
+        <childnode refid="71797" relation="include">
+        </childnode>
+        <childnode refid="71806" relation="include">
+        </childnode>
+      </node>
+      <node id="71799">
+        <label>boost/type_traits/remove_const.hpp</label>
+      </node>
+      <node id="71797">
+        <label>boost/geometry/core/point_type.hpp</label>
+        <link refid="point__type_8hpp"/>
+        <childnode refid="71796" relation="include">
+        </childnode>
+        <childnode refid="71798" relation="include">
+        </childnode>
+        <childnode refid="71799" relation="include">
+        </childnode>
+        <childnode refid="71800" relation="include">
+        </childnode>
+        <childnode refid="71804" relation="include">
+        </childnode>
+        <childnode refid="71805" relation="include">
+        </childnode>
+        <childnode refid="71806" relation="include">
+        </childnode>
+      </node>
+      <node id="71802">
+        <label>boost/type_traits/is_const.hpp</label>
+      </node>
+      <node id="71801">
+        <label>boost/mpl/if.hpp</label>
+      </node>
+      <node id="71816">
+        <label>boost/static_assert.hpp</label>
+      </node>
+      <node id="71800">
+        <label>boost/geometry/core/ring_type.hpp</label>
+        <link refid="ring__type_8hpp"/>
+        <childnode refid="71796" relation="include">
+        </childnode>
+        <childnode refid="71801" relation="include">
+        </childnode>
+        <childnode refid="71798" relation="include">
+        </childnode>
+        <childnode refid="71802" relation="include">
+        </childnode>
+        <childnode refid="71799" relation="include">
+        </childnode>
+        <childnode refid="71803" relation="include">
+        </childnode>
+        <childnode refid="71804" relation="include">
+        </childnode>
+        <childnode refid="71805" relation="include">
+        </childnode>
+      </node>
+      <node id="71814">
+        <label>boost/type_traits/is_pointer.hpp</label>
+      </node>
+      <node id="71805">
+        <label>boost/geometry/core/tags.hpp</label>
+        <link refid="core_2tags_8hpp"/>
+      </node>
+      <node id="71817">
+        <label>boost/math/special_functions/fpclassify.hpp</label>
+      </node>
+      <node id="71796">
+        <label>boost/mpl/assert.hpp</label>
+      </node>
+      <node id="71812">
+        <label>boost/geometry/core/access.hpp</label>
+        <link refid="access_8hpp"/>
+        <childnode refid="71811" relation="include">
+        </childnode>
+        <childnode refid="71813" relation="include">
+        </childnode>
+        <childnode refid="71796" relation="include">
+        </childnode>
+        <childnode refid="71814" relation="include">
+        </childnode>
+        <childnode refid="71807" relation="include">
+        </childnode>
+        <childnode refid="71795" relation="include">
+        </childnode>
+        <childnode refid="71797" relation="include">
+        </childnode>
+        <childnode refid="71804" relation="include">
+        </childnode>
+        <childnode refid="71806" relation="include">
+        </childnode>
+      </node>
+      <node id="71803">
+        <label>boost/type_traits/remove_reference.hpp</label>
+      </node>
+      <node id="71813">
+        <label>boost/core/ignore_unused.hpp</label>
+      </node>
+      <node id="71806">
+        <label>boost/geometry/util/bare_type.hpp</label>
+        <link refid="bare__type_8hpp"/>
+        <childnode refid="71799" relation="include">
+        </childnode>
+        <childnode refid="71807" relation="include">
+        </childnode>
+        <childnode refid="71803" relation="include">
+        </childnode>
+      </node>
+      <node id="71808">
+        <label>boost/geometry/util/promote_floating_point.hpp</label>
+        <link refid="promote__floating__point_8hpp"/>
+        <childnode refid="71801" relation="include">
+        </childnode>
+        <childnode refid="71809" relation="include">
+        </childnode>
+      </node>
+      <node id="71804">
+        <label>boost/geometry/core/tag.hpp</label>
+        <link refid="tag_8hpp"/>
+        <childnode refid="71805" relation="include">
+        </childnode>
+        <childnode refid="71806" relation="include">
+        </childnode>
+      </node>
+      <node id="71798">
+        <label>boost/range/value_type.hpp</label>
+      </node>
+      <node id="71811">
+        <label>cstddef</label>
+      </node>
+      <node id="71809">
+        <label>boost/type_traits/is_integral.hpp</label>
+      </node>
+      <node id="71794">
+        <label>boost/type_traits/is_floating_point.hpp</label>
+      </node>
+      <node id="71793">
+        <label>/home/ubuntu/boost/boost/geometry/util/has_non_finite_coordinate.hpp</label>
+        <link refid="has_non_finite_coordinate.hpp"/>
+        <childnode refid="71794" relation="include">
+        </childnode>
+        <childnode refid="71795" relation="include">
+        </childnode>
+        <childnode refid="71810" relation="include">
+        </childnode>
+        <childnode refid="71817" relation="include">
+        </childnode>
+      </node>
+      <node id="71795">
+        <label>boost/geometry/core/coordinate_type.hpp</label>
+        <link refid="coordinate__type_8hpp"/>
+        <childnode refid="71796" relation="include">
+        </childnode>
+        <childnode refid="71797" relation="include">
+        </childnode>
+        <childnode refid="71804" relation="include">
+        </childnode>
+        <childnode refid="71806" relation="include">
+        </childnode>
+        <childnode refid="71808" relation="include">
+        </childnode>
+      </node>
+      <node id="71807">
+        <label>boost/type_traits/remove_pointer.hpp</label>
+      </node>
+      <node id="71810">
+        <label>boost/geometry/util/has_nan_coordinate.hpp</label>
+        <link refid="has__nan__coordinate_8hpp"/>
+        <childnode refid="71811" relation="include">
+        </childnode>
+        <childnode refid="71794" relation="include">
+        </childnode>
+        <childnode refid="71812" relation="include">
+        </childnode>
+        <childnode refid="71815" relation="include">
+        </childnode>
+        <childnode refid="71795" relation="include">
+        </childnode>
+        <childnode refid="71817" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="71824">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/pointlike.hpp</label>
+        <link refid="pointlike_8hpp"/>
+        <childnode refid="71821" relation="include">
+        </childnode>
+      </node>
+      <node id="71828">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/segment.hpp</label>
+        <link refid="algorithms_2detail_2is__valid_2segment_8hpp"/>
+        <childnode refid="71821" relation="include">
+        </childnode>
+      </node>
+      <node id="71819">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/has_invalid_coordinate.hpp</label>
+        <link refid="has__invalid__coordinate_8hpp"/>
+        <childnode refid="71820" relation="include">
+        </childnode>
+        <childnode refid="71823" relation="include">
+        </childnode>
+        <childnode refid="71824" relation="include">
+        </childnode>
+        <childnode refid="71825" relation="include">
+        </childnode>
+        <childnode refid="71828" relation="include">
+        </childnode>
+      </node>
+      <node id="71827">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/multipolygon.hpp</label>
+        <link refid="multipolygon_8hpp"/>
+        <childnode refid="71821" relation="include">
+        </childnode>
+      </node>
+      <node id="71821">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/implementation.hpp</label>
+        <link refid="is__valid_2implementation_8hpp"/>
+        <childnode refid="71822" relation="include">
+        </childnode>
+      </node>
+      <node id="71822">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/is_valid.hpp</label>
+        <link refid="is__valid_8hpp"/>
+      </node>
+      <node id="71826">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/polygon.hpp</label>
+        <link refid="algorithms_2detail_2is__valid_2polygon_8hpp"/>
+        <childnode refid="71821" relation="include">
+        </childnode>
+        <childnode refid="71827" relation="include">
+        </childnode>
+      </node>
+      <node id="71820">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/box.hpp</label>
+        <link refid="algorithms_2detail_2is__valid_2box_8hpp"/>
+        <childnode refid="71821" relation="include">
+        </childnode>
+      </node>
+      <node id="71823">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/linear.hpp</label>
+        <link refid="is__valid_2linear_8hpp"/>
+        <childnode refid="71821" relation="include">
+        </childnode>
+      </node>
+      <node id="71825">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/ring.hpp</label>
+        <link refid="algorithms_2detail_2is__valid_2ring_8hpp"/>
+        <childnode refid="71821" relation="include">
+        </childnode>
+        <childnode refid="71826" relation="include">
+        </childnode>
+      </node>
+      <node id="71818">
+        <label>/home/ubuntu/boost/boost/geometry/util/has_non_finite_coordinate.hpp</label>
+        <link refid="has_non_finite_coordinate.hpp"/>
+        <childnode refid="71819" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/util/has_non_finite_coordinate.hpp"/>
+  </compounddef>
+</doxygen>

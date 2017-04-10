@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</compoundname>
+    <includes local="no">intersection.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CoordinateType</type>
+      </param>
+      <param>
+        <type>typename SegmentRatio</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a043a7d1d3191e308e6736264fc11de14" prot="public" static="no">
+        <type><ref refid="structboost_1_1geometry_1_1select__most__precise" kindref="compound">select_most_precise</ref>&lt; CoordinateType, double &gt;::type</type>
+        <definition>typedef select_most_precise&lt; CoordinateType, double &gt;::type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::promoted_type</definition>
+        <argsstring></argsstring>
+        <name>promoted_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="142" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1ae9b47ef26356fd43c9a978a81b21b149" prot="public" static="no" mutable="no">
+        <type>CoordinateType</type>
+        <definition>CoordinateType boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::dx_a</definition>
+        <argsstring></argsstring>
+        <name>dx_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="193" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1ac29438f12eb83c8260ec277a193d07b6" prot="public" static="no" mutable="no">
+        <type>CoordinateType</type>
+        <definition>CoordinateType boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::dx_b</definition>
+        <argsstring></argsstring>
+        <name>dx_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="194" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a40c45fe87aa0902192bf3acd8ee4e244" prot="public" static="no" mutable="no">
+        <type>CoordinateType</type>
+        <definition>CoordinateType boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::dy_a</definition>
+        <argsstring></argsstring>
+        <name>dy_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="193" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1aa3f3353e9901f622cfc70230b72fb27c" prot="public" static="no" mutable="no">
+        <type>CoordinateType</type>
+        <definition>CoordinateType boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::dy_b</definition>
+        <argsstring></argsstring>
+        <name>dy_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="194" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1aee22b2e10d575b23faa89b97bda61dde" prot="public" static="no" mutable="no">
+        <type>SegmentRatio</type>
+        <definition>SegmentRatio boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::robust_ra</definition>
+        <argsstring></argsstring>
+        <name>robust_ra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="195" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a5d5210d3a927be7424a38b4acd9a1350" prot="public" static="no" mutable="no">
+        <type>SegmentRatio</type>
+        <definition>SegmentRatio boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::robust_rb</definition>
+        <argsstring></argsstring>
+        <name>robust_rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="196" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1abaf53dc49d3c7355791000843e1de556" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point</type>
+          </param>
+          <param>
+            <type>typename Segment</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::assign</definition>
+        <argsstring>(Point &amp;point, Segment const &amp;segment, CoordinateType const &amp;dx, CoordinateType const &amp;dy, SegmentRatio const &amp;ratio) const </argsstring>
+        <name>assign</name>
+        <param>
+          <type>Point &amp;</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>Segment const &amp;</type>
+          <declname>segment</declname>
+        </param>
+        <param>
+          <type>CoordinateType const &amp;</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>CoordinateType const &amp;</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>SegmentRatio const &amp;</type>
+          <declname>ratio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="166" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="166" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a6746102f1fced5e49c9a7e8fb9c4b61c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point</type>
+          </param>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::assign_a</definition>
+        <argsstring>(Point &amp;point, Segment1 const &amp;a, Segment2 const &amp;) const </argsstring>
+        <name>assign_a</name>
+        <param>
+          <type>Point &amp;</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>Segment1 const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="155" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a10c70f7b58f02327c6e61629e6c2fe4b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point</type>
+          </param>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::assign_b</definition>
+        <argsstring>(Point &amp;point, Segment1 const &amp;, Segment2 const &amp;b) const </argsstring>
+        <name>assign_b</name>
+        <param>
+          <type>Point &amp;</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>Segment1 const &amp;</type>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="160" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="160" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a8ec444a7f9d1e8e7d5a624a3a67b6e42" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a043a7d1d3191e308e6736264fc11de14" kindref="member">promoted_type</ref></type>
+        <definition>promoted_type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::comparable_length_a</definition>
+        <argsstring>() const </argsstring>
+        <name>comparable_length_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="144" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="144" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1ad6294fb9db85214a64b2fdb37083f485" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a043a7d1d3191e308e6736264fc11de14" kindref="member">promoted_type</ref></type>
+        <definition>promoted_type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;::comparable_length_b</definition>
+        <argsstring>() const </argsstring>
+        <name>comparable_length_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="149" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="149" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1665">
+        <label>CoordinateType</label>
+      </node>
+      <node id="1664">
+        <label>boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::segment_intersection_info&lt; CoordinateType, SegmentRatio &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info"/>
+        <childnode refid="1665" relation="usage">
+          <edgelabel>dx_a</edgelabel>
+          <edgelabel>dx_b</edgelabel>
+          <edgelabel>dy_a</edgelabel>
+          <edgelabel>dy_b</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="138" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="137" bodyend="197"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1abaf53dc49d3c7355791000843e1de556" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>assign</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a6746102f1fced5e49c9a7e8fb9c4b61c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>assign_a</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a10c70f7b58f02327c6e61629e6c2fe4b" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>assign_b</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a8ec444a7f9d1e8e7d5a624a3a67b6e42" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>comparable_length_a</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1ad6294fb9db85214a64b2fdb37083f485" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>comparable_length_b</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1ae9b47ef26356fd43c9a978a81b21b149" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>dx_a</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1ac29438f12eb83c8260ec277a193d07b6" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>dx_b</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a40c45fe87aa0902192bf3acd8ee4e244" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>dy_a</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1aa3f3353e9901f622cfc70230b72fb27c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>dy_b</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a043a7d1d3191e308e6736264fc11de14" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>promoted_type</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1aee22b2e10d575b23faa89b97bda61dde" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>robust_ra</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info_1a5d5210d3a927be7424a38b4acd9a1350" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</scope><name>robust_rb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

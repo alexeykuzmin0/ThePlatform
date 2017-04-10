@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1experimental__elliptic__segments" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::experimental_elliptic_segments</compoundname>
+    <basecompoundref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments" prot="public" virt="non-virtual">boost::geometry::strategy::intersection::ecef_segments&lt; experimental_elliptic_segments_calc_policy&lt; Spheroid &gt;, CalculationType &gt;</basecompoundref>
+    <includes local="no">intersection_elliptic.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Spheroid</type>
+        <defval><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt;double&gt;</defval>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1677">
+        <label>boost::geometry::strategy::intersection::ecef_segments&lt; experimental_elliptic_segments_calc_policy&lt; Spheroid &gt;, CalculationType &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments"/>
+      </node>
+      <node id="1676">
+        <label>boost::geometry::strategy::intersection::experimental_elliptic_segments&lt; Spheroid, CalculationType &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1experimental__elliptic__segments"/>
+        <childnode refid="1677" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1679">
+        <label>boost::geometry::strategy::intersection::ecef_segments&lt; experimental_elliptic_segments_calc_policy&lt; Spheroid &gt;, CalculationType &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments"/>
+      </node>
+      <node id="1678">
+        <label>boost::geometry::strategy::intersection::experimental_elliptic_segments&lt; Spheroid, CalculationType &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1experimental__elliptic__segments"/>
+        <childnode refid="1679" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" line="235" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" bodystart="229" bodyend="235"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1aa98b2e33eec6d992ba18c990d670073d" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1a70fa9a9e20af88746d8c26ed110dba61" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1a32fd013973a037bd7db0ffea786865a0" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>get_area_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1a57ce705db6d781f239e1613ce40604d2" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>get_distance_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1a9d6fc14f3fe66b41cbf5fa6045ce5cdf" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>get_point_in_geometry_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1afd4b038239452a736d2441081053bfe8" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>get_side_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1adfd177691ed152aa797ef0febe6ac7d3" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>intersection_point_flag</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1adfd177691ed152aa797ef0febe6ac7d3a871d0c98ff813683961f9d86df07efb6" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>ipi_at_a1</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1adfd177691ed152aa797ef0febe6ac7d3ac1b4fe4531520d30c2c44bd61fef6cf6" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>ipi_at_a2</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1adfd177691ed152aa797ef0febe6ac7d3a3a53cc7f7550bd8243631426809df6d5" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>ipi_at_b1</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1adfd177691ed152aa797ef0febe6ac7d3a01afd94d6c09970d6e72a1025eece3c1" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>ipi_at_b2</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1adfd177691ed152aa797ef0febe6ac7d3addd0e9936295d17b5a1e404dfecb04b3" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>ipi_inters</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1aae179add63b2182836e64fee7d282fb0" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::experimental_elliptic_segments</scope><name>side_strategy_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

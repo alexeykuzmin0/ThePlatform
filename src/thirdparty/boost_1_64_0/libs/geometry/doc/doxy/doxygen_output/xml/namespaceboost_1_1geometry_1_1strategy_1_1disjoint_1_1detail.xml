@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail" kind="namespace">
+    <compoundname>boost::geometry::strategy::disjoint::detail</compoundname>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail_1_1compute__tmin__tmax__per__dim" prot="public">boost::geometry::strategy::disjoint::detail::compute_tmin_tmax_per_dim</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail_1_1disjoint__segment__box__impl" prot="public">boost::geometry::strategy::disjoint::detail::disjoint_segment_box_impl</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail_1_1disjoint__segment__box__impl_3_01_r6e55c1e2c04d8bcb1b0c78101ce69f71" prot="public">boost::geometry::strategy::disjoint::detail::disjoint_segment_box_impl&lt; RelativeDistance, SegmentPoint, Box, 0, Dimension &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail_1_1disjoint__segment__box__impl_3_01_rc60292f3a3eacad72ad489fcae54f491" prot="public">boost::geometry::strategy::disjoint::detail::disjoint_segment_box_impl&lt; RelativeDistance, SegmentPoint, Box, Dimension, Dimension &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" line="44" column="1"/>
+  </compounddef>
+</doxygen>

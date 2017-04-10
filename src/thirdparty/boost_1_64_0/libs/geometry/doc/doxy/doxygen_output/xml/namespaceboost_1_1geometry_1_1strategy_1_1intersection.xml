@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceboost_1_1geometry_1_1strategy_1_1intersection" kind="namespace">
+    <compoundname>boost::geometry::strategy::intersection</compoundname>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments" prot="public">boost::geometry::strategy::intersection::cartesian_segments</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments" prot="public">boost::geometry::strategy::intersection::ecef_segments</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1experimental__elliptic__segments" prot="public">boost::geometry::strategy::intersection::experimental_elliptic_segments</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1experimental__elliptic__segments__calc__policy" prot="public">boost::geometry::strategy::intersection::experimental_elliptic_segments_calc_policy</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments" prot="public">boost::geometry::strategy::intersection::geographic_segments</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments" prot="public">boost::geometry::strategy::intersection::great_elliptic_segments</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy" prot="public">boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1intersection_1_1liang__barsky" prot="public">boost::geometry::strategy::intersection::liang_barsky</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments" prot="public">boost::geometry::strategy::intersection::spherical_segments</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy" prot="public">boost::geometry::strategy::intersection::spherical_segments_calc_policy</innerclass>
+    <innernamespace refid="namespaceboost_1_1geometry_1_1strategy_1_1intersection_1_1services">boost::geometry::strategy::intersection::services</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/clip_linestring.hpp" line="31" column="1"/>
+  </compounddef>
+</doxygen>

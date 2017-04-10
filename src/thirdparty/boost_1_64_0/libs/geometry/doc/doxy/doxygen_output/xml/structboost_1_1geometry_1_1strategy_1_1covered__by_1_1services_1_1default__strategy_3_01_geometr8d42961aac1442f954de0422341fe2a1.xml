@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr8d42961aac1442f954de0422341fe2a1" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, polygonal_tag, polygonal_tag, cartesian_tag, cartesian_tag &gt;</compoundname>
+    <includes local="no">intersection.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Geometry1</type>
+      </param>
+      <param>
+        <type>typename Geometry2</type>
+      </param>
+      <param>
+        <type>typename AnyTag1</type>
+      </param>
+      <param>
+        <type>typename AnyTag2</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr8d42961aac1442f954de0422341fe2a1_1aed6ae96bf6d9949083e7512dfceef25b" prot="public" static="no">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments" kindref="compound">strategy::intersection::cartesian_segments</ref></type>
+        <definition>typedef strategy::intersection::cartesian_segments boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, polygonal_tag, polygonal_tag, cartesian_tag, cartesian_tag &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="694" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="694" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="693" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="692" bodyend="695"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr8d42961aac1442f954de0422341fe2a1_1aed6ae96bf6d9949083e7512dfceef25b" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, polygonal_tag, polygonal_tag, cartesian_tag, cartesian_tag &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

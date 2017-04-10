@@ -1,0 +1,1777 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="collect__vectors_8hpp" kind="file">
+    <compoundname>collect_vectors.hpp</compoundname>
+    <includes local="no">boost/numeric/conversion/cast.hpp</includes>
+    <includes refid="interior__iterator_8hpp" local="no">boost/geometry/algorithms/detail/interior_iterator.hpp</includes>
+    <includes refid="algorithms_2detail_2normalize_8hpp" local="no">boost/geometry/algorithms/detail/normalize.hpp</includes>
+    <includes refid="not__implemented_8hpp" local="no">boost/geometry/algorithms/not_implemented.hpp</includes>
+    <includes refid="cs_8hpp" local="no">boost/geometry/core/cs.hpp</includes>
+    <includes refid="interior__rings_8hpp" local="no">boost/geometry/core/interior_rings.hpp</includes>
+    <includes refid="core_2tags_8hpp" local="no">boost/geometry/core/tags.hpp</includes>
+    <includes local="no">boost/geometry/formulas/spherical.hpp</includes>
+    <includes refid="check_8hpp" local="no">boost/geometry/geometries/concepts/check.hpp</includes>
+    <includes refid="math_8hpp" local="no">boost/geometry/util/math.hpp</includes>
+    <includes refid="util_2range_8hpp" local="no">boost/geometry/util/range.hpp</includes>
+    <includes refid="side__by__triangle_8hpp" local="no">boost/geometry/strategies/cartesian/side_by_triangle.hpp</includes>
+    <includes refid="ssf_8hpp" local="no">boost/geometry/strategies/spherical/ssf.hpp</includes>
+    <includedby refid="equals_8hpp" local="no">/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp</includedby>
+    <incdepgraph>
+      <node id="25060">
+        <label>boost/geometry/geometries/concepts/polygon_concept.hpp</label>
+        <link refid="polygon__concept_8hpp"/>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25053" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25061" relation="include">
+        </childnode>
+        <childnode refid="25043" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25022" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+        <childnode refid="25063" relation="include">
+        </childnode>
+      </node>
+      <node id="25116">
+        <label>boost/geometry/algorithms/detail/assign_indexed_point.hpp</label>
+        <link refid="assign__indexed__point_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+        <childnode refid="25113" relation="include">
+        </childnode>
+      </node>
+      <node id="25050">
+        <label>boost/geometry/core/coordinate_dimension.hpp</label>
+        <link refid="coordinate__dimension_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25051" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25013" relation="include">
+        </childnode>
+      </node>
+      <node id="25026">
+        <label>boost/geometry/core/cs.hpp</label>
+        <link refid="cs_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25027" relation="include">
+        </childnode>
+        <childnode refid="25025" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+      </node>
+      <node id="25009">
+        <label>boost/type_traits/remove_const.hpp</label>
+      </node>
+      <node id="25098">
+        <label>boost/geometry/util/for_each_coordinate.hpp</label>
+        <link refid="for__each__coordinate_8hpp"/>
+        <childnode refid="25047" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+        <childnode refid="25062" relation="include">
+        </childnode>
+      </node>
+      <node id="25090">
+        <label>functional</label>
+      </node>
+      <node id="25125">
+        <label>boost/version.hpp</label>
+      </node>
+      <node id="25033">
+        <label>limits</label>
+      </node>
+      <node id="25088">
+        <label>boost/geometry/core/radian_access.hpp</label>
+        <link refid="radian__access_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25031" relation="include">
+        </childnode>
+      </node>
+      <node id="25131">
+        <label>boost/geometry/geometries/point.hpp</label>
+        <link refid="geometries_2point_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25068" relation="include">
+        </childnode>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25132" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25029" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25025" relation="include">
+        </childnode>
+        <childnode refid="25050" relation="include">
+        </childnode>
+      </node>
+      <node id="25072">
+        <label>boost/range/empty.hpp</label>
+      </node>
+      <node id="25034">
+        <label>boost/math/constants/constants.hpp</label>
+      </node>
+      <node id="25021">
+        <label>boost/geometry/core/point_type.hpp</label>
+        <link refid="point__type_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25004" relation="include">
+        </childnode>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25022" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25013" relation="include">
+        </childnode>
+      </node>
+      <node id="25067">
+        <label>iterator</label>
+      </node>
+      <node id="25057">
+        <label>boost/range/metafunctions.hpp</label>
+      </node>
+      <node id="25133">
+        <label>boost/geometry/algorithms/transform.hpp</label>
+        <link refid="algorithms_2transform_8hpp"/>
+        <childnode refid="25032" relation="include">
+        </childnode>
+        <childnode refid="25067" relation="include">
+        </childnode>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25010" relation="include">
+        </childnode>
+        <childnode refid="25094" relation="include">
+        </childnode>
+        <childnode refid="25095" relation="include">
+        </childnode>
+        <childnode refid="25048" relation="include">
+        </childnode>
+        <childnode refid="25134" relation="include">
+        </childnode>
+        <childnode refid="25105" relation="include">
+        </childnode>
+        <childnode refid="25002" relation="include">
+        </childnode>
+        <childnode refid="25100" relation="include">
+        </childnode>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25061" relation="include">
+        </childnode>
+        <childnode refid="25043" relation="include">
+        </childnode>
+        <childnode refid="25054" relation="include">
+        </childnode>
+        <childnode refid="25022" relation="include">
+        </childnode>
+        <childnode refid="25106" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+        <childnode refid="25135" relation="include">
+        </childnode>
+        <childnode refid="25128" relation="include">
+        </childnode>
+      </node>
+      <node id="25071">
+        <label>boost/range/end.hpp</label>
+      </node>
+      <node id="25121">
+        <label>boost/iterator/iterator_facade.hpp</label>
+      </node>
+      <node id="25091">
+        <label>boost/geometry/algorithms/convert.hpp</label>
+        <link refid="convert_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25093" relation="include">
+        </childnode>
+        <childnode refid="25010" relation="include">
+        </childnode>
+        <childnode refid="25094" relation="include">
+        </childnode>
+        <childnode refid="25095" relation="include">
+        </childnode>
+        <childnode refid="25048" relation="include">
+        </childnode>
+        <childnode refid="25096" relation="include">
+        </childnode>
+        <childnode refid="25041" relation="include">
+        </childnode>
+        <childnode refid="25099" relation="include">
+        </childnode>
+        <childnode refid="25105" relation="include">
+        </childnode>
+        <childnode refid="25108" relation="include">
+        </childnode>
+        <childnode refid="25113" relation="include">
+        </childnode>
+        <childnode refid="25115" relation="include">
+        </childnode>
+        <childnode refid="25116" relation="include">
+        </childnode>
+        <childnode refid="25102" relation="include">
+        </childnode>
+        <childnode refid="25117" relation="include">
+        </childnode>
+        <childnode refid="25002" relation="include">
+        </childnode>
+        <childnode refid="25118" relation="include">
+        </childnode>
+        <childnode refid="25124" relation="include">
+        </childnode>
+        <childnode refid="25065" relation="include">
+        </childnode>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25109" relation="include">
+        </childnode>
+        <childnode refid="25127" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+      </node>
+      <node id="25046">
+        <label>boost/concept_check.hpp</label>
+      </node>
+      <node id="25093">
+        <label>boost/type_traits/is_array.hpp</label>
+      </node>
+      <node id="25003">
+        <label>boost/range/iterator.hpp</label>
+      </node>
+      <node id="25136">
+        <label>boost/geometry/algorithms/dispatch/disjoint.hpp</label>
+      </node>
+      <node id="25130">
+        <label>boost/geometry/geometries/box.hpp</label>
+        <link refid="geometries_2box_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25112" relation="include">
+        </childnode>
+        <childnode refid="25068" relation="include">
+        </childnode>
+        <childnode refid="25091" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+      </node>
+      <node id="25106">
+        <label>boost/geometry/core/tag_cast.hpp</label>
+        <link refid="tag__cast_8hpp"/>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25107" relation="include">
+        </childnode>
+      </node>
+      <node id="25083">
+        <label>boost/geometry/strategies/tags.hpp</label>
+        <link refid="strategies_2tags_8hpp"/>
+      </node>
+      <node id="25008">
+        <label>boost/type_traits/is_const.hpp</label>
+      </node>
+      <node id="25109">
+        <label>boost/geometry/core/closure.hpp</label>
+        <link refid="closure_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25110" relation="include">
+        </childnode>
+        <childnode refid="25004" relation="include">
+        </childnode>
+        <childnode refid="25022" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25013" relation="include">
+        </childnode>
+      </node>
+      <node id="25048">
+        <label>boost/variant/variant_fwd.hpp</label>
+      </node>
+      <node id="25032">
+        <label>cmath</label>
+      </node>
+      <node id="25070">
+        <label>boost/range/begin.hpp</label>
+      </node>
+      <node id="25007">
+        <label>boost/mpl/if.hpp</label>
+      </node>
+      <node id="25073">
+        <label>boost/range/difference_type.hpp</label>
+      </node>
+      <node id="25051">
+        <label>boost/static_assert.hpp</label>
+      </node>
+      <node id="25022">
+        <label>boost/geometry/core/ring_type.hpp</label>
+        <link refid="ring__type_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25004" relation="include">
+        </childnode>
+        <childnode refid="25008" relation="include">
+        </childnode>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25010" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+      </node>
+      <node id="25019">
+        <label>boost/type_traits/is_pointer.hpp</label>
+      </node>
+      <node id="25012">
+        <label>boost/geometry/core/tags.hpp</label>
+        <link refid="core_2tags_8hpp"/>
+      </node>
+      <node id="25039">
+        <label>boost/geometry/util/normalize_spheroidal_box_coordinates.hpp</label>
+        <link refid="normalize__spheroidal__box__coordinates_8hpp"/>
+        <childnode refid="25029" relation="include">
+        </childnode>
+        <childnode refid="25031" relation="include">
+        </childnode>
+        <childnode refid="25028" relation="include">
+        </childnode>
+      </node>
+      <node id="25080">
+        <label>boost/geometry/arithmetic/determinant.hpp</label>
+        <link refid="determinant_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+        <childnode refid="25081" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+      </node>
+      <node id="25123">
+        <label>boost/geometry/views/identity_view.hpp</label>
+        <link refid="identity__view_8hpp"/>
+        <childnode refid="25092" relation="include">
+        </childnode>
+      </node>
+      <node id="25089">
+        <label>boost/geometry/strategies/strategy_transform.hpp</label>
+        <link refid="strategy__transform_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25032" relation="include">
+        </childnode>
+        <childnode refid="25090" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25091" relation="include">
+        </childnode>
+        <childnode refid="25096" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25088" relation="include">
+        </childnode>
+        <childnode refid="25050" relation="include">
+        </childnode>
+        <childnode refid="25128" relation="include">
+        </childnode>
+        <childnode refid="25031" relation="include">
+        </childnode>
+        <childnode refid="25023" relation="include">
+        </childnode>
+        <childnode refid="25081" relation="include">
+        </childnode>
+      </node>
+      <node id="25078">
+        <label>boost/geometry/strategies/cartesian/side_by_triangle.hpp</label>
+        <link refid="side__by__triangle_8hpp"/>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25024" relation="include">
+        </childnode>
+        <childnode refid="25079" relation="include">
+        </childnode>
+        <childnode refid="25080" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25081" relation="include">
+        </childnode>
+        <childnode refid="25082" relation="include">
+        </childnode>
+        <childnode refid="25084" relation="include">
+        </childnode>
+        <childnode refid="25085" relation="include">
+        </childnode>
+      </node>
+      <node id="25049">
+        <label>boost/geometry/geometries/concepts/box_concept.hpp</label>
+        <link refid="box__concept_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25050" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+      </node>
+      <node id="25002">
+        <label>boost/geometry/algorithms/detail/interior_iterator.hpp</label>
+        <link refid="interior__iterator_8hpp"/>
+        <childnode refid="25003" relation="include">
+        </childnode>
+        <childnode refid="25004" relation="include">
+        </childnode>
+        <childnode refid="25005" relation="include">
+        </childnode>
+      </node>
+      <node id="25035">
+        <label>boost/math/special_functions/fpclassify.hpp</label>
+      </node>
+      <node id="25006">
+        <label>boost/mpl/assert.hpp</label>
+      </node>
+      <node id="25128">
+        <label>boost/geometry/strategies/transform.hpp</label>
+        <link refid="strategies_2transform_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25083" relation="include">
+        </childnode>
+      </node>
+      <node id="25105">
+        <label>boost/geometry/algorithms/clear.hpp</label>
+        <link refid="clear_8hpp"/>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25094" relation="include">
+        </childnode>
+        <childnode refid="25095" relation="include">
+        </childnode>
+        <childnode refid="25048" relation="include">
+        </childnode>
+        <childnode refid="25041" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25061" relation="include">
+        </childnode>
+        <childnode refid="25043" relation="include">
+        </childnode>
+        <childnode refid="25054" relation="include">
+        </childnode>
+        <childnode refid="25106" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+      </node>
+      <node id="25115">
+        <label>boost/geometry/algorithms/detail/assign_box_corners.hpp</label>
+        <link refid="assign__box__corners_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+        <childnode refid="25113" relation="include">
+        </childnode>
+        <childnode refid="25065" relation="include">
+        </childnode>
+      </node>
+      <node id="25017">
+        <label>boost/geometry/core/access.hpp</label>
+        <link refid="access_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25018" relation="include">
+        </childnode>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25019" relation="include">
+        </childnode>
+        <childnode refid="25014" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25013" relation="include">
+        </childnode>
+      </node>
+      <node id="25063">
+        <label>boost/geometry/geometries/concepts/ring_concept.hpp</label>
+        <link refid="ring__concept_8hpp"/>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25053" relation="include">
+        </childnode>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25054" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+      </node>
+      <node id="25010">
+        <label>boost/type_traits/remove_reference.hpp</label>
+      </node>
+      <node id="25124">
+        <label>boost/geometry/views/reversible_view.hpp</label>
+        <link refid="reversible__view_8hpp"/>
+        <childnode refid="25125" relation="include">
+        </childnode>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25126" relation="include">
+        </childnode>
+        <childnode refid="25022" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25123" relation="include">
+        </childnode>
+      </node>
+      <node id="25018">
+        <label>boost/core/ignore_unused.hpp</label>
+      </node>
+      <node id="25013">
+        <label>boost/geometry/util/bare_type.hpp</label>
+        <link refid="bare__type_8hpp"/>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25014" relation="include">
+        </childnode>
+        <childnode refid="25010" relation="include">
+        </childnode>
+      </node>
+      <node id="25064">
+        <label>boost/geometry/geometries/concepts/segment_concept.hpp</label>
+        <link refid="segment__concept_8hpp"/>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+      </node>
+      <node id="25137">
+        <label>boost/geometry/strategies/spherical/ssf.hpp</label>
+        <link refid="ssf_8hpp"/>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25088" relation="include">
+        </childnode>
+        <childnode refid="25031" relation="include">
+        </childnode>
+        <childnode refid="25023" relation="include">
+        </childnode>
+        <childnode refid="25138" relation="include">
+        </childnode>
+        <childnode refid="25082" relation="include">
+        </childnode>
+      </node>
+      <node id="25084">
+        <label>boost/geometry/algorithms/detail/relate/less.hpp</label>
+        <link refid="less_8hpp"/>
+        <childnode refid="25050" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25031" relation="include">
+        </childnode>
+      </node>
+      <node id="25100">
+        <label>boost/geometry/algorithms/num_interior_rings.hpp</label>
+        <link refid="num__interior__rings_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25094" relation="include">
+        </childnode>
+        <childnode refid="25095" relation="include">
+        </childnode>
+        <childnode refid="25048" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25043" relation="include">
+        </childnode>
+        <childnode refid="25101" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+      </node>
+      <node id="25027">
+        <label>boost/type_traits/integral_constant.hpp</label>
+      </node>
+      <node id="25061">
+        <label>boost/geometry/core/exterior_ring.hpp</label>
+        <link refid="exterior__ring_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25008" relation="include">
+        </childnode>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25022" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25062" relation="include">
+        </childnode>
+      </node>
+      <node id="25110">
+        <label>boost/mpl/size_t.hpp</label>
+      </node>
+      <node id="25015">
+        <label>boost/geometry/algorithms/detail/normalize.hpp</label>
+        <link refid="algorithms_2detail_2normalize_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25025" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25028" relation="include">
+        </childnode>
+        <childnode refid="25039" relation="include">
+        </childnode>
+        <childnode refid="25040" relation="include">
+        </childnode>
+      </node>
+      <node id="25025">
+        <label>boost/geometry/core/coordinate_system.hpp</label>
+        <link refid="coordinate__system_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25013" relation="include">
+        </childnode>
+      </node>
+      <node id="25062">
+        <label>boost/geometry/util/add_const_if_c.hpp</label>
+        <link refid="add__const__if__c_8hpp"/>
+        <childnode refid="25007" relation="include">
+        </childnode>
+      </node>
+      <node id="25030">
+        <label>boost/assert.hpp</label>
+      </node>
+      <node id="25053">
+        <label>boost/range/concepts.hpp</label>
+      </node>
+      <node id="25129">
+        <label>boost/geometry/geometries/helper_geometry.hpp</label>
+        <link refid="helper__geometry_8hpp"/>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25050" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25130" relation="include">
+        </childnode>
+        <childnode refid="25131" relation="include">
+        </childnode>
+        <childnode refid="25041" relation="include">
+        </childnode>
+      </node>
+      <node id="25075">
+        <label>boost/range/reference.hpp</label>
+      </node>
+      <node id="25028">
+        <label>boost/geometry/util/normalize_spheroidal_coordinates.hpp</label>
+        <link refid="normalize__spheroidal__coordinates_8hpp"/>
+        <childnode refid="25029" relation="include">
+        </childnode>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25031" relation="include">
+        </childnode>
+      </node>
+      <node id="25101">
+        <label>boost/geometry/algorithms/detail/counting.hpp</label>
+        <link refid="counting_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25061" relation="include">
+        </childnode>
+        <childnode refid="25043" relation="include">
+        </childnode>
+        <childnode refid="25065" relation="include">
+        </childnode>
+        <childnode refid="25002" relation="include">
+        </childnode>
+      </node>
+      <node id="25040">
+        <label>boost/geometry/views/detail/indexed_point_view.hpp</label>
+      </node>
+      <node id="25094">
+        <label>boost/variant/apply_visitor.hpp</label>
+      </node>
+      <node id="25111">
+        <label>boost/geometry/geometries/segment.hpp</label>
+        <link refid="geometries_2segment_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25112" relation="include">
+        </childnode>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25008" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+      </node>
+      <node id="25079">
+        <label>boost/type_traits/is_void.hpp</label>
+      </node>
+      <node id="25023">
+        <label>boost/geometry/util/promote_floating_point.hpp</label>
+        <link refid="promote__floating__point_8hpp"/>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25024" relation="include">
+        </childnode>
+      </node>
+      <node id="25059">
+        <label>boost/geometry/geometries/concepts/multi_polygon_concept.hpp</label>
+        <link refid="multi__polygon__concept_8hpp"/>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25053" relation="include">
+        </childnode>
+        <childnode refid="25057" relation="include">
+        </childnode>
+        <childnode refid="25060" relation="include">
+        </childnode>
+      </node>
+      <node id="25092">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="25047">
+        <label>boost/concept/requires.hpp</label>
+      </node>
+      <node id="25104">
+        <label>boost/mpl/front.hpp</label>
+      </node>
+      <node id="25069">
+        <label>boost/core/addressof.hpp</label>
+      </node>
+      <node id="25036">
+        <label>boost/type_traits/is_fundamental.hpp</label>
+      </node>
+      <node id="25096">
+        <label>boost/geometry/arithmetic/arithmetic.hpp</label>
+        <link refid="arithmetic_8hpp"/>
+        <childnode refid="25090" relation="include">
+        </childnode>
+        <childnode refid="25097" relation="include">
+        </childnode>
+        <childnode refid="25047" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+        <childnode refid="25098" relation="include">
+        </childnode>
+        <childnode refid="25037" relation="include">
+        </childnode>
+      </node>
+      <node id="25029">
+        <label>boost/geometry/core/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="25030" relation="include">
+        </childnode>
+      </node>
+      <node id="25056">
+        <label>boost/geometry/geometries/concepts/multi_point_concept.hpp</label>
+        <link refid="multi__point__concept_8hpp"/>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25053" relation="include">
+        </childnode>
+        <childnode refid="25057" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+      </node>
+      <node id="25132">
+        <label>boost/mpl/int.hpp</label>
+      </node>
+      <node id="25077">
+        <label>boost/type_traits/is_convertible.hpp</label>
+      </node>
+      <node id="25011">
+        <label>boost/geometry/core/tag.hpp</label>
+        <link refid="tag_8hpp"/>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25013" relation="include">
+        </childnode>
+      </node>
+      <node id="25095">
+        <label>boost/variant/static_visitor.hpp</label>
+      </node>
+      <node id="25042">
+        <label>boost/mpl/identity.hpp</label>
+      </node>
+      <node id="25097">
+        <label>boost/call_traits.hpp</label>
+      </node>
+      <node id="25138">
+        <label>boost/geometry/util/select_calculation_type.hpp</label>
+        <link refid="select__calculation__type_8hpp"/>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25079" relation="include">
+        </childnode>
+        <childnode refid="25081" relation="include">
+        </childnode>
+      </node>
+      <node id="25004">
+        <label>boost/range/value_type.hpp</label>
+      </node>
+      <node id="25041">
+        <label>boost/geometry/algorithms/not_implemented.hpp</label>
+        <link refid="not__implemented_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25042" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+      </node>
+      <node id="25122">
+        <label>boost/iterator/iterator_categories.hpp</label>
+      </node>
+      <node id="25127">
+        <label>boost/geometry/core/point_order.hpp</label>
+        <link refid="point__order_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25004" relation="include">
+        </childnode>
+        <childnode refid="25022" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25013" relation="include">
+        </childnode>
+      </node>
+      <node id="25000">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp</label>
+        <link refid="collect_vectors.hpp"/>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25002" relation="include">
+        </childnode>
+        <childnode refid="25015" relation="include">
+        </childnode>
+        <childnode refid="25041" relation="include">
+        </childnode>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25043" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25044" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+        <childnode refid="25031" relation="include">
+        </childnode>
+        <childnode refid="25065" relation="include">
+        </childnode>
+        <childnode refid="25078" relation="include">
+        </childnode>
+        <childnode refid="25137" relation="include">
+        </childnode>
+      </node>
+      <node id="25045">
+        <label>boost/geometry/geometries/concepts/check.hpp</label>
+        <link refid="check_8hpp"/>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25047" relation="include">
+        </childnode>
+        <childnode refid="25008" relation="include">
+        </childnode>
+        <childnode refid="25048" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25049" relation="include">
+        </childnode>
+        <childnode refid="25052" relation="include">
+        </childnode>
+        <childnode refid="25056" relation="include">
+        </childnode>
+        <childnode refid="25058" relation="include">
+        </childnode>
+        <childnode refid="25059" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+        <childnode refid="25060" relation="include">
+        </childnode>
+        <childnode refid="25063" relation="include">
+        </childnode>
+        <childnode refid="25064" relation="include">
+        </childnode>
+        <childnode refid="25041" relation="include">
+        </childnode>
+      </node>
+      <node id="25120">
+        <label>boost/iterator.hpp</label>
+      </node>
+      <node id="25086">
+        <label>boost/geometry/algorithms/detail/disjoint/point_point.hpp</label>
+        <link refid="disjoint_2point__point_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25087" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25088" relation="include">
+        </childnode>
+        <childnode refid="25050" relation="include">
+        </childnode>
+        <childnode refid="25025" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25031" relation="include">
+        </childnode>
+        <childnode refid="25037" relation="include">
+        </childnode>
+        <childnode refid="25089" relation="include">
+        </childnode>
+        <childnode refid="25129" relation="include">
+        </childnode>
+        <childnode refid="25133" relation="include">
+        </childnode>
+        <childnode refid="25015" relation="include">
+        </childnode>
+        <childnode refid="25136" relation="include">
+        </childnode>
+      </node>
+      <node id="25052">
+        <label>boost/geometry/geometries/concepts/linestring_concept.hpp</label>
+        <link refid="linestring__concept_8hpp"/>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25053" relation="include">
+        </childnode>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25054" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25055" relation="include">
+        </childnode>
+      </node>
+      <node id="25102">
+        <label>boost/geometry/algorithms/detail/convert_point_to_point.hpp</label>
+        <link refid="convert__point__to__point_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25050" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+      </node>
+      <node id="25118">
+        <label>boost/geometry/views/closeable_view.hpp</label>
+        <link refid="closeable__view_8hpp"/>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25109" relation="include">
+        </childnode>
+        <childnode refid="25022" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25119" relation="include">
+        </childnode>
+        <childnode refid="25123" relation="include">
+        </childnode>
+      </node>
+      <node id="25005">
+        <label>boost/geometry/core/interior_type.hpp</label>
+        <link refid="interior__type_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25008" relation="include">
+        </childnode>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25010" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+      </node>
+      <node id="25016">
+        <label>cstddef</label>
+      </node>
+      <node id="25099">
+        <label>boost/geometry/algorithms/append.hpp</label>
+        <link refid="append_8hpp"/>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25094" relation="include">
+        </childnode>
+        <childnode refid="25095" relation="include">
+        </childnode>
+        <childnode refid="25048" relation="include">
+        </childnode>
+        <childnode refid="25100" relation="include">
+        </childnode>
+        <childnode refid="25102" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25054" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+        <childnode refid="25103" relation="include">
+        </childnode>
+        <childnode refid="25065" relation="include">
+        </childnode>
+      </node>
+      <node id="25082">
+        <label>boost/geometry/strategies/side.hpp</label>
+        <link refid="side_8hpp"/>
+        <childnode refid="25083" relation="include">
+        </childnode>
+      </node>
+      <node id="25024">
+        <label>boost/type_traits/is_integral.hpp</label>
+      </node>
+      <node id="25031">
+        <label>boost/geometry/util/math.hpp</label>
+        <link refid="math_8hpp"/>
+        <childnode refid="25032" relation="include">
+        </childnode>
+        <childnode refid="25033" relation="include">
+        </childnode>
+        <childnode refid="25018" relation="include">
+        </childnode>
+        <childnode refid="25034" relation="include">
+        </childnode>
+        <childnode refid="25035" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25036" relation="include">
+        </childnode>
+        <childnode refid="25024" relation="include">
+        </childnode>
+        <childnode refid="25026" relation="include">
+        </childnode>
+        <childnode refid="25037" relation="include">
+        </childnode>
+      </node>
+      <node id="25038">
+        <label>boost/type_traits/is_floating_point.hpp</label>
+      </node>
+      <node id="25114">
+        <label>boost/numeric/conversion/bounds.hpp</label>
+      </node>
+      <node id="25134">
+        <label>boost/geometry/algorithms/assign.hpp</label>
+        <link refid="assign_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25047" relation="include">
+        </childnode>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25114" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25094" relation="include">
+        </childnode>
+        <childnode refid="25095" relation="include">
+        </childnode>
+        <childnode refid="25048" relation="include">
+        </childnode>
+        <childnode refid="25115" relation="include">
+        </childnode>
+        <childnode refid="25116" relation="include">
+        </childnode>
+        <childnode refid="25113" relation="include">
+        </childnode>
+        <childnode refid="25091" relation="include">
+        </childnode>
+        <childnode refid="25099" relation="include">
+        </childnode>
+        <childnode refid="25105" relation="include">
+        </childnode>
+        <childnode refid="25096" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25061" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+        <childnode refid="25098" relation="include">
+        </childnode>
+      </node>
+      <node id="25113">
+        <label>boost/geometry/algorithms/detail/assign_values.hpp</label>
+        <link refid="assign__values_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25047" relation="include">
+        </childnode>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25114" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25096" relation="include">
+        </childnode>
+        <childnode refid="25099" relation="include">
+        </childnode>
+        <childnode refid="25105" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25061" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+        <childnode refid="25098" relation="include">
+        </childnode>
+      </node>
+      <node id="25112">
+        <label>boost/concept/assert.hpp</label>
+      </node>
+      <node id="25037">
+        <label>boost/geometry/util/select_most_precise.hpp</label>
+        <link refid="select__most__precise_8hpp"/>
+        <childnode refid="25007" relation="include">
+        </childnode>
+        <childnode refid="25038" relation="include">
+        </childnode>
+        <childnode refid="25036" relation="include">
+        </childnode>
+      </node>
+      <node id="25103">
+        <label>boost/geometry/geometries/variant.hpp</label>
+        <link refid="variant_8hpp"/>
+        <childnode refid="25048" relation="include">
+        </childnode>
+        <childnode refid="25104" relation="include">
+        </childnode>
+      </node>
+      <node id="25068">
+        <label>boost/config.hpp</label>
+      </node>
+      <node id="25065">
+        <label>boost/geometry/util/range.hpp</label>
+        <link refid="util_2range_8hpp"/>
+        <childnode refid="25066" relation="include">
+        </childnode>
+        <childnode refid="25067" relation="include">
+        </childnode>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25068" relation="include">
+        </childnode>
+        <childnode refid="25069" relation="include">
+        </childnode>
+        <childnode refid="25053" relation="include">
+        </childnode>
+        <childnode refid="25070" relation="include">
+        </childnode>
+        <childnode refid="25071" relation="include">
+        </childnode>
+        <childnode refid="25072" relation="include">
+        </childnode>
+        <childnode refid="25073" relation="include">
+        </childnode>
+        <childnode refid="25003" relation="include">
+        </childnode>
+        <childnode refid="25074" relation="include">
+        </childnode>
+        <childnode refid="25075" relation="include">
+        </childnode>
+        <childnode refid="25076" relation="include">
+        </childnode>
+        <childnode refid="25004" relation="include">
+        </childnode>
+        <childnode refid="25077" relation="include">
+        </childnode>
+        <childnode refid="25029" relation="include">
+        </childnode>
+        <childnode refid="25054" relation="include">
+        </childnode>
+      </node>
+      <node id="25054">
+        <label>boost/geometry/core/mutable_range.hpp</label>
+        <link refid="mutable__range_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25004" relation="include">
+        </childnode>
+        <childnode refid="25010" relation="include">
+        </childnode>
+      </node>
+      <node id="25135">
+        <label>boost/geometry/strategies/default_strategy.hpp</label>
+        <link refid="default__strategy_8hpp"/>
+      </node>
+      <node id="25107">
+        <label>boost/type_traits/is_base_of.hpp</label>
+      </node>
+      <node id="25043">
+        <label>boost/geometry/core/interior_rings.hpp</label>
+        <link refid="interior__rings_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25004" relation="include">
+        </childnode>
+        <childnode refid="25009" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25005" relation="include">
+        </childnode>
+      </node>
+      <node id="25126">
+        <label>boost/range/adaptor/reversed.hpp</label>
+      </node>
+      <node id="25076">
+        <label>boost/range/size.hpp</label>
+      </node>
+      <node id="25055">
+        <label>boost/geometry/geometries/concepts/point_concept.hpp</label>
+        <link refid="point__concept_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25018" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25050" relation="include">
+        </childnode>
+        <childnode refid="25025" relation="include">
+        </childnode>
+      </node>
+      <node id="25020">
+        <label>boost/geometry/core/coordinate_type.hpp</label>
+        <link refid="coordinate__type_8hpp"/>
+        <childnode refid="25006" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25011" relation="include">
+        </childnode>
+        <childnode refid="25013" relation="include">
+        </childnode>
+        <childnode refid="25023" relation="include">
+        </childnode>
+      </node>
+      <node id="25066">
+        <label>algorithm</label>
+      </node>
+      <node id="25014">
+        <label>boost/type_traits/remove_pointer.hpp</label>
+      </node>
+      <node id="25081">
+        <label>boost/geometry/util/select_coordinate_type.hpp</label>
+        <link refid="select__coordinate__type_8hpp"/>
+        <childnode refid="25020" relation="include">
+        </childnode>
+        <childnode refid="25037" relation="include">
+        </childnode>
+      </node>
+      <node id="25117">
+        <label>boost/geometry/algorithms/detail/convert_indexed_to_indexed.hpp</label>
+        <link refid="convert__indexed__to__indexed_8hpp"/>
+        <childnode refid="25016" relation="include">
+        </childnode>
+        <childnode refid="25001" relation="include">
+        </childnode>
+        <childnode refid="25017" relation="include">
+        </childnode>
+        <childnode refid="25050" relation="include">
+        </childnode>
+        <childnode refid="25020" relation="include">
+        </childnode>
+      </node>
+      <node id="25058">
+        <label>boost/geometry/geometries/concepts/multi_linestring_concept.hpp</label>
+        <link refid="multi__linestring__concept_8hpp"/>
+        <childnode refid="25046" relation="include">
+        </childnode>
+        <childnode refid="25053" relation="include">
+        </childnode>
+        <childnode refid="25057" relation="include">
+        </childnode>
+        <childnode refid="25052" relation="include">
+        </childnode>
+      </node>
+      <node id="25085">
+        <label>boost/geometry/algorithms/detail/equals/point_point.hpp</label>
+        <link refid="equals_2point__point_8hpp"/>
+        <childnode refid="25086" relation="include">
+        </childnode>
+      </node>
+      <node id="25074">
+        <label>boost/range/rbegin.hpp</label>
+      </node>
+      <node id="25108">
+        <label>boost/geometry/algorithms/for_each.hpp</label>
+        <link refid="for__each_8hpp"/>
+        <childnode refid="25066" relation="include">
+        </childnode>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25008" relation="include">
+        </childnode>
+        <childnode refid="25010" relation="include">
+        </childnode>
+        <childnode refid="25002" relation="include">
+        </childnode>
+        <childnode refid="25041" relation="include">
+        </childnode>
+        <childnode refid="25109" relation="include">
+        </childnode>
+        <childnode refid="25061" relation="include">
+        </childnode>
+        <childnode refid="25043" relation="include">
+        </childnode>
+        <childnode refid="25021" relation="include">
+        </childnode>
+        <childnode refid="25106" relation="include">
+        </childnode>
+        <childnode refid="25012" relation="include">
+        </childnode>
+        <childnode refid="25045" relation="include">
+        </childnode>
+        <childnode refid="25111" relation="include">
+        </childnode>
+        <childnode refid="25062" relation="include">
+        </childnode>
+        <childnode refid="25065" relation="include">
+        </childnode>
+      </node>
+      <node id="25044">
+        <label>boost/geometry/formulas/spherical.hpp</label>
+      </node>
+      <node id="25119">
+        <label>boost/geometry/iterators/closing_iterator.hpp</label>
+        <link refid="closing__iterator_8hpp"/>
+        <childnode refid="25092" relation="include">
+        </childnode>
+        <childnode refid="25120" relation="include">
+        </childnode>
+        <childnode refid="25121" relation="include">
+        </childnode>
+        <childnode refid="25122" relation="include">
+        </childnode>
+      </node>
+      <node id="25001">
+        <label>boost/numeric/conversion/cast.hpp</label>
+      </node>
+      <node id="25087">
+        <label>boost/type_traits/is_same.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="25141">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/get_piece_turns.hpp</label>
+        <link refid="get__piece__turns_8hpp"/>
+        <childnode refid="25142" relation="include">
+        </childnode>
+      </node>
+      <node id="25152">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/implementation.hpp</label>
+        <link refid="is__simple_2implementation_8hpp"/>
+        <childnode refid="25153" relation="include">
+        </childnode>
+      </node>
+      <node id="25163">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/linear_linear.hpp</label>
+        <link refid="overlay_2linear__linear_8hpp"/>
+        <childnode refid="25164" relation="include">
+        </childnode>
+        <childnode refid="25166" relation="include">
+        </childnode>
+      </node>
+      <node id="25146">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/segment_to_box.hpp</label>
+        <link refid="segment__to__box_8hpp"/>
+        <childnode refid="25147" relation="include">
+        </childnode>
+      </node>
+      <node id="25145">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/turn_in_piece_visitor.hpp</label>
+        <link refid="turn__in__piece__visitor_8hpp"/>
+        <childnode refid="25142" relation="include">
+        </childnode>
+      </node>
+      <node id="25172">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/multi.hpp</label>
+        <link refid="multi_8hpp"/>
+        <childnode refid="25171" relation="include">
+        </childnode>
+      </node>
+      <node id="25161">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/segment.hpp</label>
+        <link refid="algorithms_2detail_2is__valid_2segment_8hpp"/>
+        <childnode refid="25156" relation="include">
+        </childnode>
+      </node>
+      <node id="25150">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/comparable_distance.hpp</label>
+        <link refid="comparable__distance_8hpp"/>
+        <childnode refid="25142" relation="include">
+        </childnode>
+        <childnode refid="25145" relation="include">
+        </childnode>
+      </node>
+      <node id="25164">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/union.hpp</label>
+        <link refid="union_8hpp"/>
+        <childnode refid="25165" relation="include">
+        </childnode>
+      </node>
+      <node id="25149">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/implementation.hpp</label>
+        <link refid="comparable__distance_2implementation_8hpp"/>
+        <childnode refid="25150" relation="include">
+        </childnode>
+      </node>
+      <node id="25154">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/has_spikes.hpp</label>
+        <link refid="has__spikes_8hpp"/>
+        <childnode refid="25151" relation="include">
+        </childnode>
+        <childnode refid="25155" relation="include">
+        </childnode>
+        <childnode refid="25158" relation="include">
+        </childnode>
+      </node>
+      <node id="25160">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/multipolygon.hpp</label>
+        <link refid="multipolygon_8hpp"/>
+        <childnode refid="25156" relation="include">
+        </childnode>
+      </node>
+      <node id="25167">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/difference.hpp</label>
+        <link refid="difference_8hpp"/>
+      </node>
+      <node id="25148">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/distance.hpp</label>
+        <link refid="algorithms_2distance_8hpp"/>
+      </node>
+      <node id="25171">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/implementation.hpp</label>
+        <link refid="intersection_2implementation_8hpp"/>
+        <childnode refid="25169" relation="include">
+        </childnode>
+      </node>
+      <node id="25156">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/implementation.hpp</label>
+        <link refid="is__valid_2implementation_8hpp"/>
+        <childnode refid="25157" relation="include">
+        </childnode>
+      </node>
+      <node id="25143">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffer_inserter.hpp</label>
+        <link refid="buffer__inserter_8hpp"/>
+        <childnode refid="25144" relation="include">
+        </childnode>
+      </node>
+      <node id="25157">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/is_valid.hpp</label>
+        <link refid="is__valid_8hpp"/>
+      </node>
+      <node id="25159">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/polygon.hpp</label>
+        <link refid="algorithms_2detail_2is__valid_2polygon_8hpp"/>
+        <childnode refid="25156" relation="include">
+        </childnode>
+        <childnode refid="25160" relation="include">
+        </childnode>
+      </node>
+      <node id="25151">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/linear.hpp</label>
+        <link refid="is__simple_2linear_8hpp"/>
+        <childnode refid="25152" relation="include">
+        </childnode>
+      </node>
+      <node id="25147">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/implementation.hpp</label>
+        <link refid="distance_2implementation_8hpp"/>
+        <childnode refid="25148" relation="include">
+        </childnode>
+        <childnode refid="25149" relation="include">
+        </childnode>
+      </node>
+      <node id="25166">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/intersection_insert.hpp</label>
+        <link refid="intersection__insert_8hpp"/>
+        <childnode refid="25167" relation="include">
+        </childnode>
+        <childnode refid="25168" relation="include">
+        </childnode>
+      </node>
+      <node id="25153">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/is_simple.hpp</label>
+        <link refid="is__simple_8hpp"/>
+      </node>
+      <node id="25168">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp</label>
+        <link refid="intersection_2interface_8hpp"/>
+        <childnode refid="25169" relation="include">
+        </childnode>
+        <childnode refid="25170" relation="include">
+        </childnode>
+        <childnode refid="25172" relation="include">
+        </childnode>
+      </node>
+      <node id="25165">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp</label>
+        <link refid="sym__difference_8hpp"/>
+      </node>
+      <node id="25139">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp</label>
+        <link refid="collect_vectors.hpp"/>
+        <childnode refid="25140" relation="include">
+        </childnode>
+      </node>
+      <node id="25155">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/linear.hpp</label>
+        <link refid="is__valid_2linear_8hpp"/>
+        <childnode refid="25156" relation="include">
+        </childnode>
+      </node>
+      <node id="25142">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_piece_collection.hpp</label>
+        <link refid="buffered__piece__collection_8hpp"/>
+        <childnode refid="25143" relation="include">
+        </childnode>
+      </node>
+      <node id="25158">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/ring.hpp</label>
+        <link refid="algorithms_2detail_2is__valid_2ring_8hpp"/>
+        <childnode refid="25156" relation="include">
+        </childnode>
+        <childnode refid="25159" relation="include">
+        </childnode>
+      </node>
+      <node id="25162">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/turns/remove_duplicate_turns.hpp</label>
+        <link refid="remove__duplicate__turns_8hpp"/>
+        <childnode refid="25163" relation="include">
+        </childnode>
+      </node>
+      <node id="25169">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/intersection.hpp</label>
+        <link refid="algorithms_2intersection_8hpp"/>
+        <childnode refid="25165" relation="include">
+        </childnode>
+      </node>
+      <node id="25140">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp</label>
+        <link refid="equals_8hpp"/>
+        <childnode refid="25141" relation="include">
+        </childnode>
+        <childnode refid="25145" relation="include">
+        </childnode>
+        <childnode refid="25146" relation="include">
+        </childnode>
+        <childnode refid="25151" relation="include">
+        </childnode>
+        <childnode refid="25154" relation="include">
+        </childnode>
+        <childnode refid="25155" relation="include">
+        </childnode>
+        <childnode refid="25158" relation="include">
+        </childnode>
+        <childnode refid="25161" relation="include">
+        </childnode>
+        <childnode refid="25162" relation="include">
+        </childnode>
+      </node>
+      <node id="25144">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp</label>
+        <link refid="algorithms_2buffer_8hpp"/>
+      </node>
+      <node id="25170">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/box_box.hpp</label>
+        <link refid="intersection_2box__box_8hpp"/>
+        <childnode refid="25171" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structboost_1_1geometry_1_1collected__vector" prot="public">boost::geometry::collected_vector</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1side64c58171b392bd5ce882b3c1b49e2332" prot="public">boost::geometry::collected_vector&lt; T, Geometry, strategy::side::side_by_triangle&lt; CT &gt;, CSTag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe2c9429f9563d9e0f965886f0082a252e" prot="public">boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, CSTag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1" prot="public">boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;</innerclass>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp"/>
+  </compounddef>
+</doxygen>

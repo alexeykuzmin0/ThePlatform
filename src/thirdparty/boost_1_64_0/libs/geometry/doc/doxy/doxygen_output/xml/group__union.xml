@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="group__union" kind="group">
+    <compoundname>union</compoundname>
+    <title>union: calculate new geometry containing geometries A or B</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__union_1ga5e94a23ab203e7ff4328178e28fea754" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+          <param>
+            <type>typename Collection</type>
+          </param>
+          <param>
+            <type>typename Strategy</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::union_</definition>
+        <argsstring>(Geometry1 const &amp;geometry1, Geometry2 const &amp;geometry2, Collection &amp;output_collection, Strategy const &amp;strategy)</argsstring>
+        <name>union_</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <param>
+          <type>Collection &amp;</type>
+          <declname>output_collection</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+<para>Combines two geometries which each other. </para>        </briefdescription>
+        <detaileddescription>
+<para>The free function union calculates the spatial set theoretic union of two geometries. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Geometry1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type fulfilling a Geometry Concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Geometry2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type fulfilling a Geometry Concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output collection, either a multi-geometry, or a std::vector&lt;Geometry&gt; / std::deque&lt;Geometry&gt; etc </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Strategy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type fulfilling a Union_ Strategy Concept </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A model of the specified concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geometry2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A model of the specified concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output_collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the output collection </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>strategy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The strategy which will be used for union_ calculations </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Called union_ because union is a reserved word.</para></simplesect>
+ <qbk.distinguish>with strategy</qbk.distinguish>   <qbk>[include reference/algorithms/union.qbk]</qbk>  </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/union.hpp" line="488" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/union.hpp" bodystart="488" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="group__union_1gaa300b8994725c85cc71b304713a75501" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+          <param>
+            <type>typename Collection</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::union_</definition>
+        <argsstring>(Geometry1 const &amp;geometry1, Geometry2 const &amp;geometry2, Collection &amp;output_collection)</argsstring>
+        <name>union_</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <param>
+          <type>Collection &amp;</type>
+          <declname>output_collection</declname>
+        </param>
+        <briefdescription>
+<para>Combines two geometries which each other. </para>        </briefdescription>
+        <detaileddescription>
+<para>The free function union calculates the spatial set theoretic union of two geometries. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Geometry1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type fulfilling a Geometry Concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Geometry2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type fulfilling a Geometry Concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output collection, either a multi-geometry, or a std::vector&lt;Geometry&gt; / std::deque&lt;Geometry&gt; etc </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A model of the specified concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>geometry2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A model of the specified concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output_collection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the output collection </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Called union_ because union is a reserved word.</para></simplesect>
+ <qbk>[include reference/algorithms/union.qbk]</qbk>  </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/union.hpp" line="522" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/union.hpp" bodystart="522" bodyend="531"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

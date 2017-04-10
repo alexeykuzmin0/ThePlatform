@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceboost_1_1geometry_1_1strategy_1_1side" kind="namespace">
+    <compoundname>boost::geometry::strategy::side</compoundname>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1andoyer" prot="public">boost::geometry::strategy::side::andoyer</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic" prot="public">boost::geometry::strategy::side::geographic</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula" prot="public">boost::geometry::strategy::side::mapping_spherical_side_formula</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_3_01_spheroid_0089068a034219d852d210eef22bfb7321" prot="public">boost::geometry::strategy::side::mapping_spherical_side_formula&lt; Spheroid, mapping_geodetic, CalculationType &gt;</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1side__by__cross__track" prot="public">boost::geometry::strategy::side::side_by_cross_track</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1side__by__triangle" prot="public">boost::geometry::strategy::side::side_by_triangle</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1side__of__intersection" prot="public">boost::geometry::strategy::side::side_of_intersection</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1spherical__side__formula" prot="public">boost::geometry::strategy::side::spherical_side_formula</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas" prot="public">boost::geometry::strategy::side::thomas</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1side_1_1vincenty" prot="public">boost::geometry::strategy::side::vincenty</innerclass>
+    <innernamespace refid="namespaceboost_1_1geometry_1_1strategy_1_1side_1_1services">boost::geometry::strategy::side::services</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry_1_1strategy_1_1side_1_1detail">boost::geometry::strategy::side::detail</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceboost_1_1geometry_1_1strategy_1_1side_1a7cdb103bc292c1219ce7d4df87b7b31b" prot="public" static="no">
+        <name>mapping_type</name>
+        <enumvalue id="namespaceboost_1_1geometry_1_1strategy_1_1side_1a7cdb103bc292c1219ce7d4df87b7b31bae9349a013d0314bd76a8d9ab22edaafb" prot="public">
+          <name>mapping_geodetic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceboost_1_1geometry_1_1strategy_1_1side_1a7cdb103bc292c1219ce7d4df87b7b31ba12e01230c0a0e386fe3818b29076c544" prot="public">
+          <name>mapping_reduced</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceboost_1_1geometry_1_1strategy_1_1side_1a7cdb103bc292c1219ce7d4df87b7b31ba05113b5ef9309c202ab5ee3c2e5de842" prot="public">
+          <name>mapping_geocentric</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" line="41" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/side.hpp" line="25" column="1"/>
+  </compounddef>
+</doxygen>

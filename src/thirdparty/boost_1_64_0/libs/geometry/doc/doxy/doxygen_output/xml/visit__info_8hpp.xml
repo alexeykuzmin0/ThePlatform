@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="visit__info_8hpp" kind="file">
+    <compoundname>visit_info.hpp</compoundname>
+    <includedby refid="debug__turn__info_8hpp" local="no">/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp</includedby>
+    <includedby refid="traversal__info_8hpp" local="no">/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/traversal_info.hpp</includedby>
+    <invincdepgraph>
+      <node id="37353">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp</label>
+        <link refid="touches_8hpp"/>
+      </node>
+      <node id="37362">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/multi.hpp</label>
+        <link refid="multi_8hpp"/>
+        <childnode refid="37361" relation="include">
+        </childnode>
+      </node>
+      <node id="37345">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp</label>
+        <link refid="debug__turn__info_8hpp"/>
+        <childnode refid="37346" relation="include">
+        </childnode>
+      </node>
+      <node id="37347">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/traversal_info.hpp</label>
+        <link refid="traversal__info_8hpp"/>
+        <childnode refid="37348" relation="include">
+        </childnode>
+        <childnode refid="37351" relation="include">
+        </childnode>
+        <childnode refid="37352" relation="include">
+        </childnode>
+        <childnode refid="37346" relation="include">
+        </childnode>
+      </node>
+      <node id="37354">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/union.hpp</label>
+        <link refid="union_8hpp"/>
+        <childnode refid="37355" relation="include">
+        </childnode>
+      </node>
+      <node id="37357">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/difference.hpp</label>
+        <link refid="difference_8hpp"/>
+      </node>
+      <node id="37361">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/implementation.hpp</label>
+        <link refid="intersection_2implementation_8hpp"/>
+        <childnode refid="37359" relation="include">
+        </childnode>
+      </node>
+      <node id="37349">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffer_inserter.hpp</label>
+        <link refid="buffer__inserter_8hpp"/>
+        <childnode refid="37350" relation="include">
+        </childnode>
+      </node>
+      <node id="37356">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/intersection_insert.hpp</label>
+        <link refid="intersection__insert_8hpp"/>
+        <childnode refid="37357" relation="include">
+        </childnode>
+        <childnode refid="37358" relation="include">
+        </childnode>
+      </node>
+      <node id="37346">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/turns/print_turns.hpp</label>
+        <link refid="print__turns_8hpp"/>
+      </node>
+      <node id="37358">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp</label>
+        <link refid="intersection_2interface_8hpp"/>
+        <childnode refid="37359" relation="include">
+        </childnode>
+        <childnode refid="37360" relation="include">
+        </childnode>
+        <childnode refid="37362" relation="include">
+        </childnode>
+      </node>
+      <node id="37355">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp</label>
+        <link refid="sym__difference_8hpp"/>
+      </node>
+      <node id="37344">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/visit_info.hpp</label>
+        <link refid="visit_info.hpp"/>
+        <childnode refid="37345" relation="include">
+        </childnode>
+        <childnode refid="37347" relation="include">
+        </childnode>
+      </node>
+      <node id="37348">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_piece_collection.hpp</label>
+        <link refid="buffered__piece__collection_8hpp"/>
+        <childnode refid="37349" relation="include">
+        </childnode>
+      </node>
+      <node id="37359">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/intersection.hpp</label>
+        <link refid="algorithms_2intersection_8hpp"/>
+        <childnode refid="37355" relation="include">
+        </childnode>
+      </node>
+      <node id="37351">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp</label>
+        <link refid="buffered__ring_8hpp"/>
+        <childnode refid="37348" relation="include">
+        </childnode>
+      </node>
+      <node id="37352">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/overlay.hpp</label>
+        <link refid="overlay_8hpp"/>
+        <childnode refid="37353" relation="include">
+        </childnode>
+        <childnode refid="37354" relation="include">
+        </childnode>
+        <childnode refid="37356" relation="include">
+        </childnode>
+      </node>
+      <node id="37350">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp</label>
+        <link refid="algorithms_2buffer_8hpp"/>
+      </node>
+      <node id="37360">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/box_box.hpp</label>
+        <link refid="intersection_2box__box_8hpp"/>
+        <childnode refid="37361" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/visit_info.hpp"/>
+  </compounddef>
+</doxygen>

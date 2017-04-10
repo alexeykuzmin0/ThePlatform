@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1default__order" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::default_order</compoundname>
+    <includes local="no">parameters.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename FormulaPolicy</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1default__order_1af613fbda1647bc05a13e6dfa7c1d7495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::default_order&lt; FormulaPolicy &gt;::BOOST_MPL_ASSERT_MSG</definition>
+        <argsstring>(false, NOT_IMPLEMENTED_FOR_THIS_TYPE,(types&lt; FormulaPolicy &gt;))</argsstring>
+        <name>BOOST_MPL_ASSERT_MSG</name>
+        <param>
+          <type>false</type>
+        </param>
+        <param>
+          <type>NOT_IMPLEMENTED_FOR_THIS_TYPE</type>
+        </param>
+        <param>
+          <type>(types&lt; FormulaPolicy &gt;)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" line="92" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" line="91" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" bodystart="90" bodyend="97"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1default__order_1af613fbda1647bc05a13e6dfa7c1d7495" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::default_order</scope><name>BOOST_MPL_ASSERT_MSG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

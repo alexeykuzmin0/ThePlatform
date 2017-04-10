@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c" kind="struct" prot="public">
+    <compoundname>boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::static_visitor&lt; bool &gt;</basecompoundref>
+    <includes local="no">crosses.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Strategy</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c_1ae94e78a6d160d0529422117eb6d6eb60" prot="public" static="no" mutable="no">
+        <type>Geometry2 const &amp;</type>
+        <definition>Geometry2 const&amp; boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; Strategy &gt;::m_geometry2</definition>
+        <argsstring></argsstring>
+        <name>m_geometry2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" line="120" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c_1a30aa7f07546fec1d397d5b15bcdeb0df" prot="public" static="no" mutable="no">
+        <type>Strategy const &amp;</type>
+        <definition>Strategy const&amp; boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; Strategy &gt;::m_strategy</definition>
+        <argsstring></argsstring>
+        <name>m_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" line="121" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c_1a2722ad08a54e0b70b10a58681cadbfb2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+        </templateparamlist>
+        <type>result_type</type>
+        <definition>result_type boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; Strategy &gt;::operator()</definition>
+        <argsstring>(Geometry1 const &amp;geometry1) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" line="129" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" bodystart="129" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c_1acc14f41ada7db96a9b05b2b6752598ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; Strategy &gt;::visitor</definition>
+        <argsstring>(Geometry2 const &amp;geometry2, Strategy const &amp;strategy)</argsstring>
+        <name>visitor</name>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" line="123" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="932">
+        <label>boost::static_visitor&lt; bool &gt;</label>
+      </node>
+      <node id="931">
+        <label>boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; Strategy &gt;</label>
+        <link refid="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c"/>
+        <childnode refid="932" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="934">
+        <label>boost::static_visitor&lt; bool &gt;</label>
+      </node>
+      <node id="933">
+        <label>boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; Strategy &gt;</label>
+        <link refid="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" line="119" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" bodystart="118" bodyend="137"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c_1ae94e78a6d160d0529422117eb6d6eb60" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>m_geometry2</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c_1a30aa7f07546fec1d397d5b15bcdeb0df" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>m_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c_1a2722ad08a54e0b70b10a58681cadbfb2" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>operator()</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1crosses_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_n_f8d0f065e87a7f2f12027b4db75fcc9c_1acc14f41ada7db96a9b05b2b6752598ba" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::crosses&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>visitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

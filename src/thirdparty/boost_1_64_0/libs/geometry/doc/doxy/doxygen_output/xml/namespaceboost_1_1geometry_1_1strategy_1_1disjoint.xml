@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceboost_1_1geometry_1_1strategy_1_1disjoint" kind="namespace">
+    <compoundname>boost::geometry::strategy::disjoint</compoundname>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box" prot="public">boost::geometry::strategy::disjoint::segment_box</innerclass>
+    <innernamespace refid="namespaceboost_1_1geometry_1_1strategy_1_1disjoint_1_1detail">boost::geometry::strategy::disjoint::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/disjoint.hpp" line="27" column="1"/>
+  </compounddef>
+</doxygen>

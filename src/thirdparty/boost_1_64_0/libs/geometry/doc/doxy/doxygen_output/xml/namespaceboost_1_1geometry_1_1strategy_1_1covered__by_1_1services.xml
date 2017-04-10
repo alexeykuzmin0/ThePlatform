@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceboost_1_1geometry_1_1strategy_1_1covered__by_1_1services" kind="namespace">
+    <compoundname>boost::geometry::strategy::covered_by::services</compoundname>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy" prot="public">boost::geometry::strategy::covered_by::services::default_strategy</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometrf3b917fe81f27a64c51b86be7a4ad2b1" prot="public">boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, linear_tag, linear_tag, cartesian_tag, cartesian_tag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr00ea237b9af1f65d8c05de54fe1acfd0" prot="public">boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, linear_tag, linear_tag, spherical_tag, spherical_tag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr144c30b3d6fc397c97cfbfa0be524c7b" prot="public">boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, linear_tag, polygonal_tag, cartesian_tag, cartesian_tag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr0d5ad3a7956cb61846f27757fcef66f4" prot="public">boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, linear_tag, polygonal_tag, spherical_tag, spherical_tag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr6a9b39bf921326777aec245705ef28fb" prot="public">boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, polygonal_tag, linear_tag, cartesian_tag, cartesian_tag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometrc9196bb9ceb7bbf1299b6211e4c4cc46" prot="public">boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, polygonal_tag, linear_tag, spherical_tag, spherical_tag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr8d42961aac1442f954de0422341fe2a1" prot="public">boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, polygonal_tag, polygonal_tag, cartesian_tag, cartesian_tag &gt;</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_3_01_geometr1eda87723c2d1e1663f5fe773725bd77" prot="public">boost::geometry::strategy::covered_by::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, polygonal_tag, polygonal_tag, spherical_tag, spherical_tag &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/covered_by.hpp" line="40" column="1"/>
+  </compounddef>
+</doxygen>

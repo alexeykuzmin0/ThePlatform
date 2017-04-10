@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1default__order_3_01thomas_01_4" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::default_order&lt; thomas &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::mpl::integral_c&lt; unsigned int, 2 &gt;</basecompoundref>
+    <includes local="no">parameters.hpp</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1528">
+        <label>boost::mpl::integral_c&lt; unsigned int, 2 &gt;</label>
+      </node>
+      <node id="1527">
+        <label>boost::geometry::strategy::default_order&lt; thomas &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1default__order_3_01thomas_01_4"/>
+        <childnode refid="1528" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1530">
+        <label>boost::mpl::integral_c&lt; unsigned int, 2 &gt;</label>
+      </node>
+      <node id="1529">
+        <label>boost::geometry::strategy::default_order&lt; thomas &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1default__order_3_01thomas_01_4"/>
+        <childnode refid="1530" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" line="107" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" bodystart="105" bodyend="107"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

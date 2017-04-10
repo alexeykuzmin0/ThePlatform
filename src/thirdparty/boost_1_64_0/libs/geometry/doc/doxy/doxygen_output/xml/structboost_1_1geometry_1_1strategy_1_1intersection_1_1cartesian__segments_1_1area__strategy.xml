@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1area__strategy" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::cartesian_segments::area_strategy</compoundname>
+    <includes local="no">intersection.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Geometry</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1area__strategy_1ac911900753c6b46fabf926f5180efce0" prot="public" static="no">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1area_1_1surveyor" kindref="compound">area::surveyor</ref>&lt; typename <ref refid="structboost_1_1geometry_1_1point__type" kindref="compound">point_type</ref>&lt; Geometry &gt;::<ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1area__strategy_1ac911900753c6b46fabf926f5180efce0" kindref="member">type</ref>, CalculationType &gt;</type>
+        <definition>typedef area::surveyor&lt; typename point_type&lt;Geometry&gt;::type, CalculationType &gt; boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::area_strategy&lt; Geometry &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="110" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="105" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="104" bodyend="111"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1area__strategy_1ac911900753c6b46fabf926f5180efce0" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments::area_strategy</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

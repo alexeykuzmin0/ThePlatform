@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1within_1_1services_1_1default__strategy_3_01_geometry1_00b681e1e9e6a171bb7b06e71b24ffd59c" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::within::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, linear_tag, linear_tag, spherical_tag, spherical_tag &gt;</compoundname>
+    <includes local="no">intersection.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Geometry1</type>
+      </param>
+      <param>
+        <type>typename Geometry2</type>
+      </param>
+      <param>
+        <type>typename AnyTag1</type>
+      </param>
+      <param>
+        <type>typename AnyTag2</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1strategy_1_1within_1_1services_1_1default__strategy_3_01_geometry1_00b681e1e9e6a171bb7b06e71b24ffd59c_1a5d8610f6a1bd1ba59b46832c584b0f7d" prot="public" static="no">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments" kindref="compound">strategy::intersection::spherical_segments</ref></type>
+        <definition>typedef strategy::intersection::spherical_segments boost::geometry::strategy::within::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, linear_tag, linear_tag, spherical_tag, spherical_tag &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="922" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="922" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="921" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="920" bodyend="923"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1services_1_1default__strategy_3_01_geometry1_00b681e1e9e6a171bb7b06e71b24ffd59c_1a5d8610f6a1bd1ba59b46832c584b0f7d" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::services::default_strategy&lt; Geometry1, Geometry2, AnyTag1, AnyTag2, linear_tag, linear_tag, spherical_tag, spherical_tag &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

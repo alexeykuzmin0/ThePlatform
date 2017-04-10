@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::spherical_segments_calc_policy</compoundname>
+    <derivedcompoundref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy" prot="public" virt="non-virtual">boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;</derivedcompoundref>
+    <includes local="no">intersection.hpp</includes>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane" prot="public">boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1abd23fe4f5ab0510b49dd9c14e78fb639" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point</type>
+          </param>
+          <param>
+            <type>typename Point3d</type>
+          </param>
+        </templateparamlist>
+        <type>Point</type>
+        <definition>static Point boost::geometry::strategy::intersection::spherical_segments_calc_policy::from_cart3d</definition>
+        <argsstring>(Point3d const &amp;point_3d)</argsstring>
+        <name>from_cart3d</name>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>point_3d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="796" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="796" bodyend="799"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1ac128d2d5898c17f6978b6528d0e91ffe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point3d</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane" kindref="compound">plane</ref>&lt; Point3d &gt;</type>
+        <definition>static plane&lt;Point3d&gt; boost::geometry::strategy::intersection::spherical_segments_calc_policy::get_plane</definition>
+        <argsstring>(Point3d const &amp;p1, Point3d const &amp;p2)</argsstring>
+        <name>get_plane</name>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="838" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="838" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1a154ffa9eb53479ff364dd9437caa61c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point3d</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::strategy::intersection::spherical_segments_calc_policy::intersection_points</definition>
+        <argsstring>(plane&lt; Point3d &gt; const &amp;plane1, plane&lt; Point3d &gt; const &amp;plane2, Point3d &amp;ip1, Point3d &amp;ip2)</argsstring>
+        <name>intersection_points</name>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane" kindref="compound">plane</ref>&lt; Point3d &gt; const &amp;</type>
+          <declname>plane1</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane" kindref="compound">plane</ref>&lt; Point3d &gt; const &amp;</type>
+          <declname>plane2</declname>
+        </param>
+        <param>
+          <type>Point3d &amp;</type>
+          <declname>ip1</declname>
+        </param>
+        <param>
+          <type>Point3d &amp;</type>
+          <declname>ip2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="844" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="844" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1a6f36d68cc711d9a106b1a6e92f0a21b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point3d</type>
+          </param>
+          <param>
+            <type>typename Point</type>
+          </param>
+        </templateparamlist>
+        <type>Point3d</type>
+        <definition>static Point3d boost::geometry::strategy::intersection::spherical_segments_calc_policy::to_cart3d</definition>
+        <argsstring>(Point const &amp;point)</argsstring>
+        <name>to_cart3d</name>
+        <param>
+          <type>Point const &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="802" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="802" bodyend="805"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1713">
+        <label>boost::geometry::strategy::intersection::spherical_segments_calc_policy</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy"/>
+      </node>
+      <node id="1714">
+        <label>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy"/>
+        <childnode refid="1713" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="794" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="793" bodyend="863"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1abd23fe4f5ab0510b49dd9c14e78fb639" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy</scope><name>from_cart3d</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1ac128d2d5898c17f6978b6528d0e91ffe" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy</scope><name>get_plane</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1a154ffa9eb53479ff364dd9437caa61c3" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy</scope><name>intersection_points</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1a6f36d68cc711d9a106b1a6e92f0a21b2" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy</scope><name>to_cart3d</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

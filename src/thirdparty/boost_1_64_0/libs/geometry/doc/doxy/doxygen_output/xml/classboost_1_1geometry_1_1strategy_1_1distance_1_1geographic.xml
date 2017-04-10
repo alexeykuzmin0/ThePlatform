@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::distance::geographic</compoundname>
+    <includes local="no">distance.hpp</includes>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1_1calculation__type" prot="public">boost::geometry::strategy::distance::geographic::calculation_type</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>FormulaPolicy</declname>
+        <defname>FormulaPolicy</defname>
+        <defval><ref refid="structboost_1_1geometry_1_1strategy_1_1andoyer" kindref="compound">strategy::andoyer</ref></defval>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>Spheroid</declname>
+        <defname>Spheroid</defname>
+        <defval><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt;double&gt;</defval>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>CalculationType</declname>
+        <defname>CalculationType</defname>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a960c7cfc79a0620cb61404442482f4c4" prot="public" static="no">
+        <type>Spheroid</type>
+        <definition>typedef Spheroid boost::geometry::strategy::distance::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::model_type</definition>
+        <argsstring></argsstring>
+        <name>model_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" line="63" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1adfe6727eed22ba187012e7fbb97173b3" prot="private" static="no" mutable="no">
+        <type>Spheroid</type>
+        <definition>Spheroid boost::geometry::strategy::distance::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::m_spheroid</definition>
+        <argsstring></argsstring>
+        <name>m_spheroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" line="92" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1af2b57fff6b1eef154908b0c627c479f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point1</type>
+          </param>
+          <param>
+            <type>typename Point2</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1_1calculation__type" kindref="compound">calculation_type</ref>&lt; Point1, Point2 &gt;::type</type>
+        <definition>calculation_type&lt;Point1, Point2&gt;::type boost::geometry::strategy::distance::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::apply</definition>
+        <argsstring>(Point1 const &amp;point1, Point2 const &amp;point2) const </argsstring>
+        <name>apply</name>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>point1</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>point2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" line="75" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" bodystart="75" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a7cf18ffbd0682a2a1787fff58c688ebb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::distance::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::geographic</definition>
+        <argsstring>()</argsstring>
+        <name>geographic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" line="65" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a2e78bc84d9b56c3241e93367d96e9074" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::distance::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::geographic</definition>
+        <argsstring>(Spheroid const &amp;spheroid)</argsstring>
+        <name>geographic</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>spheroid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" line="69" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1ac7b71881650037933f8c1fb380b7a09f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Spheroid const &amp;</type>
+        <definition>Spheroid const&amp; boost::geometry::strategy::distance::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::model</definition>
+        <argsstring>() const </argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" line="86" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" line="48" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance.hpp" bodystart="47" bodyend="93"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1af2b57fff6b1eef154908b0c627c479f4" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::geographic</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a7cf18ffbd0682a2a1787fff58c688ebb" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::geographic</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a2e78bc84d9b56c3241e93367d96e9074" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::geographic</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1adfe6727eed22ba187012e7fbb97173b3" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::distance::geographic</scope><name>m_spheroid</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1ac7b71881650037933f8c1fb380b7a09f" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::geographic</scope><name>model</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a960c7cfc79a0620cb61404442482f4c4" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::geographic</scope><name>model_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

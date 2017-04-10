@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceboost_1_1geometry_1_1detail_1_1partition" kind="namespace">
+    <compoundname>boost::geometry::detail::partition</compoundname>
+    <innerclass refid="structboost_1_1geometry_1_1detail_1_1partition_1_1include__all__policy" prot="public">boost::geometry::detail::partition::include_all_policy</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1detail_1_1partition_1_1partition__one__range" prot="public">boost::geometry::detail::partition::partition_one_range</innerclass>
+    <innerclass refid="classboost_1_1geometry_1_1detail_1_1partition_1_1partition__two__ranges" prot="public">boost::geometry::detail::partition::partition_two_ranges</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1detail_1_1partition_1_1visit__no__policy" prot="public">boost::geometry::detail::partition::visit_no_policy</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceboost_1_1geometry_1_1detail_1_1partition_1a38d7fcc83943cdaa37dad7431b306e2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>Dimension</declname>
+            <defname>Dimension</defname>
+          </param>
+          <param>
+            <type>typename Box</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::detail::partition::divide_box</definition>
+        <argsstring>(Box const &amp;box, Box &amp;lower_box, Box &amp;upper_box)</argsstring>
+        <name>divide_box</name>
+        <param>
+          <type>Box const &amp;</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>Box &amp;</type>
+          <declname>lower_box</declname>
+        </param>
+        <param>
+          <type>Box &amp;</type>
+          <declname>upper_box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="33" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" bodystart="33" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceboost_1_1geometry_1_1detail_1_1partition_1ab499fddd3679131f2e48832ccc21e21f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Box</type>
+          </param>
+          <param>
+            <type>typename IteratorVector</type>
+          </param>
+          <param>
+            <type>typename OverlapsPolicy</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::detail::partition::divide_into_subsets</definition>
+        <argsstring>(Box const &amp;lower_box, Box const &amp;upper_box, IteratorVector const &amp;input, IteratorVector &amp;lower, IteratorVector &amp;upper, IteratorVector &amp;exceeding, OverlapsPolicy const &amp;overlaps_policy)</argsstring>
+        <name>divide_into_subsets</name>
+        <param>
+          <type>Box const &amp;</type>
+          <declname>lower_box</declname>
+        </param>
+        <param>
+          <type>Box const &amp;</type>
+          <declname>upper_box</declname>
+        </param>
+        <param>
+          <type>IteratorVector const &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>IteratorVector &amp;</type>
+          <declname>lower</declname>
+        </param>
+        <param>
+          <type>IteratorVector &amp;</type>
+          <declname>upper</declname>
+        </param>
+        <param>
+          <type>IteratorVector &amp;</type>
+          <declname>exceeding</declname>
+        </param>
+        <param>
+          <type>OverlapsPolicy const &amp;</type>
+          <declname>overlaps_policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="52" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" bodystart="52" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceboost_1_1geometry_1_1detail_1_1partition_1a94949be99dcb3aef6d179dcbf7ae582e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Box</type>
+          </param>
+          <param>
+            <type>typename IteratorVector</type>
+          </param>
+          <param>
+            <type>typename ExpandPolicy</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::detail::partition::expand_with_elements</definition>
+        <argsstring>(Box &amp;total, IteratorVector const &amp;input, ExpandPolicy const &amp;expand_policy)</argsstring>
+        <name>expand_with_elements</name>
+        <param>
+          <type>Box &amp;</type>
+          <declname>total</declname>
+        </param>
+        <param>
+          <type>IteratorVector const &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>ExpandPolicy const &amp;</type>
+          <declname>expand_policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="96" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" bodystart="96" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceboost_1_1geometry_1_1detail_1_1partition_1a24b83fd349783130122c6f4c7157745f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename IteratorVector</type>
+          </param>
+          <param>
+            <type>typename VisitPolicy</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::detail::partition::handle_one</definition>
+        <argsstring>(IteratorVector const &amp;input, VisitPolicy &amp;visitor)</argsstring>
+        <name>handle_one</name>
+        <param>
+          <type>IteratorVector const &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>VisitPolicy &amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="109" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" bodystart="109" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceboost_1_1geometry_1_1detail_1_1partition_1ab063efa5e391edeb15c2348fd03500f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename IteratorVector1</type>
+          </param>
+          <param>
+            <type>typename IteratorVector2</type>
+          </param>
+          <param>
+            <type>typename VisitPolicy</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::detail::partition::handle_two</definition>
+        <argsstring>(IteratorVector1 const &amp;input1, IteratorVector2 const &amp;input2, VisitPolicy &amp;visitor)</argsstring>
+        <name>handle_two</name>
+        <param>
+          <type>IteratorVector1 const &amp;</type>
+          <declname>input1</declname>
+        </param>
+        <param>
+          <type>IteratorVector2 const &amp;</type>
+          <declname>input2</declname>
+        </param>
+        <param>
+          <type>VisitPolicy &amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="136" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" bodystart="136" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceboost_1_1geometry_1_1detail_1_1partition_1a36c70ba342b2acb04c263b3dfa4b6a86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename IteratorVector</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool boost::geometry::detail::partition::recurse_ok</definition>
+        <argsstring>(IteratorVector const &amp;input, std::size_t min_elements, std::size_t level)</argsstring>
+        <name>recurse_ok</name>
+        <param>
+          <type>IteratorVector const &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>min_elements</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="169" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" bodystart="169" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceboost_1_1geometry_1_1detail_1_1partition_1a44192b1e3fd67e388ad1145f37f1816c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename IteratorVector1</type>
+          </param>
+          <param>
+            <type>typename IteratorVector2</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool boost::geometry::detail::partition::recurse_ok</definition>
+        <argsstring>(IteratorVector1 const &amp;input1, IteratorVector2 const &amp;input2, std::size_t min_elements, std::size_t level)</argsstring>
+        <name>recurse_ok</name>
+        <param>
+          <type>IteratorVector1 const &amp;</type>
+          <declname>input1</declname>
+        </param>
+        <param>
+          <type>IteratorVector2 const &amp;</type>
+          <declname>input2</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>min_elements</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="177" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" bodystart="177" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceboost_1_1geometry_1_1detail_1_1partition_1a5db9bcd2609095512279b42c7a3211da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename IteratorVector1</type>
+          </param>
+          <param>
+            <type>typename IteratorVector2</type>
+          </param>
+          <param>
+            <type>typename IteratorVector3</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool boost::geometry::detail::partition::recurse_ok</definition>
+        <argsstring>(IteratorVector1 const &amp;input1, IteratorVector2 const &amp;input2, IteratorVector3 const &amp;input3, std::size_t min_elements, std::size_t level)</argsstring>
+        <name>recurse_ok</name>
+        <param>
+          <type>IteratorVector1 const &amp;</type>
+          <declname>input1</declname>
+        </param>
+        <param>
+          <type>IteratorVector2 const &amp;</type>
+          <declname>input2</declname>
+        </param>
+        <param>
+          <type>IteratorVector3 const &amp;</type>
+          <declname>input3</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>min_elements</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="191" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" bodystart="191" bodyend="198"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/partition.hpp" line="30" column="1"/>
+  </compounddef>
+</doxygen>

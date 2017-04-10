@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1transform_1_1scale__transformer_3_01_calculation_type_00_012_00_012_01_4" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</compoundname>
+    <basecompoundref refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4" prot="public" virt="non-virtual">boost::geometry::strategy::transform::matrix_transformer&lt; CalculationType, 2, 2 &gt;</basecompoundref>
+    <includes local="no">matrix_transformers.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CalculationType</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1transform_1_1scale__transformer_3_01_calculation_type_00_012_00_012_01_4_1af6f07e9a4775eebf4db45b1d4661a91b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;::scale_transformer</definition>
+        <argsstring>(CalculationType const &amp;scale_x, CalculationType const &amp;scale_y, CalculationType const &amp;=0)</argsstring>
+        <name>scale_transformer</name>
+        <param>
+          <type>CalculationType const &amp;</type>
+          <declname>scale_x</declname>
+        </param>
+        <param>
+          <type>CalculationType const &amp;</type>
+          <declname>scale_y</declname>
+        </param>
+        <param>
+          <type>CalculationType const &amp;</type>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" line="262" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" bodystart="262" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1transform_1_1scale__transformer_3_01_calculation_type_00_012_00_012_01_4_1a9ec47fb7f24e1695a80ebfded06d506b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;::scale_transformer</definition>
+        <argsstring>(CalculationType const &amp;scale)</argsstring>
+        <name>scale_transformer</name>
+        <param>
+          <type>CalculationType const &amp;</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" line="272" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" bodystart="272" bodyend="277"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1822">
+        <label>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1scale__transformer_3_01_calculation_type_00_012_00_012_01_4"/>
+        <childnode refid="1823" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1823">
+        <label>boost::geometry::strategy::transform::matrix_transformer&lt; CalculationType, 2, 2 &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1824">
+        <label>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1scale__transformer_3_01_calculation_type_00_012_00_012_01_4"/>
+        <childnode refid="1825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1825">
+        <label>boost::geometry::strategy::transform::matrix_transformer&lt; CalculationType, 2, 2 &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" line="259" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" bodystart="258" bodyend="278"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4_1a08effb1a51d0baa115bbcae99643ad24" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4_1a976a60846a008214516ebabc44267e80" prot="protected" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>ct</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4_1a3fc21d9e3a0e2dfd865fbae923e71cf0" prot="protected" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>m_matrix</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4_1a7de1793244f59813af49882bd935cfeb" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>matrix</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4_1adcaeff7ebbe081cfb5912f26ad3dc9d2" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>matrix_transformer</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4_1ae221cde314d6131e210ec38a888d525c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>matrix_transformer</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4_1ab2fd32f7bde6c9e3af1f69fd5c2732de" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>matrix_transformer</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1matrix__transformer_3_01_calculation_type_00_012_00_012_01_4_1a4c3086cb7b24f0cac40e367009a5d8e1" prot="protected" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>matrix_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1scale__transformer_3_01_calculation_type_00_012_00_012_01_4_1af6f07e9a4775eebf4db45b1d4661a91b" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>scale_transformer</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1scale__transformer_3_01_calculation_type_00_012_00_012_01_4_1a9ec47fb7f24e1695a80ebfded06d506b" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::scale_transformer&lt; CalculationType, 2, 2 &gt;</scope><name>scale_transformer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

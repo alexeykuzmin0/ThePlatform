@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::side::mapping_spherical_side_formula</compoundname>
+    <includes local="no">mapping_ssf.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Spheroid</type>
+      </param>
+      <param>
+        <type><ref refid="namespaceboost_1_1geometry_1_1strategy_1_1side_1a7cdb103bc292c1219ce7d4df87b7b31b" kindref="member">mapping_type</ref></type>
+        <declname>Mapping</declname>
+        <defname>Mapping</defname>
+        <defval><ref refid="namespaceboost_1_1geometry_1_1strategy_1_1side_1a7cdb103bc292c1219ce7d4df87b7b31bae9349a013d0314bd76a8d9ab22edaafb" kindref="member">mapping_geodetic</ref></defval>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_1a9c9f6e9201fb3bbad052ccf13c68b8c0" prot="private" static="no" mutable="no">
+        <type>side::detail::mapper&lt; Spheroid, Mapping &gt; const</type>
+        <definition>side::detail::mapper&lt;Spheroid, Mapping&gt; const boost::geometry::strategy::side::mapping_spherical_side_formula&lt; Spheroid, Mapping, CalculationType &gt;::m_mapper</definition>
+        <argsstring></argsstring>
+        <name>m_mapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" line="161" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_1a8420904127208cc61249ca5bac724c4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename P1</type>
+          </param>
+          <param>
+            <type>typename P2</type>
+          </param>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int boost::geometry::strategy::side::mapping_spherical_side_formula&lt; Spheroid, Mapping, CalculationType &gt;::apply</definition>
+        <argsstring>(P1 const &amp;p1, P2 const &amp;p2, P const &amp;p)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>P1 const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>P2 const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>P const &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" line="139" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" bodystart="139" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_1afd8b2d9dd8c588a8183d26e4ba794d1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::side::mapping_spherical_side_formula&lt; Spheroid, Mapping, CalculationType &gt;::mapping_spherical_side_formula</definition>
+        <argsstring>()</argsstring>
+        <name>mapping_spherical_side_formula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" line="130" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_1a3bfe0c947f599e7795682d7076e761a2" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::side::mapping_spherical_side_formula&lt; Spheroid, Mapping, CalculationType &gt;::mapping_spherical_side_formula</definition>
+        <argsstring>(Spheroid const &amp;spheroid)</argsstring>
+        <name>mapping_spherical_side_formula</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>spheroid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" line="134" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" bodystart="134" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Check at which side of a geographical segment a point lies left of segment (&gt; 0), right of segment (&lt; 0), on segment (0). The check is performed by mapping the geographical coordinates to spherical coordinates and using <ref refid="classboost_1_1geometry_1_1strategy_1_1side_1_1spherical__side__formula" kindref="compound">spherical_side_formula</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Spheroid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference spheroid model </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Mapping</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of mapping of geographical to spherical latitude </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CalculationType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" line="127" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/mapping_ssf.hpp" bodystart="126" bodyend="162"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_1a8420904127208cc61249ca5bac724c4d" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::mapping_spherical_side_formula</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_1a9c9f6e9201fb3bbad052ccf13c68b8c0" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::side::mapping_spherical_side_formula</scope><name>m_mapper</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_1afd8b2d9dd8c588a8183d26e4ba794d1d" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::mapping_spherical_side_formula</scope><name>mapping_spherical_side_formula</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1mapping__spherical__side__formula_1a3bfe0c947f599e7795682d7076e761a2" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::mapping_spherical_side_formula</scope><name>mapping_spherical_side_formula</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

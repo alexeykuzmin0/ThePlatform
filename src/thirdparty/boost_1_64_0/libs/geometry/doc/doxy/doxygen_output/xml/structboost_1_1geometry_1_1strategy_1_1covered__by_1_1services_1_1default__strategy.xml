@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::covered_by::services::default_strategy</compoundname>
+    <includes local="no">covered_by.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename GeometryContained</type>
+      </param>
+      <param>
+        <type>typename GeometryContaining</type>
+      </param>
+      <param>
+        <type>typename TagContained</type>
+        <defval>typename <ref refid="structboost_1_1geometry_1_1tag" kindref="compound">tag</ref>&lt;GeometryContained&gt;::type</defval>
+      </param>
+      <param>
+        <type>typename TagContaining</type>
+        <defval>typename <ref refid="structboost_1_1geometry_1_1tag" kindref="compound">tag</ref>&lt;GeometryContaining&gt;::type</defval>
+      </param>
+      <param>
+        <type>typename CastedTagContained</type>
+        <defval>typename <ref refid="structboost_1_1geometry_1_1tag__cast" kindref="compound">tag_cast</ref> &lt;                                        typename <ref refid="structboost_1_1geometry_1_1tag" kindref="compound">tag</ref>&lt;GeometryContained&gt;::type,                                        <ref refid="structboost_1_1geometry_1_1pointlike__tag" kindref="compound">pointlike_tag</ref>, <ref refid="structboost_1_1geometry_1_1linear__tag" kindref="compound">linear_tag</ref>, <ref refid="structboost_1_1geometry_1_1polygonal__tag" kindref="compound">polygonal_tag</ref>, <ref refid="structboost_1_1geometry_1_1areal__tag" kindref="compound">areal_tag</ref>                                    &gt;::type</defval>
+      </param>
+      <param>
+        <type>typename CastedTagContaining</type>
+        <defval>typename <ref refid="structboost_1_1geometry_1_1tag__cast" kindref="compound">tag_cast</ref> &lt;                                        typename <ref refid="structboost_1_1geometry_1_1tag" kindref="compound">tag</ref>&lt;GeometryContaining&gt;::type,                                        <ref refid="structboost_1_1geometry_1_1pointlike__tag" kindref="compound">pointlike_tag</ref>, <ref refid="structboost_1_1geometry_1_1linear__tag" kindref="compound">linear_tag</ref>, <ref refid="structboost_1_1geometry_1_1polygonal__tag" kindref="compound">polygonal_tag</ref>, <ref refid="structboost_1_1geometry_1_1areal__tag" kindref="compound">areal_tag</ref>                                    &gt;::type</defval>
+      </param>
+      <param>
+        <type>typename CsTagContained</type>
+        <defval>typename <ref refid="structboost_1_1geometry_1_1tag__cast" kindref="compound">tag_cast</ref> &lt;                                    typename <ref refid="structboost_1_1geometry_1_1cs__tag" kindref="compound">cs_tag</ref>&lt;typename <ref refid="structboost_1_1geometry_1_1point__type" kindref="compound">point_type</ref>&lt;GeometryContained&gt;::type&gt;::type,                                    <ref refid="structboost_1_1geometry_1_1spherical__tag" kindref="compound">spherical_tag</ref>                                &gt;::type</defval>
+      </param>
+      <param>
+        <type>typename CsTagContaining</type>
+        <defval>typename <ref refid="structboost_1_1geometry_1_1tag__cast" kindref="compound">tag_cast</ref> &lt;                                    typename <ref refid="structboost_1_1geometry_1_1cs__tag" kindref="compound">cs_tag</ref>&lt;typename <ref refid="structboost_1_1geometry_1_1point__type" kindref="compound">point_type</ref>&lt;GeometryContaining&gt;::type&gt;::type,                                    <ref refid="structboost_1_1geometry_1_1spherical__tag" kindref="compound">spherical_tag</ref>                                &gt;::type</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_1a04c0be69c15e6e8613d5537c6893bfcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::covered_by::services::default_strategy&lt; GeometryContained, GeometryContaining, TagContained, TagContaining, CastedTagContained, CastedTagContaining, CsTagContained, CsTagContaining &gt;::BOOST_MPL_ASSERT_MSG</definition>
+        <argsstring>(false, NOT_IMPLEMENTED_FOR_THESE_TYPES,(types&lt; GeometryContained, GeometryContaining &gt;))</argsstring>
+        <name>BOOST_MPL_ASSERT_MSG</name>
+        <param>
+          <type>false</type>
+        </param>
+        <param>
+          <type>NOT_IMPLEMENTED_FOR_THESE_TYPES</type>
+        </param>
+        <param>
+          <type>(types&lt; GeometryContained, GeometryContaining &gt;)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/covered_by.hpp" line="81" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Traits class binding a <ref refid="namespaceboost_1_1geometry_1_1strategy_1_1covered__by" kindref="compound">covered_by</ref> determination strategy to a coordinate system. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>GeometryContained</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>geometry-type of input (possibly) contained type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>GeometryContaining</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>geometry-type of input (possibly) containing type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TagContained</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>casted tag of (possibly) contained type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TagContaining</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>casted tag of (possibly) containing type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CsTagContained</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tag of coordinate system of (possibly) contained type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CsTagContaining</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tag of coordinate system of (possibly) containing type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/covered_by.hpp" line="80" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/covered_by.hpp" bodystart="79" bodyend="86"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1covered__by_1_1services_1_1default__strategy_1a04c0be69c15e6e8613d5537c6893bfcf" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::covered_by::services::default_strategy</scope><name>BOOST_MPL_ASSERT_MSG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

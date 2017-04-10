@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::distance::andoyer</compoundname>
+    <basecompoundref refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic" prot="public" virt="non-virtual">boost::geometry::strategy::distance::geographic&lt; strategy::andoyer, Spheroid, CalculationType &gt;</basecompoundref>
+    <includes local="no">distance_andoyer.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Spheroid</type>
+        <defval><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt;double&gt;</defval>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer_1a1463541502a8f6cbe4087af530076335" prot="private" static="no">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic" kindref="compound">strategy::distance::geographic</ref>&lt; <ref refid="structboost_1_1geometry_1_1strategy_1_1andoyer" kindref="compound">strategy::andoyer</ref>, Spheroid, CalculationType &gt;</type>
+        <definition>typedef strategy::distance::geographic&lt; strategy::andoyer, Spheroid, CalculationType &gt; boost::geometry::strategy::distance::andoyer&lt; Spheroid, CalculationType &gt;::base_type</definition>
+        <argsstring></argsstring>
+        <name>base_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_andoyer.hpp" line="60" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_andoyer.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer_1ae28456b7f9879080cf4056861ec9e46f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::distance::andoyer&lt; Spheroid, CalculationType &gt;::andoyer</definition>
+        <argsstring>()</argsstring>
+        <name>andoyer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_andoyer.hpp" line="63" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_andoyer.hpp" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer_1aec8289387c2dcdc6495427205b0eb6f2" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::distance::andoyer&lt; Spheroid, CalculationType &gt;::andoyer</definition>
+        <argsstring>(Spheroid const &amp;spheroid)</argsstring>
+        <name>andoyer</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>spheroid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_andoyer.hpp" line="67" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_andoyer.hpp" bodystart="67" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Point-point distance approximation taking flattening into account. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Spheroid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference spheroid model </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CalculationType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>After Andoyer, 19xx, republished 1950, republished by Meeus, 1999 </para></simplesect>
+<simplesect kind="note"><para>Although not so well-known, the approximation is very good: in all cases the results are about the same as Vincenty. In my (Barend&apos;s) testcases the results didn&apos;t differ more than 6 m </para></simplesect>
+<simplesect kind="see"><para><ulink url="http://nacc.upc.es/tierra/node16.html">http://nacc.upc.es/tierra/node16.html</ulink> </para><simplesectsep/><para><ulink url="http://sci.tech-archive.net/Archive/sci.geo.satellite-nav/2004-12/2724.html">http://sci.tech-archive.net/Archive/sci.geo.satellite-nav/2004-12/2724.html</ulink> </para><simplesectsep/><para><ulink url="http://home.att.net/~srschmitt/great_circle_route.html">http://home.att.net/~srschmitt/great_circle_route.html</ulink> (implementation) </para><simplesectsep/><para><ulink url="http://www.codeguru.com/Cpp/Cpp/algorithms/article.php/c5115">http://www.codeguru.com/Cpp/Cpp/algorithms/article.php/c5115</ulink> (implementation) </para><simplesectsep/><para><ulink url="http://futureboy.homeip.net/frinksamp/navigation.frink">http://futureboy.homeip.net/frinksamp/navigation.frink</ulink> (implementation) </para><simplesectsep/><para><ulink url="http://www.voidware.com/earthdist.htm">http://www.voidware.com/earthdist.htm</ulink> (implementation) </para><simplesectsep/><para><ulink url="http://www.dtic.mil/docs/citations/AD0627893">http://www.dtic.mil/docs/citations/AD0627893</ulink> </para><simplesectsep/><para><ulink url="http://www.dtic.mil/docs/citations/AD703541">http://www.dtic.mil/docs/citations/AD703541</ulink> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1550">
+        <label>boost::geometry::strategy::distance::geographic&lt; strategy::andoyer, Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic"/>
+      </node>
+      <node id="1549">
+        <label>boost::geometry::strategy::distance::andoyer&lt; Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer"/>
+        <childnode refid="1550" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1552">
+        <label>boost::geometry::strategy::distance::geographic&lt; strategy::andoyer, Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic"/>
+      </node>
+      <node id="1551">
+        <label>boost::geometry::strategy::distance::andoyer&lt; Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_andoyer.hpp" line="56" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_andoyer.hpp" bodystart="51" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer_1ae28456b7f9879080cf4056861ec9e46f" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::andoyer</scope><name>andoyer</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer_1aec8289387c2dcdc6495427205b0eb6f2" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::andoyer</scope><name>andoyer</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1af2b57fff6b1eef154908b0c627c479f4" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::andoyer</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1andoyer_1a1463541502a8f6cbe4087af530076335" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::distance::andoyer</scope><name>base_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a7cf18ffbd0682a2a1787fff58c688ebb" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::andoyer</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a2e78bc84d9b56c3241e93367d96e9074" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::andoyer</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1ac7b71881650037933f8c1fb380b7a09f" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::andoyer</scope><name>model</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a960c7cfc79a0620cb61404442482f4c4" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::andoyer</scope><name>model_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

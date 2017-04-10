@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1resolve__strategy_1_1sym__difference" kind="struct" prot="public">
+    <compoundname>boost::geometry::resolve_strategy::sym_difference</compoundname>
+    <includes local="no">sym_difference.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__strategy_1_1sym__difference_1a99084ed9f82618d1622748c72065fa9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+          <param>
+            <type>typename RobustPolicy</type>
+          </param>
+          <param>
+            <type>typename Collection</type>
+          </param>
+          <param>
+            <type>typename Strategy</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void boost::geometry::resolve_strategy::sym_difference::apply</definition>
+        <argsstring>(Geometry1 const &amp;geometry1, Geometry2 const &amp;geometry2, RobustPolicy const &amp;robust_policy, Collection &amp;output_collection, Strategy const &amp;strategy)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <param>
+          <type>RobustPolicy const &amp;</type>
+          <declname>robust_policy</declname>
+        </param>
+        <param>
+          <type>Collection &amp;</type>
+          <declname>output_collection</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="312" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="312" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__strategy_1_1sym__difference_1a430ac62b4b37bcfc21548e1f5be031e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+          <param>
+            <type>typename RobustPolicy</type>
+          </param>
+          <param>
+            <type>typename Collection</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void boost::geometry::resolve_strategy::sym_difference::apply</definition>
+        <argsstring>(Geometry1 const &amp;geometry1, Geometry2 const &amp;geometry2, RobustPolicy const &amp;robust_policy, Collection &amp;output_collection, default_strategy)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <param>
+          <type>RobustPolicy const &amp;</type>
+          <declname>robust_policy</declname>
+        </param>
+        <param>
+          <type>Collection &amp;</type>
+          <declname>output_collection</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1default__strategy" kindref="compound">default_strategy</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="333" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="333" bodyend="344"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="303" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="302" bodyend="345"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1resolve__strategy_1_1sym__difference_1a99084ed9f82618d1622748c72065fa9d" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_strategy::sym_difference</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__strategy_1_1sym__difference_1a430ac62b4b37bcfc21548e1f5be031e0" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_strategy::sym_difference</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

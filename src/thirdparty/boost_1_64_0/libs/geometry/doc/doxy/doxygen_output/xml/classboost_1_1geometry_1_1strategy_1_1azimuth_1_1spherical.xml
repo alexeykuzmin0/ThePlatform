@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1azimuth_1_1spherical" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::azimuth::spherical</compoundname>
+    <includes local="no">azimuth.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1azimuth_1_1spherical_1ae403dd3ed1b3aa5e7b226677144922d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::azimuth::spherical&lt; CalculationType &gt;::spherical</definition>
+        <argsstring>()</argsstring>
+        <name>spherical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/azimuth.hpp" line="36" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/azimuth.hpp" bodystart="36" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1azimuth_1_1spherical_1a4684b0f3cbe011b6233e42a333fa4bca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void boost::geometry::strategy::azimuth::spherical&lt; CalculationType &gt;::apply</definition>
+        <argsstring>(T const &amp;lon1_rad, T const &amp;lat1_rad, T const &amp;lon2_rad, T const &amp;lat2_rad, T &amp;a1, T &amp;a2)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>lon1_rad</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>lat1_rad</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>lon2_rad</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>lat2_rad</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/azimuth.hpp" line="40" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/azimuth.hpp" bodystart="40" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/azimuth.hpp" line="33" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/azimuth.hpp" bodystart="32" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1azimuth_1_1spherical_1a4684b0f3cbe011b6233e42a333fa4bca" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::azimuth::spherical</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1azimuth_1_1spherical_1ae403dd3ed1b3aa5e7b226677144922d5" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::azimuth::spherical</scope><name>spherical</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

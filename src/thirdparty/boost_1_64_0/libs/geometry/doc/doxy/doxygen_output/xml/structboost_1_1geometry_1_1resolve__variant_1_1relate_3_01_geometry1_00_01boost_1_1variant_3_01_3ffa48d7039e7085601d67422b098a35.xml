@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35" kind="struct" prot="public">
+    <compoundname>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::static_visitor&lt; bool &gt;</basecompoundref>
+    <includes local="no">interface.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Mask</type>
+      </param>
+      <param>
+        <type>typename Strategy</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a370efe9d7cd4271d1c1b0667860335a7" prot="public" static="no" mutable="no">
+        <type>Geometry1 const &amp;</type>
+        <definition>Geometry1 const&amp; boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Mask, Strategy &gt;::m_geometry1</definition>
+        <argsstring></argsstring>
+        <name>m_geometry1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="299" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a36a35175d942f415dbb663481d811414" prot="public" static="no" mutable="no">
+        <type>Mask const &amp;</type>
+        <definition>Mask const&amp; boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Mask, Strategy &gt;::m_mask</definition>
+        <argsstring></argsstring>
+        <name>m_mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="300" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a0499d1a52a227ce3346034fb09c93488" prot="public" static="no" mutable="no">
+        <type>Strategy const &amp;</type>
+        <definition>Strategy const&amp; boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Mask, Strategy &gt;::m_strategy</definition>
+        <argsstring></argsstring>
+        <name>m_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="301" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a04ed10f8a1ddab552bb7226ff8ae882b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Mask, Strategy &gt;::operator()</definition>
+        <argsstring>(Geometry2 const &amp;geometry2) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="307" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="307" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a0d44ea3837319ba63aa0db92d7055957" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Mask, Strategy &gt;::visitor</definition>
+        <argsstring>(Geometry1 const &amp;geometry1, Mask const &amp;mask, Strategy const &amp;strategy)</argsstring>
+        <name>visitor</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <param>
+          <type>Mask const &amp;</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="303" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="303" bodyend="304"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1173">
+        <label>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Mask, Strategy &gt;</label>
+        <link refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35"/>
+        <childnode refid="1174" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1174">
+        <label>boost::static_visitor&lt; bool &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1175">
+        <label>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Mask, Strategy &gt;</label>
+        <link refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35"/>
+        <childnode refid="1176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1176">
+        <label>boost::static_visitor&lt; bool &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="298" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="297" bodyend="312"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a370efe9d7cd4271d1c1b0667860335a7" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_geometry1</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a36a35175d942f415dbb663481d811414" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_mask</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a0499d1a52a227ce3346034fb09c93488" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a04ed10f8a1ddab552bb7226ff8ae882b" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>operator()</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01_geometry1_00_01boost_1_1variant_3_01_3ffa48d7039e7085601d67422b098a35_1a0d44ea3837319ba63aa0db92d7055957" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::relate&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>visitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

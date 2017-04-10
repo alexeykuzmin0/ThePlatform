@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="debug__turn_8hpp" kind="file">
+    <compoundname>debug_turn.hpp</compoundname>
+    <includedby refid="follow__linear__linear_8hpp" local="no">/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/follow_linear_linear.hpp</includedby>
+    <invincdepgraph>
+      <node id="40807">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/linear_linear.hpp</label>
+        <link refid="overlay_2linear__linear_8hpp"/>
+        <childnode refid="40808" relation="include">
+        </childnode>
+        <childnode refid="40810" relation="include">
+        </childnode>
+      </node>
+      <node id="40816">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/multi.hpp</label>
+        <link refid="multi_8hpp"/>
+        <childnode refid="40815" relation="include">
+        </childnode>
+      </node>
+      <node id="40808">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/union.hpp</label>
+        <link refid="union_8hpp"/>
+        <childnode refid="40809" relation="include">
+        </childnode>
+      </node>
+      <node id="40805">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/turns/debug_turn.hpp</label>
+        <link refid="debug_turn.hpp"/>
+        <childnode refid="40806" relation="include">
+        </childnode>
+      </node>
+      <node id="40811">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/difference.hpp</label>
+        <link refid="difference_8hpp"/>
+      </node>
+      <node id="40815">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/implementation.hpp</label>
+        <link refid="intersection_2implementation_8hpp"/>
+        <childnode refid="40813" relation="include">
+        </childnode>
+      </node>
+      <node id="40810">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/intersection_insert.hpp</label>
+        <link refid="intersection__insert_8hpp"/>
+        <childnode refid="40811" relation="include">
+        </childnode>
+        <childnode refid="40812" relation="include">
+        </childnode>
+      </node>
+      <node id="40806">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/follow_linear_linear.hpp</label>
+        <link refid="follow__linear__linear_8hpp"/>
+        <childnode refid="40807" relation="include">
+        </childnode>
+      </node>
+      <node id="40812">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp</label>
+        <link refid="intersection_2interface_8hpp"/>
+        <childnode refid="40813" relation="include">
+        </childnode>
+        <childnode refid="40814" relation="include">
+        </childnode>
+        <childnode refid="40816" relation="include">
+        </childnode>
+      </node>
+      <node id="40809">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp</label>
+        <link refid="sym__difference_8hpp"/>
+      </node>
+      <node id="40813">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/intersection.hpp</label>
+        <link refid="algorithms_2intersection_8hpp"/>
+        <childnode refid="40809" relation="include">
+        </childnode>
+      </node>
+      <node id="40814">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/box_box.hpp</label>
+        <link refid="intersection_2box__box_8hpp"/>
+        <childnode refid="40815" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/turns/debug_turn.hpp"/>
+  </compounddef>
+</doxygen>

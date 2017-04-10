@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="strategies_2cartesian_2azimuth_8hpp" kind="file">
+    <compoundname>azimuth.hpp</compoundname>
+    <includes refid="core_2tags_8hpp" local="no">boost/geometry/core/tags.hpp</includes>
+    <includedby refid="strategies_8hpp" local="no">/home/ubuntu/boost/boost/geometry/strategies/strategies.hpp</includedby>
+    <incdepgraph>
+      <node id="4467">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/cartesian/azimuth.hpp</label>
+        <link refid="strategies/cartesian/azimuth.hpp"/>
+        <childnode refid="4468" relation="include">
+        </childnode>
+      </node>
+      <node id="4468">
+        <label>boost/geometry/core/tags.hpp</label>
+        <link refid="core_2tags_8hpp"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4469">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/cartesian/azimuth.hpp</label>
+        <link refid="strategies/cartesian/azimuth.hpp"/>
+        <childnode refid="4470" relation="include">
+        </childnode>
+      </node>
+      <node id="4470">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/strategies.hpp</label>
+        <link refid="strategies_8hpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1azimuth_1_1cartesian" prot="public">boost::geometry::strategy::azimuth::cartesian</innerclass>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry_1_1strategy">boost::geometry::strategy</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry_1_1strategy_1_1azimuth">boost::geometry::strategy::azimuth</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/azimuth.hpp"/>
+  </compounddef>
+</doxygen>

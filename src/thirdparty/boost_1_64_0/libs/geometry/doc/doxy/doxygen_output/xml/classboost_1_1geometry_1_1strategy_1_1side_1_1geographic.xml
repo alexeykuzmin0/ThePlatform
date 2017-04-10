@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::side::geographic</compoundname>
+    <derivedcompoundref refid="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas" prot="public" virt="non-virtual">boost::geometry::strategy::side::thomas&lt; Spheroid, CalculationType &gt;</derivedcompoundref>
+    <includes local="no">side.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>FormulaPolicy</declname>
+        <defname>FormulaPolicy</defname>
+        <defval><ref refid="structboost_1_1geometry_1_1strategy_1_1andoyer" kindref="compound">strategy::andoyer</ref></defval>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>Spheroid</declname>
+        <defname>Spheroid</defname>
+        <defval><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt;double&gt;</defval>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>CalculationType</declname>
+        <defname>CalculationType</defname>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1ae5492245ee0f4322546b9b26157f15e4" prot="private" static="no" mutable="no">
+        <type>Spheroid</type>
+        <definition>Spheroid boost::geometry::strategy::side::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::m_model</definition>
+        <argsstring></argsstring>
+        <name>m_model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" line="103" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1aeb6a34245c7520b0b16f35ba71e8a2db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename P1</type>
+          </param>
+          <param>
+            <type>typename P2</type>
+          </param>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int boost::geometry::strategy::side::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::apply</definition>
+        <argsstring>(P1 const &amp;p1, P2 const &amp;p2, P const &amp;p)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>P1 const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>P2 const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>P const &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" line="67" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" bodystart="67" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1af7c9ac464c2d41aa63086e95e67881a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::side::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::geographic</definition>
+        <argsstring>()</argsstring>
+        <name>geographic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" line="59" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" bodystart="59" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1ab688890cbca6d0966cfebad809bc1d84" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::side::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::geographic</definition>
+        <argsstring>(Spheroid const &amp;model)</argsstring>
+        <name>geographic</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" line="62" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1a30798492fe3c415be133e4acfc5d35dc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ResultType</type>
+          </param>
+          <param>
+            <type>typename InverseFormulaType</type>
+          </param>
+          <param>
+            <type>typename Point1</type>
+          </param>
+          <param>
+            <type>typename Point2</type>
+          </param>
+          <param>
+            <type>typename ModelT</type>
+          </param>
+        </templateparamlist>
+        <type>ResultType</type>
+        <definition>static ResultType boost::geometry::strategy::side::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;::azimuth</definition>
+        <argsstring>(Point1 const &amp;point1, Point2 const &amp;point2, ModelT const &amp;model)</argsstring>
+        <name>azimuth</name>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>point1</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>point2</declname>
+        </param>
+        <param>
+          <type>ModelT const &amp;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" line="93" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" bodystart="93" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Check at which side of a segment a point lies left of segment (&gt; 0), right of segment (&lt; 0), on segment (0) </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>FormulaPolicy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Geodesic solution formula policy. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Spheroid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference model of coordinate system. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CalculationType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1727">
+        <label>boost::geometry::strategy::side::thomas&lt; strategy::thomas, Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas"/>
+        <childnode refid="1726" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1726">
+        <label>boost::geometry::strategy::side::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" line="57" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side.hpp" bodystart="56" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1aeb6a34245c7520b0b16f35ba71e8a2db" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::geographic</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1a30798492fe3c415be133e4acfc5d35dc" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::side::geographic</scope><name>azimuth</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1af7c9ac464c2d41aa63086e95e67881a3" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::geographic</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1ab688890cbca6d0966cfebad809bc1d84" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::geographic</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1ae5492245ee0f4322546b9b26157f15e4" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::side::geographic</scope><name>m_model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

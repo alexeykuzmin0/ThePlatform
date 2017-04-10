@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum" kind="struct" prot="protected">
+    <compoundname>boost::geometry::strategy::area::spherical::excess_sum</compoundname>
+    <includes local="no">area.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum_1af7586365c277aa6dbb3a9ab0e28819e1" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::excess_sum::m_crosses_prime_meridian</definition>
+        <argsstring></argsstring>
+        <name>m_crosses_prime_meridian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="66" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum_1a7c088f3d06be0dcdd563176ff6109244" prot="public" static="no" mutable="no">
+        <type>CT</type>
+        <definition>CT boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::excess_sum::m_sum</definition>
+        <argsstring></argsstring>
+        <name>m_sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="63" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum_1ae92f1beae942b3df9410a7e8271afec1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SphereType</type>
+          </param>
+        </templateparamlist>
+        <type>CT</type>
+        <definition>CT boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::excess_sum::area</definition>
+        <argsstring>(SphereType sphere) const </argsstring>
+        <name>area</name>
+        <param>
+          <type>SphereType</type>
+          <declname>sphere</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="73" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="73" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum_1af10d2e1fb38dbb5aaf2acffd760c7094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::excess_sum::excess_sum</definition>
+        <argsstring>()</argsstring>
+        <name>excess_sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="68" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="62" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="61" bodyend="102"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum_1ae92f1beae942b3df9410a7e8271afec1" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical::excess_sum</scope><name>area</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum_1af10d2e1fb38dbb5aaf2acffd760c7094" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical::excess_sum</scope><name>excess_sum</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum_1af7586365c277aa6dbb3a9ab0e28819e1" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical::excess_sum</scope><name>m_crosses_prime_meridian</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum_1a7c088f3d06be0dcdd563176ff6109244" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical::excess_sum</scope><name>m_sum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

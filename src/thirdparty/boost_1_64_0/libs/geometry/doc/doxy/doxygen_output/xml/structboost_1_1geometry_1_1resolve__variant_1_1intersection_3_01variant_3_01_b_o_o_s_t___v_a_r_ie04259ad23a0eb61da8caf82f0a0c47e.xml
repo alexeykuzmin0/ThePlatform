@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e" kind="struct" prot="public">
+    <compoundname>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::static_visitor&lt; bool &gt;</basecompoundref>
+    <includes local="no">interface.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename GeometryOut</type>
+      </param>
+      <param>
+        <type>typename Strategy</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1a19670d1666700f21945f99d1e319388a" prot="public" static="no" mutable="no">
+        <type>Geometry2 const &amp;</type>
+        <definition>Geometry2 const&amp; boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; GeometryOut, Strategy &gt;::m_geometry2</definition>
+        <argsstring></argsstring>
+        <name>m_geometry2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="200" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1a157033139c8be5c876b89dc48e5ee19e" prot="public" static="no" mutable="no">
+        <type>GeometryOut &amp;</type>
+        <definition>GeometryOut&amp; boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; GeometryOut, Strategy &gt;::m_geometry_out</definition>
+        <argsstring></argsstring>
+        <name>m_geometry_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="201" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1a7114eec26c2e5e3f114c92b7df11e40e" prot="public" static="no" mutable="no">
+        <type>Strategy const &amp;</type>
+        <definition>Strategy const&amp; boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; GeometryOut, Strategy &gt;::m_strategy</definition>
+        <argsstring></argsstring>
+        <name>m_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="202" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1a7627d324e9d13c2129764cc2e9e2b98c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; GeometryOut, Strategy &gt;::operator()</definition>
+        <argsstring>(Geometry1 const &amp;geometry1) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="213" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="213" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1af3fcfdbe7b2c2308ba97a74c7307f751" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; GeometryOut, Strategy &gt;::visitor</definition>
+        <argsstring>(Geometry2 const &amp;geometry2, GeometryOut &amp;geometry_out, Strategy const &amp;strategy)</argsstring>
+        <name>visitor</name>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <param>
+          <type>GeometryOut &amp;</type>
+          <declname>geometry_out</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="204" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="204" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1075">
+        <label>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; GeometryOut, Strategy &gt;</label>
+        <link refid="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e"/>
+        <childnode refid="1076" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1076">
+        <label>boost::static_visitor&lt; bool &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1077">
+        <label>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; GeometryOut, Strategy &gt;</label>
+        <link refid="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e"/>
+        <childnode refid="1078" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1078">
+        <label>boost::static_visitor&lt; bool &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="199" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="198" bodyend="221"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1a19670d1666700f21945f99d1e319388a" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>m_geometry2</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1a157033139c8be5c876b89dc48e5ee19e" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>m_geometry_out</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1a7114eec26c2e5e3f114c92b7df11e40e" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>m_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1a7627d324e9d13c2129764cc2e9e2b98c" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>operator()</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1intersection_3_01variant_3_01_b_o_o_s_t___v_a_r_ie04259ad23a0eb61da8caf82f0a0c47e_1af3fcfdbe7b2c2308ba97a74c7307f751" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::intersection&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>visitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

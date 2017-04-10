@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::within::winding</compoundname>
+    <includes local="no">point_in_poly_winding.hpp</includes>
+    <innerclass refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1_1counter" prot="private">boost::geometry::strategy::within::winding::counter</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Point</type>
+      </param>
+      <param>
+        <type>typename PointOfSegment</type>
+        <defval>Point</defval>
+      </param>
+      <param>
+        <type>typename SideStrategy</type>
+        <defval>typename <ref refid="structboost_1_1geometry_1_1strategy_1_1side_1_1services_1_1default__strategy" kindref="compound">strategy::side::services::default_strategy</ref> &lt;                                    typename <ref refid="structboost_1_1geometry_1_1cs__tag" kindref="compound">cs_tag</ref>&lt;Point&gt;::type                                &gt;::type</defval>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1ae017def50a4c694b673d622d1b7fa7f7" prot="private" static="no">
+        <type><ref refid="structboost_1_1geometry_1_1select__calculation__type" kindref="compound">select_calculation_type</ref>&lt; Point, PointOfSegment, CalculationType &gt;::type</type>
+        <definition>typedef select_calculation_type&lt; Point, PointOfSegment, CalculationType &gt;::type boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::calculation_type</definition>
+        <argsstring></argsstring>
+        <name>calculation_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="346" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1a5a39a5e8ddd0f332492b6fbac3723d15" prot="public" static="no">
+        <type>Point</type>
+        <definition>typedef Point boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::point_type</definition>
+        <argsstring></argsstring>
+        <name>point_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="399" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1ae199b0a9d8344ad89783515f269eadff" prot="public" static="no">
+        <type>PointOfSegment</type>
+        <definition>typedef PointOfSegment boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::segment_point_type</definition>
+        <argsstring></argsstring>
+        <name>segment_point_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="400" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1a3482eb46256f59a04d9d196d4346ab6f" prot="public" static="no">
+        <type>counter</type>
+        <definition>typedef counter boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::state_type</definition>
+        <argsstring></argsstring>
+        <name>state_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="401" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1a708693c990504b10f87c5db849b73308" prot="private" static="no" mutable="no">
+        <type>SideStrategy</type>
+        <definition>SideStrategy boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::m_side_strategy</definition>
+        <argsstring></argsstring>
+        <name>m_side_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="453" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1aa796875d00faf4750c118b58ff705111" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::check_segment</definition>
+        <argsstring>(Point const &amp;point, PointOfSegment const &amp;seg1, PointOfSegment const &amp;seg2, counter &amp;state, bool &amp;eq1, bool &amp;eq2)</argsstring>
+        <name>check_segment</name>
+        <param>
+          <type>Point const &amp;</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>PointOfSegment const &amp;</type>
+          <declname>seg1</declname>
+        </param>
+        <param>
+          <type>PointOfSegment const &amp;</type>
+          <declname>seg2</declname>
+        </param>
+        <param>
+          <type>counter &amp;</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>eq1</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>eq2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="372" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="372" bodyend="387"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1a2beaed55f469f551ba1953df77b13b0c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::apply</definition>
+        <argsstring>(Point const &amp;point, PointOfSegment const &amp;s1, PointOfSegment const &amp;s2, counter &amp;state) const </argsstring>
+        <name>apply</name>
+        <param>
+          <type>Point const &amp;</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>PointOfSegment const &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>PointOfSegment const &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <param>
+          <type>counter &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="403" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="403" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1abddc23f5f4568308a0753b397950d8a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::winding</definition>
+        <argsstring>()</argsstring>
+        <name>winding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="391" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="391" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1ad8a23abbd3b106e628b8647f51eb3fab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::winding</definition>
+        <argsstring>(SideStrategy const &amp;side_strategy)</argsstring>
+        <name>winding</name>
+        <param>
+          <type>SideStrategy const &amp;</type>
+          <declname>side_strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="394" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="394" bodyend="396"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1abdf63674bf920c9fa5b03d785e4399d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int boost::geometry::strategy::within::winding&lt; Point, PointOfSegment, SideStrategy, CalculationType &gt;::result</definition>
+        <argsstring>(counter const &amp;state)</argsstring>
+        <name>result</name>
+        <param>
+          <type>counter const &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="447" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="447" bodyend="450"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Within detection using winding rule. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Any type fulfilling a Point Concept </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>PointOfSegment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>segment point type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SideStrategy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Side strategy </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CalculationType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>Barend Gehrels </para></simplesect>
+<simplesect kind="note"><para>The implementation is inspired by terralib <ulink url="http://www.terralib.org">http://www.terralib.org</ulink> (LGPL) </para><simplesectsep/><para>but totally revised afterwards, especially for cases on segments </para><simplesectsep/><para>Only dependant on &quot;side&quot;, -&gt; agnostic, suitable for spherical/latlong</para></simplesect>
+ <qbk>
+[heading See also]
+[link geometry.reference.algorithms.within.within_3_with_strategy within (with strategy)]
+</qbk>  </para>    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="340" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="339" bodyend="454"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1a2beaed55f469f551ba1953df77b13b0c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1ae017def50a4c694b673d622d1b7fa7f7" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>calculation_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1aa796875d00faf4750c118b58ff705111" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>check_segment</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1a708693c990504b10f87c5db849b73308" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>m_side_strategy</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1a5a39a5e8ddd0f332492b6fbac3723d15" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>point_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1abdf63674bf920c9fa5b03d785e4399d6" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>result</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1ae199b0a9d8344ad89783515f269eadff" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>segment_point_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1a3482eb46256f59a04d9d196d4346ab6f" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>state_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1abddc23f5f4568308a0753b397950d8a3" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>winding</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1ad8a23abbd3b106e628b8647f51eb3fab" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding</scope><name>winding</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

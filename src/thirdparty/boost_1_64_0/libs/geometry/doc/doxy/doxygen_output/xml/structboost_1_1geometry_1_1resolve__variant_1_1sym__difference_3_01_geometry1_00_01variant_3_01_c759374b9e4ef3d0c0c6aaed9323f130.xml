@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130" kind="struct" prot="public">
+    <compoundname>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::static_visitor&lt;&gt;</basecompoundref>
+    <includes local="no">sym_difference.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Collection</type>
+      </param>
+      <param>
+        <type>typename Strategy</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1a76940f97dec810bd1dc88b6e5f91922b" prot="public" static="no" mutable="no">
+        <type>Geometry1 const &amp;</type>
+        <definition>Geometry1 const&amp; boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Collection, Strategy &gt;::m_geometry1</definition>
+        <argsstring></argsstring>
+        <name>m_geometry1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="430" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1a91c32e2988c776efc52cdb035bf469b7" prot="public" static="no" mutable="no">
+        <type>Collection &amp;</type>
+        <definition>Collection&amp; boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Collection, Strategy &gt;::m_output_collection</definition>
+        <argsstring></argsstring>
+        <name>m_output_collection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="431" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1a5c604e447a33297fe520b6776e594b46" prot="public" static="no" mutable="no">
+        <type>Strategy const &amp;</type>
+        <definition>Strategy const&amp; boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Collection, Strategy &gt;::m_strategy</definition>
+        <argsstring></argsstring>
+        <name>m_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="432" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1ab3ddff4d22bd3910ba77efb949368659" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Collection, Strategy &gt;::operator()</definition>
+        <argsstring>(Geometry2 const &amp;geometry2) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="443" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="443" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1a00421c1f557f9e5e5ce0ff172a427e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Collection, Strategy &gt;::visitor</definition>
+        <argsstring>(Geometry1 const &amp;geometry1, Collection &amp;output_collection, Strategy const &amp;strategy)</argsstring>
+        <name>visitor</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <param>
+          <type>Collection &amp;</type>
+          <declname>output_collection</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="434" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="434" bodyend="440"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1233">
+        <label>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Collection, Strategy &gt;</label>
+        <link refid="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130"/>
+        <childnode refid="1234" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1234">
+        <label>boost::static_visitor&lt;&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1235">
+        <label>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Collection, Strategy &gt;</label>
+        <link refid="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130"/>
+        <childnode refid="1236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1236">
+        <label>boost::static_visitor&lt;&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="429" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="428" bodyend="451"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1a76940f97dec810bd1dc88b6e5f91922b" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_geometry1</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1a91c32e2988c776efc52cdb035bf469b7" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_output_collection</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1a5c604e447a33297fe520b6776e594b46" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1ab3ddff4d22bd3910ba77efb949368659" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>operator()</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1sym__difference_3_01_geometry1_00_01variant_3_01_c759374b9e4ef3d0c0c6aaed9323f130_1a00421c1f557f9e5e5ce0ff172a427e5e" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::sym_difference&lt; Geometry1, variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>visitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="flatten__iterator_8hpp" kind="file">
+    <compoundname>flatten_iterator.hpp</compoundname>
+    <includes local="no">boost/mpl/assert.hpp</includes>
+    <includes local="no">boost/type_traits/is_convertible.hpp</includes>
+    <includes local="no">boost/iterator.hpp</includes>
+    <includes local="no">boost/iterator/iterator_facade.hpp</includes>
+    <includes local="no">boost/iterator/iterator_categories.hpp</includes>
+    <includes refid="assert_8hpp" local="no">boost/geometry/core/assert.hpp</includes>
+    <incdepgraph>
+      <node id="62719">
+        <label>boost/iterator/iterator_facade.hpp</label>
+      </node>
+      <node id="62715">
+        <label>/home/ubuntu/boost/boost/geometry/iterators/flatten_iterator.hpp</label>
+        <link refid="flatten_iterator.hpp"/>
+        <childnode refid="62716" relation="include">
+        </childnode>
+        <childnode refid="62717" relation="include">
+        </childnode>
+        <childnode refid="62718" relation="include">
+        </childnode>
+        <childnode refid="62719" relation="include">
+        </childnode>
+        <childnode refid="62720" relation="include">
+        </childnode>
+        <childnode refid="62721" relation="include">
+        </childnode>
+      </node>
+      <node id="62716">
+        <label>boost/mpl/assert.hpp</label>
+      </node>
+      <node id="62722">
+        <label>boost/assert.hpp</label>
+      </node>
+      <node id="62721">
+        <label>boost/geometry/core/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="62722" relation="include">
+        </childnode>
+      </node>
+      <node id="62717">
+        <label>boost/type_traits/is_convertible.hpp</label>
+      </node>
+      <node id="62720">
+        <label>boost/iterator/iterator_categories.hpp</label>
+      </node>
+      <node id="62718">
+        <label>boost/iterator.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classboost_1_1geometry_1_1flatten__iterator" prot="public">boost::geometry::flatten_iterator</innerclass>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/iterators/flatten_iterator.hpp"/>
+  </compounddef>
+</doxygen>

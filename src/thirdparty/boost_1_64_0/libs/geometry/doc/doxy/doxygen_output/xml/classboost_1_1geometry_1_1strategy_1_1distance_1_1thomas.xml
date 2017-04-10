@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::distance::thomas</compoundname>
+    <basecompoundref refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic" prot="public" virt="non-virtual">boost::geometry::strategy::distance::geographic&lt; strategy::thomas, Spheroid, CalculationType &gt;</basecompoundref>
+    <includes local="no">distance_thomas.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Spheroid</type>
+        <defval><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt;double&gt;</defval>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas_1a41228dddfd2dbf03b3822bf1da128e20" prot="private" static="no">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic" kindref="compound">strategy::distance::geographic</ref>&lt; <ref refid="structboost_1_1geometry_1_1strategy_1_1thomas" kindref="compound">strategy::thomas</ref>, Spheroid, CalculationType &gt;</type>
+        <definition>typedef strategy::distance::geographic&lt; strategy::thomas, Spheroid, CalculationType &gt; boost::geometry::strategy::distance::thomas&lt; Spheroid, CalculationType &gt;::base_type</definition>
+        <argsstring></argsstring>
+        <name>base_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_thomas.hpp" line="54" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_thomas.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas_1aea986f621e758448afddd9a7bc43af6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::distance::thomas&lt; Spheroid, CalculationType &gt;::thomas</definition>
+        <argsstring>()</argsstring>
+        <name>thomas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_thomas.hpp" line="57" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_thomas.hpp" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas_1a0833b9e1871757c9e73d3b9df2218869" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::distance::thomas&lt; Spheroid, CalculationType &gt;::thomas</definition>
+        <argsstring>(Spheroid const &amp;spheroid)</argsstring>
+        <name>thomas</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>spheroid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_thomas.hpp" line="61" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_thomas.hpp" bodystart="61" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The solution of the inverse problem of geodesics on latlong coordinates, Forsyth-Andoyer-Lambert type approximation with second order terms. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Spheroid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reference spheroid model </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CalculationType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>See<itemizedlist>
+<listitem><para>Technical Report: PAUL D. THOMAS, MATHEMATICAL MODELS FOR NAVIGATION SYSTEMS, 1965 <ulink url="http://www.dtic.mil/docs/citations/AD0627893">http://www.dtic.mil/docs/citations/AD0627893</ulink></para></listitem><listitem><para>Technical Report: PAUL D. THOMAS, SPHEROIDAL GEODESICS, REFERENCE SYSTEMS, AND LOCAL GEOMETRY, 1970 <ulink url="http://www.dtic.mil/docs/citations/AD703541">http://www.dtic.mil/docs/citations/AD703541</ulink> </para></listitem></itemizedlist>
+</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1639">
+        <label>boost::geometry::strategy::distance::thomas&lt; Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas"/>
+        <childnode refid="1640" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1640">
+        <label>boost::geometry::strategy::distance::geographic&lt; strategy::thomas, Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1641">
+        <label>boost::geometry::strategy::distance::thomas&lt; Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas"/>
+        <childnode refid="1642" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1642">
+        <label>boost::geometry::strategy::distance::geographic&lt; strategy::thomas, Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_thomas.hpp" line="50" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/distance_thomas.hpp" bodystart="45" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1af2b57fff6b1eef154908b0c627c479f4" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::thomas</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas_1a41228dddfd2dbf03b3822bf1da128e20" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::distance::thomas</scope><name>base_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a7cf18ffbd0682a2a1787fff58c688ebb" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::thomas</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a2e78bc84d9b56c3241e93367d96e9074" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::thomas</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1ac7b71881650037933f8c1fb380b7a09f" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::thomas</scope><name>model</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1geographic_1a960c7cfc79a0620cb61404442482f4c4" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::thomas</scope><name>model_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas_1aea986f621e758448afddd9a7bc43af6c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::thomas</scope><name>thomas</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1thomas_1a0833b9e1871757c9e73d3b9df2218869" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::thomas</scope><name>thomas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

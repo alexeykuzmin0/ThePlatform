@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</compoundname>
+    <basecompoundref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy" prot="public" virt="non-virtual">boost::geometry::strategy::intersection::spherical_segments_calc_policy</basecompoundref>
+    <includes local="no">intersection_elliptic.hpp</includes>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1_1plane" prot="public">boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy::plane</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Spheroid</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1aff6bca728a1756a2ca1d12f983168d11" prot="private" static="no" mutable="no">
+        <type>Spheroid</type>
+        <definition>Spheroid boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;::m_spheroid</definition>
+        <argsstring></argsstring>
+        <name>m_spheroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" line="116" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1a499b2ccdefd24d515746a0bbd8af5a05" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point</type>
+          </param>
+          <param>
+            <type>typename Point3d</type>
+          </param>
+        </templateparamlist>
+        <type>Point</type>
+        <definition>Point boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;::from_cart3d</definition>
+        <argsstring>(Point3d const &amp;point_3d) const </argsstring>
+        <name>from_cart3d</name>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>point_3d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" line="36" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1a8e04299a67443c4f7bc8dfd1cd490be5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point3d</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1_1plane" kindref="compound">plane</ref>&lt; Point3d &gt;</type>
+        <definition>plane&lt;Point3d&gt; boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;::get_plane</definition>
+        <argsstring>(Point3d const &amp;p1, Point3d const &amp;p2) const </argsstring>
+        <name>get_plane</name>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" line="91" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1a6171d69bb665e28265431bd5a28884fb" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;::great_elliptic_segments_calc_policy</definition>
+        <argsstring>(Spheroid const &amp;spheroid=Spheroid())</argsstring>
+        <name>great_elliptic_segments_calc_policy</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>spheroid</declname>
+          <defval>Spheroid()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" line="31" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1af2b26674bae579c65b3c6e5d78448a0f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point3d</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;::intersection_points</definition>
+        <argsstring>(plane&lt; Point3d &gt; const &amp;plane1, plane&lt; Point3d &gt; const &amp;plane2, Point3d &amp;ip1, Point3d &amp;ip2) const </argsstring>
+        <name>intersection_points</name>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1_1plane" kindref="compound">plane</ref>&lt; Point3d &gt; const &amp;</type>
+          <declname>plane1</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1_1plane" kindref="compound">plane</ref>&lt; Point3d &gt; const &amp;</type>
+          <declname>plane2</declname>
+        </param>
+        <param>
+          <type>Point3d &amp;</type>
+          <declname>ip1</declname>
+        </param>
+        <param>
+          <type>Point3d &amp;</type>
+          <declname>ip2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" line="97" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" bodystart="97" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1a12223bc43b4dc386883352021f3ed7e2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point3d</type>
+          </param>
+          <param>
+            <type>typename Point</type>
+          </param>
+        </templateparamlist>
+        <type>Point3d</type>
+        <definition>Point3d boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;::to_cart3d</definition>
+        <argsstring>(Point const &amp;point) const </argsstring>
+        <name>to_cart3d</name>
+        <param>
+          <type>Point const &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" line="42" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1700">
+        <label>boost::geometry::strategy::intersection::spherical_segments_calc_policy</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy"/>
+      </node>
+      <node id="1699">
+        <label>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy"/>
+        <childnode refid="1700" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1702">
+        <label>boost::geometry::strategy::intersection::spherical_segments_calc_policy</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy"/>
+      </node>
+      <node id="1701">
+        <label>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy&lt; Spheroid &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy"/>
+        <childnode refid="1702" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" line="30" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection_elliptic.hpp" bodystart="28" bodyend="117"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1a499b2ccdefd24d515746a0bbd8af5a05" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>from_cart3d</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1abd23fe4f5ab0510b49dd9c14e78fb639" prot="public" virt="non-virtual" ambiguityscope="boost::geometry::strategy::intersection::spherical_segments_calc_policy::"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>from_cart3d</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1a8e04299a67443c4f7bc8dfd1cd490be5" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>get_plane</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1ac128d2d5898c17f6978b6528d0e91ffe" prot="public" virt="non-virtual" ambiguityscope="boost::geometry::strategy::intersection::spherical_segments_calc_policy::"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>get_plane</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1a6171d69bb665e28265431bd5a28884fb" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>great_elliptic_segments_calc_policy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1af2b26674bae579c65b3c6e5d78448a0f" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>intersection_points</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1a154ffa9eb53479ff364dd9437caa61c3" prot="public" virt="non-virtual" ambiguityscope="boost::geometry::strategy::intersection::spherical_segments_calc_policy::"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>intersection_points</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1aff6bca728a1756a2ca1d12f983168d11" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>m_spheroid</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1great__elliptic__segments__calc__policy_1a12223bc43b4dc386883352021f3ed7e2" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>to_cart3d</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1a6f36d68cc711d9a106b1a6e92f0a21b2" prot="public" virt="non-virtual" ambiguityscope="boost::geometry::strategy::intersection::spherical_segments_calc_policy::"><scope>boost::geometry::strategy::intersection::great_elliptic_segments_calc_policy</scope><name>to_cart3d</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

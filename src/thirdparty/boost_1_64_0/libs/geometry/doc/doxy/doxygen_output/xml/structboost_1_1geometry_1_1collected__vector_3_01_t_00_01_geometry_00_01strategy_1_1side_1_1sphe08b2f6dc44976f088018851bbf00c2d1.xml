@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1" kind="struct" prot="public">
+    <compoundname>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;</compoundname>
+    <basecompoundref refid="structboost_1_1geometry_1_1collected__vector" prot="public" virt="non-virtual">boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_equatorial_tag &gt;</basecompoundref>
+    <includes local="no">collect_vectors.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename Geometry</type>
+      </param>
+      <param>
+        <type>typename CT</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1_1ad18d96226d9efd80b1986ebd0eb95b65" prot="public" static="no">
+        <type><ref refid="structboost_1_1geometry_1_1collected__vector" kindref="compound">collected_vector</ref>&lt; T, Geometry, <ref refid="classboost_1_1geometry_1_1strategy_1_1side_1_1spherical__side__formula" kindref="compound">strategy::side::spherical_side_formula</ref>&lt; CT &gt;, <ref refid="structboost_1_1geometry_1_1spherical__equatorial__tag" kindref="compound">spherical_equatorial_tag</ref> &gt;</type>
+        <definition>typedef collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt;CT&gt;, spherical_equatorial_tag &gt; boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;::base_type</definition>
+        <argsstring></argsstring>
+        <name>base_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="280" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1_1ac622398579ae707f8e20ae4fca400a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;::collected_vector</definition>
+        <argsstring>()</argsstring>
+        <name>collected_vector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="282" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="282" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1_1a7d8fa1ba638fee4fdd398852e187f7d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;::collected_vector</definition>
+        <argsstring>(Point const &amp;p1, Point const &amp;p2)</argsstring>
+        <name>collected_vector</name>
+        <param>
+          <type>Point const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Point const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="285" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="285" bodyend="287"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1_1aa6a258de75109054f0d979e04916ded0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point</type>
+          </param>
+        </templateparamlist>
+        <type>Point</type>
+        <definition>Point boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;::polar_to_equatorial</definition>
+        <argsstring>(Point const &amp;p)</argsstring>
+        <name>polar_to_equatorial</name>
+        <param>
+          <type>Point const &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="291" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="291" bodyend="306"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="53">
+        <label>boost::geometry::nyi::not_implemented_tag</label>
+        <link refid="structboost_1_1geometry_1_1nyi_1_1not__implemented__tag"/>
+      </node>
+      <node id="51">
+        <label>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;</label>
+        <link refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_equatorial_tag &gt;</label>
+        <link refid="structboost_1_1geometry_1_1collected__vector"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="56">
+        <label>boost::geometry::nyi::not_implemented_tag</label>
+        <link refid="structboost_1_1geometry_1_1nyi_1_1not__implemented__tag"/>
+      </node>
+      <node id="54">
+        <label>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;</label>
+        <link refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_equatorial_tag &gt;</label>
+        <link refid="structboost_1_1geometry_1_1collected__vector"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="274" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="262" bodyend="307"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1_1ad18d96226d9efd80b1986ebd0eb95b65" prot="public" virt="non-virtual"><scope>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;</scope><name>base_type</name></member>
+      <member refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1_1ac622398579ae707f8e20ae4fca400a89" prot="public" virt="non-virtual"><scope>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;</scope><name>collected_vector</name></member>
+      <member refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1_1a7d8fa1ba638fee4fdd398852e187f7d2" prot="public" virt="non-virtual"><scope>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;</scope><name>collected_vector</name></member>
+      <member refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01strategy_1_1side_1_1sphe08b2f6dc44976f088018851bbf00c2d1_1aa6a258de75109054f0d979e04916ded0" prot="private" virt="non-virtual"><scope>boost::geometry::collected_vector&lt; T, Geometry, strategy::side::spherical_side_formula&lt; CT &gt;, spherical_polar_tag &gt;</scope><name>polar_to_equatorial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

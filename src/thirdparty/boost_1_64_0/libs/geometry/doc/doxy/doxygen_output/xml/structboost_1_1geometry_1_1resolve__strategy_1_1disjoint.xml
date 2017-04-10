@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1resolve__strategy_1_1disjoint" kind="struct" prot="public">
+    <compoundname>boost::geometry::resolve_strategy::disjoint</compoundname>
+    <includes local="no">interface.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__strategy_1_1disjoint_1a53e5a30374d64bd6dee22691d6fbe2de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+          <param>
+            <type>typename Strategy</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::resolve_strategy::disjoint::apply</definition>
+        <argsstring>(Geometry1 const &amp;geometry1, Geometry2 const &amp;geometry2, Strategy const &amp;strategy)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" line="47" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__strategy_1_1disjoint_1a2dd370149b1f47b62bfa0a1e35f9bbf0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::resolve_strategy::disjoint::apply</definition>
+        <argsstring>(Geometry1 const &amp;geometry1, Geometry2 const &amp;geometry2, default_strategy)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Geometry1 const &amp;</type>
+          <declname>geometry1</declname>
+        </param>
+        <param>
+          <type>Geometry2 const &amp;</type>
+          <declname>geometry2</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1default__strategy" kindref="compound">default_strategy</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" line="58" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" bodystart="58" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" line="45" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" bodystart="44" bodyend="72"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1resolve__strategy_1_1disjoint_1a53e5a30374d64bd6dee22691d6fbe2de" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_strategy::disjoint</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__strategy_1_1disjoint_1a2dd370149b1f47b62bfa0a1e35f9bbf0" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_strategy::disjoint</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::cartesian_segments</compoundname>
+    <includes local="no">intersection.hpp</includes>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1area__strategy" prot="public">boost::geometry::strategy::intersection::cartesian_segments::area_strategy</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1distance__strategy" prot="public">boost::geometry::strategy::intersection::cartesian_segments::distance_strategy</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1point__in__geometry__strategy" prot="public">boost::geometry::strategy::intersection::cartesian_segments::point_in_geometry_strategy</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1segment__intersection__info" prot="public">boost::geometry::strategy::intersection::cartesian_segments::segment_intersection_info</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1ac369bb4b225c9c4fcd4157aec911ff14" prot="public" static="no">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1side_1_1side__by__triangle" kindref="compound">side::side_by_triangle</ref>&lt; CalculationType &gt;</type>
+        <definition>typedef side::side_by_triangle&lt;CalculationType&gt; boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::side_strategy_type</definition>
+        <argsstring></argsstring>
+        <name>side_strategy_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="73" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a95383826447eb64bb3a2162ce14508d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename RobustPolicy</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>static Policy::return_type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::apply</definition>
+        <argsstring>(Segment1 const &amp;a, Segment2 const &amp;b, Policy const &amp;policy, RobustPolicy const &amp;robust_policy)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Segment1 const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>Policy const &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>RobustPolicy const &amp;</type>
+          <declname>robust_policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="222" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="222" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a9c25b99fbb147822cb6c901f5510b70a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename RobustPolicy</type>
+          </param>
+          <param>
+            <type>typename RobustPoint1</type>
+          </param>
+          <param>
+            <type>typename RobustPoint2</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>static Policy::return_type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::apply</definition>
+        <argsstring>(Segment1 const &amp;a, Segment2 const &amp;b, Policy const &amp;, RobustPolicy const &amp;, RobustPoint1 const &amp;robust_a1, RobustPoint1 const &amp;robust_a2, RobustPoint2 const &amp;robust_b1, RobustPoint2 const &amp;robust_b2)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Segment1 const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>Policy const &amp;</type>
+        </param>
+        <param>
+          <type>RobustPolicy const &amp;</type>
+        </param>
+        <param>
+          <type>RobustPoint1 const &amp;</type>
+          <declname>robust_a1</declname>
+        </param>
+        <param>
+          <type>RobustPoint1 const &amp;</type>
+          <declname>robust_a2</declname>
+        </param>
+        <param>
+          <type>RobustPoint2 const &amp;</type>
+          <declname>robust_b1</declname>
+        </param>
+        <param>
+          <type>RobustPoint2 const &amp;</type>
+          <declname>robust_b2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="261" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="261" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a37eb5f989e0e2d815f3b32077c82284f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename D</type>
+          </param>
+          <param>
+            <type>typename W</type>
+          </param>
+          <param>
+            <type>typename ResultType</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::cramers_rule</definition>
+        <argsstring>(D const &amp;dx_a, D const &amp;dy_a, D const &amp;dx_b, D const &amp;dy_b, W const &amp;wx, W const &amp;wy, ResultType &amp;d, ResultType &amp;da)</argsstring>
+        <name>cramers_rule</name>
+        <param>
+          <type>D const &amp;</type>
+          <declname>dx_a</declname>
+        </param>
+        <param>
+          <type>D const &amp;</type>
+          <declname>dy_a</declname>
+        </param>
+        <param>
+          <type>D const &amp;</type>
+          <declname>dx_b</declname>
+        </param>
+        <param>
+          <type>D const &amp;</type>
+          <declname>dy_b</declname>
+        </param>
+        <param>
+          <type>W const &amp;</type>
+          <declname>wx</declname>
+        </param>
+        <param>
+          <type>W const &amp;</type>
+          <declname>wy</declname>
+        </param>
+        <param>
+          <type>ResultType &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>ResultType &amp;</type>
+          <declname>da</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="200" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="200" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a18ed8784fabf995d8f4896bdea51a5f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1area__strategy" kindref="compound">area_strategy</ref>&lt; Geometry &gt;::type</type>
+        <definition>static area_strategy&lt;Geometry&gt;::type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::get_area_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_area_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="114" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a2374c8b98f61c58008b2110a4626ed0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1distance__strategy" kindref="compound">distance_strategy</ref>&lt; Geometry &gt;::type</type>
+        <definition>static distance_strategy&lt;Geometry&gt;::type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::get_distance_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_distance_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="130" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="130" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a740265e09a83fe2f3d45c27ae8bb0cc0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1_1point__in__geometry__strategy" kindref="compound">point_in_geometry_strategy</ref>&lt; Geometry1, Geometry2 &gt;::type</type>
+        <definition>static point_in_geometry_strategy&lt;Geometry1, Geometry2&gt;::type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::get_point_in_geometry_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_point_in_geometry_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="94" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="94" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a3f5c562c384934c9a152ff5f51abbec1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1ac369bb4b225c9c4fcd4157aec911ff14" kindref="member">side_strategy_type</ref></type>
+        <definition>static side_strategy_type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::get_side_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_side_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="75" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1af517b435e2127c14c54c7769934d8569" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename RobustCoordinateType</type>
+          </param>
+        </templateparamlist>
+        <type>std::pair&lt; bool, bool &gt;</type>
+        <definition>static std::pair&lt;bool, bool&gt; boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::is_x_more_significant</definition>
+        <argsstring>(RobustCoordinateType const &amp;abs_robust_dx_a, RobustCoordinateType const &amp;abs_robust_dy_a, RobustCoordinateType const &amp;abs_robust_dx_b, RobustCoordinateType const &amp;abs_robust_dy_b, bool const a_is_point, bool const b_is_point)</argsstring>
+        <name>is_x_more_significant</name>
+        <param>
+          <type>RobustCoordinateType const &amp;</type>
+          <declname>abs_robust_dx_a</declname>
+        </param>
+        <param>
+          <type>RobustCoordinateType const &amp;</type>
+          <declname>abs_robust_dy_a</declname>
+        </param>
+        <param>
+          <type>RobustCoordinateType const &amp;</type>
+          <declname>abs_robust_dx_b</declname>
+        </param>
+        <param>
+          <type>RobustCoordinateType const &amp;</type>
+          <declname>abs_robust_dy_b</declname>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>a_is_point</declname>
+        </param>
+        <param>
+          <type>bool const</type>
+          <declname>b_is_point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="404" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="404" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a929298e56d30efaf1c2f7472ed56bdfd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ProjCoord1</type>
+          </param>
+          <param>
+            <type>typename ProjCoord2</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>static int boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::position_value</definition>
+        <argsstring>(ProjCoord1 const &amp;ca1, ProjCoord2 const &amp;cb1, ProjCoord2 const &amp;cb2)</argsstring>
+        <name>position_value</name>
+        <param>
+          <type>ProjCoord1 const &amp;</type>
+          <declname>ca1</declname>
+        </param>
+        <param>
+          <type>ProjCoord2 const &amp;</type>
+          <declname>cb1</declname>
+        </param>
+        <param>
+          <type>ProjCoord2 const &amp;</type>
+          <declname>cb2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="603" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="603" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1aea958c3b5466eb4477598f65be7c1300" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>std::size_t</type>
+            <declname>Dimension</declname>
+            <defname>Dimension</defname>
+          </param>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename RatioType</type>
+          </param>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+          <param>
+            <type>typename RobustPoint1</type>
+          </param>
+          <param>
+            <type>typename RobustPoint2</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>static Policy::return_type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::relate_collinear</definition>
+        <argsstring>(Segment1 const &amp;a, Segment2 const &amp;b, RobustPoint1 const &amp;robust_a1, RobustPoint1 const &amp;robust_a2, RobustPoint2 const &amp;robust_b1, RobustPoint2 const &amp;robust_b2, bool a_is_point, bool b_is_point)</argsstring>
+        <name>relate_collinear</name>
+        <param>
+          <type>Segment1 const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>RobustPoint1 const &amp;</type>
+          <declname>robust_a1</declname>
+        </param>
+        <param>
+          <type>RobustPoint1 const &amp;</type>
+          <declname>robust_a2</declname>
+        </param>
+        <param>
+          <type>RobustPoint2 const &amp;</type>
+          <declname>robust_b1</declname>
+        </param>
+        <param>
+          <type>RobustPoint2 const &amp;</type>
+          <declname>robust_b2</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>a_is_point</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b_is_point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="445" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="445" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1ad0884938f072aa00c95e4cecacee9946" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename RatioType</type>
+          </param>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+          <param>
+            <type>typename RobustType1</type>
+          </param>
+          <param>
+            <type>typename RobustType2</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>static Policy::return_type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::relate_collinear</definition>
+        <argsstring>(Segment1 const &amp;a, Segment2 const &amp;b, RobustType1 oa_1, RobustType1 oa_2, RobustType2 ob_1, RobustType2 ob_2)</argsstring>
+        <name>relate_collinear</name>
+        <param>
+          <type>Segment1 const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>RobustType1</type>
+          <declname>oa_1</declname>
+        </param>
+        <param>
+          <type>RobustType1</type>
+          <declname>oa_2</declname>
+        </param>
+        <param>
+          <type>RobustType2</type>
+          <declname>ob_1</declname>
+        </param>
+        <param>
+          <type>RobustType2</type>
+          <declname>ob_2</declname>
+        </param>
+        <briefdescription>
+<para>Relate segments known collinear. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="483" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="483" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a1133c7f9343f1e786c3f4eb39efbc39f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename RatioType</type>
+          </param>
+          <param>
+            <type>typename DegenerateSegment</type>
+          </param>
+          <param>
+            <type>typename RobustType1</type>
+          </param>
+          <param>
+            <type>typename RobustType2</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>static Policy::return_type boost::geometry::strategy::intersection::cartesian_segments&lt; CalculationType &gt;::relate_one_degenerate</definition>
+        <argsstring>(DegenerateSegment const &amp;degenerate_segment, RobustType1 d, RobustType2 s1, RobustType2 s2, bool a_degenerate)</argsstring>
+        <name>relate_one_degenerate</name>
+        <param>
+          <type>DegenerateSegment const &amp;</type>
+          <declname>degenerate_segment</declname>
+        </param>
+        <param>
+          <type>RobustType1</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>RobustType2</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>RobustType2</type>
+          <declname>s2</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>a_degenerate</declname>
+        </param>
+        <briefdescription>
+<para>Relate segments where one is degenerate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="584" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="584" bodyend="600"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ulink url="http://mathworld.wolfram.com/Line-LineIntersection.html">http://mathworld.wolfram.com/Line-LineIntersection.html</ulink> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" line="72" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/intersection.hpp" bodystart="71" bodyend="619"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a95383826447eb64bb3a2162ce14508d9" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a9c25b99fbb147822cb6c901f5510b70a" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a37eb5f989e0e2d815f3b32077c82284f" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>cramers_rule</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a18ed8784fabf995d8f4896bdea51a5f5" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>get_area_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a2374c8b98f61c58008b2110a4626ed0c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>get_distance_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a740265e09a83fe2f3d45c27ae8bb0cc0" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>get_point_in_geometry_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a3f5c562c384934c9a152ff5f51abbec1" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>get_side_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1af517b435e2127c14c54c7769934d8569" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>is_x_more_significant</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a929298e56d30efaf1c2f7472ed56bdfd" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>position_value</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1aea958c3b5466eb4477598f65be7c1300" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>relate_collinear</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1ad0884938f072aa00c95e4cecacee9946" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>relate_collinear</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1a1133c7f9343f1e786c3f4eb39efbc39f" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>relate_one_degenerate</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1cartesian__segments_1ac369bb4b225c9c4fcd4157aec911ff14" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::cartesian_segments</scope><name>side_strategy_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

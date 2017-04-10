@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1resolve__variant_1_1envelope" kind="struct" prot="public">
+    <compoundname>boost::geometry::resolve_variant::envelope</compoundname>
+    <includes local="no">interface.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Geometry</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1envelope_1ace043f8274c79c2bc282d7a311107a67" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Box</type>
+          </param>
+          <param>
+            <type>typename Strategy</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void boost::geometry::resolve_variant::envelope&lt; Geometry &gt;::apply</definition>
+        <argsstring>(Geometry const &amp;geometry, Box &amp;box, Strategy const &amp;strategy)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Geometry const &amp;</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>Box &amp;</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="82" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="82" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="80" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="79" bodyend="91"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1resolve__variant_1_1envelope_1ace043f8274c79c2bc282d7a311107a67" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::envelope</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

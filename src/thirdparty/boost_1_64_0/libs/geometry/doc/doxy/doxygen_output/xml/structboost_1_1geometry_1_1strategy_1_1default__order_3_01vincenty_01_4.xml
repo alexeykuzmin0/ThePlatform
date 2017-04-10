@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1default__order_3_01vincenty_01_4" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::default_order&lt; vincenty &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::mpl::integral_c&lt; unsigned int, 4 &gt;</basecompoundref>
+    <includes local="no">parameters.hpp</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1531">
+        <label>boost::geometry::strategy::default_order&lt; vincenty &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1default__order_3_01vincenty_01_4"/>
+        <childnode refid="1532" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1532">
+        <label>boost::mpl::integral_c&lt; unsigned int, 4 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1533">
+        <label>boost::geometry::strategy::default_order&lt; vincenty &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1default__order_3_01vincenty_01_4"/>
+        <childnode refid="1534" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1534">
+        <label>boost::mpl::integral_c&lt; unsigned int, 4 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" line="112" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" bodystart="110" bodyend="112"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

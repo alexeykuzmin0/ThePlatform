@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums" kind="struct" prot="protected">
+    <compoundname>boost::geometry::strategy::area::geographic::area_sums</compoundname>
+    <includes local="no">area.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1a967dfced99057fa8834db87f84b56a79" prot="public" static="no" mutable="no">
+        <type>CT</type>
+        <definition>CT boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::area_sums::m_correction_sum</definition>
+        <argsstring></argsstring>
+        <name>m_correction_sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="104" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1a8198d45644aa0cd9fe96b0e7d02b191f" prot="public" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::area_sums::m_crosses_prime_meridian</definition>
+        <argsstring></argsstring>
+        <name>m_crosses_prime_meridian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="107" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1acce835eedf7ddf2c6c0d35be6e0a88dc" prot="public" static="no" mutable="no">
+        <type>CT</type>
+        <definition>CT boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::area_sums::m_excess_sum</definition>
+        <argsstring></argsstring>
+        <name>m_excess_sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="103" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1a2ff98157f9add474673126c3d1eb36ed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>CT</type>
+        <definition>CT boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::area_sums::area</definition>
+        <argsstring>(spheroid_constants spheroid_const) const </argsstring>
+        <name>area</name>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1spheroid__constants" kindref="compound">spheroid_constants</ref></type>
+          <declname>spheroid_const</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="114" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="114" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1aed3b0a9ce71c1d4bdf8aec81b7d02349" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::area_sums::area_sums</definition>
+        <argsstring>()</argsstring>
+        <name>area_sums</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="109" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="109" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="102" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="101" bodyend="146"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1a2ff98157f9add474673126c3d1eb36ed" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic::area_sums</scope><name>area</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1aed3b0a9ce71c1d4bdf8aec81b7d02349" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic::area_sums</scope><name>area_sums</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1a967dfced99057fa8834db87f84b56a79" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic::area_sums</scope><name>m_correction_sum</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1a8198d45644aa0cd9fe96b0e7d02b191f" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic::area_sums</scope><name>m_crosses_prime_meridian</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums_1acce835eedf7ddf2c6c0d35be6e0a88dc" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic::area_sums</scope><name>m_excess_sum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

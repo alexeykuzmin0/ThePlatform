@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::disjoint::segment_box</compoundname>
+    <includes local="no">disjoint_segment_box.hpp</includes>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1_1point__in__geometry__strategy" prot="public">boost::geometry::strategy::disjoint::segment_box::point_in_geometry_strategy</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1a2632c88e2d2bb6b4152f9c1a6b7e10b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Segment</type>
+          </param>
+          <param>
+            <type>typename Box</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::strategy::disjoint::segment_box::apply</definition>
+        <argsstring>(Segment const &amp;segment, Box const &amp;box)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Segment const &amp;</type>
+          <declname>segment</declname>
+        </param>
+        <param>
+          <type>Box const &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" line="267" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" bodystart="267" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1af14e4912928e7e8fbb183798a7d194d5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Segment</type>
+          </param>
+          <param>
+            <type>typename Box</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1_1point__in__geometry__strategy" kindref="compound">point_in_geometry_strategy</ref>&lt; Segment, Box &gt;::type</type>
+        <definition>static point_in_geometry_strategy&lt;Segment, Box&gt;::type boost::geometry::strategy::disjoint::segment_box::get_point_in_geometry_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_point_in_geometry_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" line="259" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" bodystart="259" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" line="247" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" bodystart="246" bodyend="287"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1a2632c88e2d2bb6b4152f9c1a6b7e10b2" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::disjoint::segment_box</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1af14e4912928e7e8fbb183798a7d194d5" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::disjoint::segment_box</scope><name>get_point_in_geometry_strategy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

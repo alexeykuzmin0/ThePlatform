@@ -1,0 +1,863 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::geographic_segments</compoundname>
+    <includes local="no">intersection.hpp</includes>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1_1area__strategy" prot="public">boost::geometry::strategy::intersection::geographic_segments::area_strategy</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1_1distance__strategy" prot="public">boost::geometry::strategy::intersection::geographic_segments::distance_strategy</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1_1point__in__geometry__strategy" prot="public">boost::geometry::strategy::intersection::geographic_segments::point_in_geometry_strategy</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1_1segment__intersection__info" prot="public">boost::geometry::strategy::intersection::geographic_segments::segment_intersection_info</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename FormulaPolicy</type>
+        <defval><ref refid="structboost_1_1geometry_1_1strategy_1_1andoyer" kindref="compound">strategy::andoyer</ref></defval>
+      </param>
+      <param>
+        <type>unsigned int</type>
+        <declname>Order</declname>
+        <defname>Order</defname>
+        <defval><ref refid="structboost_1_1geometry_1_1strategy_1_1default__order" kindref="compound">strategy::default_order</ref>&lt;FormulaPolicy&gt;::value</defval>
+      </param>
+      <param>
+        <type>typename Spheroid</type>
+        <defval><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt;double&gt;</defval>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5" prot="public" static="no">
+        <name>intersection_point_flag</name>
+        <enumvalue id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5ab7424a85ed829a4a784727f136a1a30c" prot="public">
+          <name>ipi_inters</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5a1ff681b069135b5e6c2894c812b15e70" prot="public">
+          <name>ipi_at_a1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5a1e8bbbc347815fca35bfb7fc5a921ceb" prot="public">
+          <name>ipi_at_a2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5a1eae01eaf5894b6ac4c662351f8b7981" prot="public">
+          <name>ipi_at_b1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5a4fbd6469ef8dade1c12fd9b9bea7a163" prot="public">
+          <name>ipi_at_b2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="138" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1af4ffbece9cc5a15c6ee9aabe5b55fe32" prot="public" static="no">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic" kindref="compound">side::geographic</ref>&lt; FormulaPolicy, Spheroid, CalculationType &gt;</type>
+        <definition>typedef side::geographic&lt; FormulaPolicy, Spheroid, CalculationType &gt; boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::side_strategy_type</definition>
+        <argsstring></argsstring>
+        <name>side_strategy_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="70" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1af98c9b1f2ab366b659e8dd5888e674ca" prot="private" static="no" mutable="no">
+        <type>Spheroid</type>
+        <definition>Spheroid boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::m_spheroid</definition>
+        <argsstring></argsstring>
+        <name>m_spheroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="888" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="888" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a26561e7599cfa8c7f9bf752b55b8b68c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename RobustPolicy</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>Policy::return_type boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::apply</definition>
+        <argsstring>(Segment1 const &amp;a, Segment2 const &amp;b, Policy const &amp;policy, RobustPolicy const &amp;robust_policy) const </argsstring>
+        <name>apply</name>
+        <param>
+          <type>Segment1 const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>Policy const &amp;</type>
+          <declname>policy</declname>
+        </param>
+        <param>
+          <type>RobustPolicy const &amp;</type>
+          <declname>robust_policy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="215" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="215" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a38f69a9199fce9c973cdaaa88f8bc428" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename RobustPolicy</type>
+          </param>
+          <param>
+            <type>typename Point1</type>
+          </param>
+          <param>
+            <type>typename Point2</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>Policy::return_type boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::apply</definition>
+        <argsstring>(Segment1 const &amp;a, Segment2 const &amp;b, Policy const &amp;, RobustPolicy const &amp;, Point1 a1, Point1 a2, Point2 b1, Point2 b2) const </argsstring>
+        <name>apply</name>
+        <param>
+          <type>Segment1 const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>Policy const &amp;</type>
+        </param>
+        <param>
+          <type>RobustPolicy const &amp;</type>
+        </param>
+        <param>
+          <type>Point1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>Point1</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>Point2</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>Point2</type>
+          <declname>b2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="242" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="242" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a76e8f1759b738d8bbe302c15888522da" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::geographic_segments</definition>
+        <argsstring>(Spheroid const &amp;spheroid=Spheroid())</argsstring>
+        <name>geographic_segments</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>spheroid</declname>
+          <defval>Spheroid()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="203" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="203" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a539f330a8b47b1a7effb6215545e491d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1_1area__strategy" kindref="compound">area_strategy</ref>&lt; Geometry &gt;::type</type>
+        <definition>area_strategy&lt;Geometry&gt;::type boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::get_area_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_area_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="114" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a1abdd35003a85452f880cadbe547213e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1_1distance__strategy" kindref="compound">distance_strategy</ref>&lt; Geometry &gt;::type</type>
+        <definition>distance_strategy&lt;Geometry&gt;::type boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::get_distance_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_distance_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="132" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="132" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ad4a55d882cc762acecc0ecaa04e99237" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry1</type>
+          </param>
+          <param>
+            <type>typename Geometry2</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1_1point__in__geometry__strategy" kindref="compound">point_in_geometry_strategy</ref>&lt; Geometry1, Geometry2 &gt;::type</type>
+        <definition>point_in_geometry_strategy&lt;Geometry1, Geometry2&gt;::type boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::get_point_in_geometry_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_point_in_geometry_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="91" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a452ce48a366c0ab79f559489e2f98467" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1af4ffbece9cc5a15c6ee9aabe5b55fe32" kindref="member">side_strategy_type</ref></type>
+        <definition>side_strategy_type boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::get_side_strategy</definition>
+        <argsstring>()</argsstring>
+        <name>get_side_strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="72" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a105ec886e43d4ec7a7bdce1313c1e243" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename Segment1</type>
+          </param>
+          <param>
+            <type>typename Segment2</type>
+          </param>
+          <param>
+            <type>typename Point1</type>
+          </param>
+          <param>
+            <type>typename Point2</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>Policy::return_type boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::apply</definition>
+        <argsstring>(Segment1 const &amp;a, Segment2 const &amp;b, Point1 const &amp;a1, Point1 const &amp;a2, Point2 const &amp;b1, Point2 const &amp;b2, bool is_a_reversed, bool is_b_reversed) const </argsstring>
+        <name>apply</name>
+        <param>
+          <type>Segment1 const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Segment2 const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>b2</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_a_reversed</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_b_reversed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="272" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="272" bodyend="535"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a473f48434caabf9c5a74acf3aba2a282" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point1</type>
+          </param>
+          <param>
+            <type>typename Point2</type>
+          </param>
+          <param>
+            <type>typename ResultInverse</type>
+          </param>
+          <param>
+            <type>typename CalcT</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::calculate_collinear_data</definition>
+        <argsstring>(Point1 const &amp;a1, Point1 const &amp;a2, Point2 const &amp;b1, Point2 const &amp;b2, ResultInverse const &amp;res_a1_a2, ResultInverse const &amp;res_a1_bi, CalcT &amp;dist_a1_a2, CalcT &amp;dist_a1_bi)</argsstring>
+        <name>calculate_collinear_data</name>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>b2</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_a1_a2</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_a1_bi</declname>
+        </param>
+        <param>
+          <type>CalcT &amp;</type>
+          <declname>dist_a1_a2</declname>
+        </param>
+        <param>
+          <type>CalcT &amp;</type>
+          <declname>dist_a1_bi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="565" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="565" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a51ddcad8de62cc945a6eadeef8e73540" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Point1</type>
+          </param>
+          <param>
+            <type>typename Point2</type>
+          </param>
+          <param>
+            <type>typename CalcT</type>
+          </param>
+          <param>
+            <type>typename ResultInverse</type>
+          </param>
+          <param>
+            <type>typename Spheroid_</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::calculate_ip_data</definition>
+        <argsstring>(Point1 const &amp;a1, Point1 const &amp;a2, Point2 const &amp;b1, Point2 const &amp;b2, CalcT const &amp;a1_lon, CalcT const &amp;a1_lat, CalcT const &amp;a2_lon, CalcT const &amp;a2_lat, CalcT const &amp;b1_lon, CalcT const &amp;b1_lat, CalcT const &amp;b2_lon, CalcT const &amp;b2_lat, ResultInverse const &amp;res_a1_a2, ResultInverse const &amp;res_a1_b1, ResultInverse const &amp;res_a1_b2, ResultInverse const &amp;res_b1_b2, ResultInverse const &amp;res_b1_a1, ResultInverse const &amp;res_b1_a2, side_info const &amp;sides, Spheroid_ const &amp;spheroid, CalcT &amp;lon, CalcT &amp;lat, CalcT &amp;dist_a1_a2, CalcT &amp;dist_a1_ip, CalcT &amp;dist_b1_b2, CalcT &amp;dist_b1_ip, intersection_point_flag &amp;ip_flag)</argsstring>
+        <name>calculate_ip_data</name>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>b2</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>a1_lon</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>a1_lat</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>a2_lon</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>a2_lat</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>b1_lon</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>b1_lat</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>b2_lon</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>b2_lat</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_a1_a2</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_a1_b1</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_a1_b2</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_b1_b2</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_b1_a1</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_b1_a2</declname>
+        </param>
+        <param>
+          <type><ref refid="classboost_1_1geometry_1_1side__info" kindref="compound">side_info</ref> const &amp;</type>
+          <declname>sides</declname>
+        </param>
+        <param>
+          <type>Spheroid_ const &amp;</type>
+          <declname>spheroid</declname>
+        </param>
+        <param>
+          <type>CalcT &amp;</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>CalcT &amp;</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>CalcT &amp;</type>
+          <declname>dist_a1_a2</declname>
+        </param>
+        <param>
+          <type>CalcT &amp;</type>
+          <declname>dist_a1_ip</declname>
+        </param>
+        <param>
+          <type>CalcT &amp;</type>
+          <declname>dist_b1_b2</declname>
+        </param>
+        <param>
+          <type>CalcT &amp;</type>
+          <declname>dist_b1_ip</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5" kindref="member">intersection_point_flag</ref> &amp;</type>
+          <declname>ip_flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="597" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="597" bodyend="813"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a42a1e2f1c0a685a0e9482b1896edeb38" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Policy</type>
+          </param>
+          <param>
+            <type>typename CalcT</type>
+          </param>
+          <param>
+            <type>typename Segment</type>
+          </param>
+          <param>
+            <type>typename Point1</type>
+          </param>
+          <param>
+            <type>typename Point2</type>
+          </param>
+          <param>
+            <type>typename ResultInverse</type>
+          </param>
+        </templateparamlist>
+        <type>Policy::return_type</type>
+        <definition>static Policy::return_type boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::collinear_one_degenerated</definition>
+        <argsstring>(Segment const &amp;segment, bool degenerated_a, Point1 const &amp;a1, Point1 const &amp;a2, Point2 const &amp;b1, Point2 const &amp;b2, ResultInverse const &amp;res_a1_a2, ResultInverse const &amp;res_a1_bi, bool is_other_reversed)</argsstring>
+        <name>collinear_one_degenerated</name>
+        <param>
+          <type>Segment const &amp;</type>
+          <declname>segment</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>degenerated_a</declname>
+        </param>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>Point1 const &amp;</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>Point2 const &amp;</type>
+          <declname>b2</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_a1_a2</declname>
+        </param>
+        <param>
+          <type>ResultInverse const &amp;</type>
+          <declname>res_a1_bi</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_other_reversed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="539" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="539" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1aab9cb2201305a507823fdcd8d56951aa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::ip_flag_reverse_segment</definition>
+        <argsstring>(intersection_point_flag &amp;ip_flag, intersection_point_flag const &amp;ipi_at_p1, intersection_point_flag const &amp;ipi_at_p2)</argsstring>
+        <name>ip_flag_reverse_segment</name>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5" kindref="member">intersection_point_flag</ref> &amp;</type>
+          <declname>ip_flag</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5" kindref="member">intersection_point_flag</ref> const &amp;</type>
+          <declname>ipi_at_p1</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5" kindref="member">intersection_point_flag</ref> const &amp;</type>
+          <declname>ipi_at_p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="870" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="870" bodyend="877"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1aabe53d0266bebd914fcdf7e84caca564" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CalcT</type>
+          </param>
+          <param>
+            <type>typename P1</type>
+          </param>
+          <param>
+            <type>typename P2</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::is_endpoint_equal</definition>
+        <argsstring>(CalcT const &amp;dist, P1 const &amp;ai, P2 const &amp;b1, P2 const &amp;b2)</argsstring>
+        <name>is_endpoint_equal</name>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>P1 const &amp;</type>
+          <declname>ai</declname>
+        </param>
+        <param>
+          <type>P2 const &amp;</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>P2 const &amp;</type>
+          <declname>b2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="816" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="816" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1abea8e1db7875a860456384985c626ae1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CalcT</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::is_near</definition>
+        <argsstring>(CalcT const &amp;dist)</argsstring>
+        <name>is_near</name>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="824" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="824" bodyend="829"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a1e5585aa2e8e9f4085d25549f13f3ac7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CalcT</type>
+          </param>
+          <param>
+            <type>typename SpheroidT</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt; CalcT &gt;</type>
+        <definition>static srs::spheroid&lt;CalcT&gt; boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::normalized_spheroid</definition>
+        <argsstring>(SpheroidT const &amp;spheroid)</argsstring>
+        <name>normalized_spheroid</name>
+        <param>
+          <type>SpheroidT const &amp;</type>
+          <declname>spheroid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="880" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="880" bodyend="885"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a54987aabbec1042126d9dc3ee3b77b7f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ProjCoord1</type>
+          </param>
+          <param>
+            <type>typename ProjCoord2</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>static int boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::position_value</definition>
+        <argsstring>(ProjCoord1 const &amp;ca1, ProjCoord2 const &amp;cb1, ProjCoord2 const &amp;cb2)</argsstring>
+        <name>position_value</name>
+        <param>
+          <type>ProjCoord1 const &amp;</type>
+          <declname>ca1</declname>
+        </param>
+        <param>
+          <type>ProjCoord2 const &amp;</type>
+          <declname>cb1</declname>
+        </param>
+        <param>
+          <type>ProjCoord2 const &amp;</type>
+          <declname>cb2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="832" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="832" bodyend="847"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1adacacd85533ad1236312e390d1f14c2c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CalcT</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::same_direction</definition>
+        <argsstring>(CalcT const &amp;azimuth1, CalcT const &amp;azimuth2)</argsstring>
+        <name>same_direction</name>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>azimuth1</declname>
+        </param>
+        <param>
+          <type>CalcT const &amp;</type>
+          <declname>azimuth2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="850" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="850" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ad66a7a4ecffd9d12591efe5268c96497" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>Which</declname>
+            <defname>Which</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void boost::geometry::strategy::intersection::geographic_segments&lt; FormulaPolicy, Order, Spheroid, CalculationType &gt;::sides_reverse_segment</definition>
+        <argsstring>(side_info &amp;sides)</argsstring>
+        <name>sides_reverse_segment</name>
+        <param>
+          <type><ref refid="classboost_1_1geometry_1_1side__info" kindref="compound">side_info</ref> &amp;</type>
+          <declname>sides</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="858" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="858" bodyend="868"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" line="66" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/intersection.hpp" bodystart="65" bodyend="889"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a26561e7599cfa8c7f9bf752b55b8b68c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a38f69a9199fce9c973cdaaa88f8bc428" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a105ec886e43d4ec7a7bdce1313c1e243" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a473f48434caabf9c5a74acf3aba2a282" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>calculate_collinear_data</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a51ddcad8de62cc945a6eadeef8e73540" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>calculate_ip_data</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a42a1e2f1c0a685a0e9482b1896edeb38" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>collinear_one_degenerated</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a76e8f1759b738d8bbe302c15888522da" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>geographic_segments</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a539f330a8b47b1a7effb6215545e491d" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>get_area_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a1abdd35003a85452f880cadbe547213e" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>get_distance_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ad4a55d882cc762acecc0ecaa04e99237" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>get_point_in_geometry_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a452ce48a366c0ab79f559489e2f98467" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>get_side_strategy</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>intersection_point_flag</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1aab9cb2201305a507823fdcd8d56951aa" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>ip_flag_reverse_segment</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5a1ff681b069135b5e6c2894c812b15e70" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>ipi_at_a1</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5a1e8bbbc347815fca35bfb7fc5a921ceb" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>ipi_at_a2</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5a1eae01eaf5894b6ac4c662351f8b7981" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>ipi_at_b1</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5a4fbd6469ef8dade1c12fd9b9bea7a163" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>ipi_at_b2</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ac0d8208bf7e75198bb5299986f53abf5ab7424a85ed829a4a784727f136a1a30c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>ipi_inters</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1aabe53d0266bebd914fcdf7e84caca564" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>is_endpoint_equal</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1abea8e1db7875a860456384985c626ae1" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>is_near</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1af98c9b1f2ab366b659e8dd5888e674ca" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>m_spheroid</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a1e5585aa2e8e9f4085d25549f13f3ac7" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>normalized_spheroid</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1a54987aabbec1042126d9dc3ee3b77b7f" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>position_value</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1adacacd85533ad1236312e390d1f14c2c" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>same_direction</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1af4ffbece9cc5a15c6ee9aabe5b55fe32" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>side_strategy_type</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1geographic__segments_1ad66a7a4ecffd9d12591efe5268c96497" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::intersection::geographic_segments</scope><name>sides_reverse_segment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

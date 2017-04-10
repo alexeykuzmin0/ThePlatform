@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::area::geographic</compoundname>
+    <includes local="no">area.hpp</includes>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums" prot="protected">boost::geometry::strategy::area::geographic::area_sums</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1spheroid__constants" prot="protected">boost::geometry::strategy::area::geographic::spheroid_constants</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename PointOfSegment</type>
+      </param>
+      <param>
+        <type>typename FormulaPolicy</type>
+        <defval><ref refid="structboost_1_1geometry_1_1strategy_1_1andoyer" kindref="compound">strategy::andoyer</ref></defval>
+      </param>
+      <param>
+        <type>std::size_t</type>
+        <declname>SeriesOrder</declname>
+        <defname>SeriesOrder</defname>
+        <defval><ref refid="structboost_1_1geometry_1_1strategy_1_1default__order" kindref="compound">strategy::default_order</ref>&lt;FormulaPolicy&gt;::value</defval>
+      </param>
+      <param>
+        <type>typename Spheroid</type>
+        <defval><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt;double&gt;</defval>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1ad35002376cfa1c32229b38ee8ed68ed5" prot="private" static="no">
+        <type>boost::mpl::if_c&lt; boost::is_void&lt; CalculationType &gt;::type::value, typename <ref refid="structboost_1_1geometry_1_1select__most__precise" kindref="compound">select_most_precise</ref>&lt; typename <ref refid="structboost_1_1geometry_1_1coordinate__type" kindref="compound">coordinate_type</ref>&lt; PointOfSegment &gt;::type, double &gt;::type, CalculationType &gt;::type</type>
+        <definition>typedef boost::mpl::if_c&lt; boost::is_void&lt;CalculationType&gt;::type::value, typename select_most_precise &lt; typename coordinate_type&lt;PointOfSegment&gt;::type, double &gt;::type, CalculationType &gt;::type boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::CT</definition>
+        <argsstring></argsstring>
+        <name>CT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="76" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a86de5e8463331af27ad8de213fd1b0e9" prot="public" static="no">
+        <type>CT</type>
+        <definition>typedef CT boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::return_type</definition>
+        <argsstring></argsstring>
+        <name>return_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="149" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a83e012d5b682f3de7bca75ac21de39b3" prot="public" static="no">
+        <type>PointOfSegment</type>
+        <definition>typedef PointOfSegment boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::segment_point_type</definition>
+        <argsstring></argsstring>
+        <name>segment_point_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="150" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a578615011a5058dd5d218c389c161288" prot="public" static="no">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums" kindref="compound">area_sums</ref></type>
+        <definition>typedef area_sums boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::state_type</definition>
+        <argsstring></argsstring>
+        <name>state_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="151" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a3b134c95fddcee576103495fe86ee0e5" prot="private" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::ExpandEpsN</definition>
+        <argsstring></argsstring>
+        <name>ExpandEpsN</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="61" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a1efb5dfdfb865110008823b2ba2300d7" prot="private" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::LongSegment</definition>
+        <argsstring></argsstring>
+        <name>LongSegment</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="63" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a7c25783a58e843054f68534fec0b2fdc" prot="private" static="no" mutable="no">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1spheroid__constants" kindref="compound">spheroid_constants</ref></type>
+        <definition>spheroid_constants boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::m_spheroid_constants</definition>
+        <argsstring></argsstring>
+        <name>m_spheroid_constants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="189" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a7ca8a3f57d4f467e6280309f750f9be0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::apply</definition>
+        <argsstring>(PointOfSegment const &amp;p1, PointOfSegment const &amp;p2, area_sums &amp;state) const </argsstring>
+        <name>apply</name>
+        <param>
+          <type>PointOfSegment const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>PointOfSegment const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums" kindref="compound">area_sums</ref> &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="157" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="157" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1af1b6c8d4a58fcb31ab297726eff849e9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::geographic</definition>
+        <argsstring>(Spheroid const &amp;spheroid=Spheroid())</argsstring>
+        <name>geographic</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>spheroid</declname>
+          <defval>Spheroid()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="153" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="153" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1aac1a10954a4303d78708fec13e1ad601" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a86de5e8463331af27ad8de213fd1b0e9" kindref="member">return_type</ref></type>
+        <definition>return_type boost::geometry::strategy::area::geographic&lt; PointOfSegment, FormulaPolicy, SeriesOrder, Spheroid, CalculationType &gt;::result</definition>
+        <argsstring>(area_sums const &amp;state) const </argsstring>
+        <name>result</name>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1_1area__sums" kindref="compound">area_sums</ref> const &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="183" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="183" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Geographic area calculation. </para>    </briefdescription>
+    <detaileddescription>
+<para>Geographic area calculation by trapezoidal rule plus integral approximation that gives the ellipsoidal correction <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>PointOfSegment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>segment point type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>FormulaPolicy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Formula used to calculate azimuths </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SeriesOrder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The order of approximation of the geodesic integral </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Spheroid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The spheroid model </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CalculationType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>See<itemizedlist>
+<listitem><para>Danielsen JS, The area under the geodesic. Surv Rev 30(232): 61–66, 1989</para></listitem><listitem><para>Charles F.F Karney, Algorithms for geodesics, 2011 <ulink url="https://arxiv.org/pdf/1109.4448.pdf">https://arxiv.org/pdf/1109.4448.pdf</ulink></para></listitem></itemizedlist>
+</para></simplesect>
+ <qbk>
+[heading See also]
+[link geometry.reference.algorithms.area.area_2_with_strategy area (with strategy)]
+</qbk>  </para>    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" line="59" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/area.hpp" bodystart="58" bodyend="191"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a7ca8a3f57d4f467e6280309f750f9be0" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1ad35002376cfa1c32229b38ee8ed68ed5" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>CT</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a3b134c95fddcee576103495fe86ee0e5" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>ExpandEpsN</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1af1b6c8d4a58fcb31ab297726eff849e9" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a1efb5dfdfb865110008823b2ba2300d7" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>LongSegment</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a7c25783a58e843054f68534fec0b2fdc" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>m_spheroid_constants</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1aac1a10954a4303d78708fec13e1ad601" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>result</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a86de5e8463331af27ad8de213fd1b0e9" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>return_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a83e012d5b682f3de7bca75ac21de39b3" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>segment_point_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1geographic_1a578615011a5058dd5d218c389c161288" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::geographic</scope><name>state_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

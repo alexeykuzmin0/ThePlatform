@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1andoyer_1_1inverse" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::andoyer::inverse</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">formula::andoyer_inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</basecompoundref>
+    <includes local="no">parameters.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CT</type>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableDistance</declname>
+        <defname>EnableDistance</defname>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableAzimuth</declname>
+        <defname>EnableAzimuth</defname>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableReverseAzimuth</declname>
+        <defname>EnableReverseAzimuth</defname>
+        <defval>false</defval>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableReducedLength</declname>
+        <defname>EnableReducedLength</defname>
+        <defval>false</defval>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>EnableGeodesicScale</declname>
+        <defname>EnableGeodesicScale</defname>
+        <defval>false</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1426">
+        <label>formula::andoyer_inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</label>
+      </node>
+      <node id="1425">
+        <label>boost::geometry::strategy::andoyer::inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1andoyer_1_1inverse"/>
+        <childnode refid="1426" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1428">
+        <label>formula::andoyer_inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</label>
+      </node>
+      <node id="1427">
+        <label>boost::geometry::strategy::andoyer::inverse&lt; CT, EnableDistance, EnableAzimuth, EnableReverseAzimuth, EnableReducedLength, EnableGeodesicScale &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1andoyer_1_1inverse"/>
+        <childnode refid="1428" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" line="43" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/parameters.hpp" bodystart="36" bodyend="43"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

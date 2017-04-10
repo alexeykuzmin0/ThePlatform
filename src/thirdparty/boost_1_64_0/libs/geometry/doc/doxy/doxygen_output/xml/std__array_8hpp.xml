@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="std__array_8hpp" kind="file">
+    <compoundname>std_array.hpp</compoundname>
+    <includes local="no">cstddef</includes>
+    <includes local="no">boost/type_traits/is_arithmetic.hpp</includes>
+    <includes refid="access_8hpp" local="no">boost/geometry/core/access.hpp</includes>
+    <includes refid="cs_8hpp" local="no">boost/geometry/core/cs.hpp</includes>
+    <includes refid="coordinate__dimension_8hpp" local="no">boost/geometry/core/coordinate_dimension.hpp</includes>
+    <includes refid="coordinate__type_8hpp" local="no">boost/geometry/core/coordinate_type.hpp</includes>
+    <includes refid="core_2tags_8hpp" local="no">boost/geometry/core/tags.hpp</includes>
+    <includes local="no">array</includes>
+    <incdepgraph>
+      <node id="58172">
+        <label>boost/geometry/core/coordinate_dimension.hpp</label>
+        <link refid="coordinate__dimension_8hpp"/>
+        <childnode refid="58149" relation="include">
+        </childnode>
+        <childnode refid="58153" relation="include">
+        </childnode>
+        <childnode refid="58173" relation="include">
+        </childnode>
+        <childnode refid="58157" relation="include">
+        </childnode>
+        <childnode refid="58166" relation="include">
+        </childnode>
+      </node>
+      <node id="58169">
+        <label>boost/geometry/core/cs.hpp</label>
+        <link refid="cs_8hpp"/>
+        <childnode refid="58149" relation="include">
+        </childnode>
+        <childnode refid="58153" relation="include">
+        </childnode>
+        <childnode refid="58170" relation="include">
+        </childnode>
+        <childnode refid="58171" relation="include">
+        </childnode>
+        <childnode refid="58165" relation="include">
+        </childnode>
+      </node>
+      <node id="58159">
+        <label>boost/type_traits/remove_const.hpp</label>
+      </node>
+      <node id="58157">
+        <label>boost/geometry/core/point_type.hpp</label>
+        <link refid="point__type_8hpp"/>
+        <childnode refid="58153" relation="include">
+        </childnode>
+        <childnode refid="58158" relation="include">
+        </childnode>
+        <childnode refid="58159" relation="include">
+        </childnode>
+        <childnode refid="58160" relation="include">
+        </childnode>
+        <childnode refid="58164" relation="include">
+        </childnode>
+        <childnode refid="58165" relation="include">
+        </childnode>
+        <childnode refid="58166" relation="include">
+        </childnode>
+      </node>
+      <node id="58162">
+        <label>boost/type_traits/is_const.hpp</label>
+      </node>
+      <node id="58161">
+        <label>boost/mpl/if.hpp</label>
+      </node>
+      <node id="58173">
+        <label>boost/static_assert.hpp</label>
+      </node>
+      <node id="58160">
+        <label>boost/geometry/core/ring_type.hpp</label>
+        <link refid="ring__type_8hpp"/>
+        <childnode refid="58153" relation="include">
+        </childnode>
+        <childnode refid="58161" relation="include">
+        </childnode>
+        <childnode refid="58158" relation="include">
+        </childnode>
+        <childnode refid="58162" relation="include">
+        </childnode>
+        <childnode refid="58159" relation="include">
+        </childnode>
+        <childnode refid="58163" relation="include">
+        </childnode>
+        <childnode refid="58164" relation="include">
+        </childnode>
+        <childnode refid="58165" relation="include">
+        </childnode>
+      </node>
+      <node id="58165">
+        <label>boost/geometry/core/tags.hpp</label>
+        <link refid="core_2tags_8hpp"/>
+      </node>
+      <node id="58154">
+        <label>boost/type_traits/is_pointer.hpp</label>
+      </node>
+      <node id="58153">
+        <label>boost/mpl/assert.hpp</label>
+      </node>
+      <node id="58151">
+        <label>boost/geometry/core/access.hpp</label>
+        <link refid="access_8hpp"/>
+        <childnode refid="58149" relation="include">
+        </childnode>
+        <childnode refid="58152" relation="include">
+        </childnode>
+        <childnode refid="58153" relation="include">
+        </childnode>
+        <childnode refid="58154" relation="include">
+        </childnode>
+        <childnode refid="58155" relation="include">
+        </childnode>
+        <childnode refid="58156" relation="include">
+        </childnode>
+        <childnode refid="58157" relation="include">
+        </childnode>
+        <childnode refid="58164" relation="include">
+        </childnode>
+        <childnode refid="58166" relation="include">
+        </childnode>
+      </node>
+      <node id="58163">
+        <label>boost/type_traits/remove_reference.hpp</label>
+      </node>
+      <node id="58152">
+        <label>boost/core/ignore_unused.hpp</label>
+      </node>
+      <node id="58166">
+        <label>boost/geometry/util/bare_type.hpp</label>
+        <link refid="bare__type_8hpp"/>
+        <childnode refid="58159" relation="include">
+        </childnode>
+        <childnode refid="58155" relation="include">
+        </childnode>
+        <childnode refid="58163" relation="include">
+        </childnode>
+      </node>
+      <node id="58170">
+        <label>boost/type_traits/integral_constant.hpp</label>
+      </node>
+      <node id="58171">
+        <label>boost/geometry/core/coordinate_system.hpp</label>
+        <link refid="coordinate__system_8hpp"/>
+        <childnode refid="58153" relation="include">
+        </childnode>
+        <childnode refid="58157" relation="include">
+        </childnode>
+        <childnode refid="58166" relation="include">
+        </childnode>
+      </node>
+      <node id="58167">
+        <label>boost/geometry/util/promote_floating_point.hpp</label>
+        <link refid="promote__floating__point_8hpp"/>
+        <childnode refid="58161" relation="include">
+        </childnode>
+        <childnode refid="58168" relation="include">
+        </childnode>
+      </node>
+      <node id="58150">
+        <label>boost/type_traits/is_arithmetic.hpp</label>
+      </node>
+      <node id="58164">
+        <label>boost/geometry/core/tag.hpp</label>
+        <link refid="tag_8hpp"/>
+        <childnode refid="58165" relation="include">
+        </childnode>
+        <childnode refid="58166" relation="include">
+        </childnode>
+      </node>
+      <node id="58174">
+        <label>array</label>
+      </node>
+      <node id="58158">
+        <label>boost/range/value_type.hpp</label>
+      </node>
+      <node id="58149">
+        <label>cstddef</label>
+      </node>
+      <node id="58148">
+        <label>/home/ubuntu/boost/boost/geometry/geometries/adapted/std_array.hpp</label>
+        <link refid="std_array.hpp"/>
+        <childnode refid="58149" relation="include">
+        </childnode>
+        <childnode refid="58150" relation="include">
+        </childnode>
+        <childnode refid="58151" relation="include">
+        </childnode>
+        <childnode refid="58169" relation="include">
+        </childnode>
+        <childnode refid="58172" relation="include">
+        </childnode>
+        <childnode refid="58156" relation="include">
+        </childnode>
+        <childnode refid="58165" relation="include">
+        </childnode>
+        <childnode refid="58174" relation="include">
+        </childnode>
+      </node>
+      <node id="58168">
+        <label>boost/type_traits/is_integral.hpp</label>
+      </node>
+      <node id="58156">
+        <label>boost/geometry/core/coordinate_type.hpp</label>
+        <link refid="coordinate__type_8hpp"/>
+        <childnode refid="58153" relation="include">
+        </childnode>
+        <childnode refid="58157" relation="include">
+        </childnode>
+        <childnode refid="58164" relation="include">
+        </childnode>
+        <childnode refid="58166" relation="include">
+        </childnode>
+        <childnode refid="58167" relation="include">
+        </childnode>
+      </node>
+      <node id="58155">
+        <label>boost/type_traits/remove_pointer.hpp</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="std__array_8hpp_1a891003691be29d9a40065b91f0b1475f" prot="public" static="no">
+        <name>BOOST_GEOMETRY_ADAPTED_STD_ARRAY_TAG_DEFINED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/adapted/std_array.hpp" line="15" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/adapted/std_array.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="std__array_8hpp_1ad8f6590bf1dcf15685a490d9dd9faa1b" prot="public" static="no">
+        <name>BOOST_GEOMETRY_REGISTER_STD_ARRAY_CS</name>
+        <param><defname>CoordinateSystem</defname></param>
+        <initializer>namespace boost { namespace geometry { namespace traits { \
+    template &lt;class T, std::size_t N&gt; \
+    struct coordinate_system&lt;std::array&lt;T, N&gt; &gt; \
+    { \
+        typedef CoordinateSystem type; \
+    }; \
+    }}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/adapted/std_array.hpp" line="104" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/adapted/std_array.hpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/adapted/std_array.hpp"/>
+  </compounddef>
+</doxygen>

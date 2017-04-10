@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1collected__vector" kind="struct" prot="public">
+    <compoundname>boost::geometry::collected_vector</compoundname>
+    <basecompoundref refid="structboost_1_1geometry_1_1nyi_1_1not__implemented__tag" prot="public" virt="non-virtual">boost::geometry::nyi::not_implemented_tag</basecompoundref>
+    <includes local="no">collect_vectors.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>Geometry</declname>
+        <defname>Geometry</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>SideStrategy</declname>
+        <defname>SideStrategy</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>CSTag</declname>
+        <defname>CSTag</defname>
+        <defval>typename <ref refid="structboost_1_1geometry_1_1cs__tag" kindref="compound">cs_tag</ref>&lt;Geometry&gt;::type</defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="43">
+        <label>boost::geometry::collected_vector&lt; T, Geometry, SideStrategy, CSTag &gt;</label>
+        <link refid="structboost_1_1geometry_1_1collected__vector"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>boost::geometry::nyi::not_implemented_tag</label>
+        <link refid="structboost_1_1geometry_1_1nyi_1_1not__implemented__tag"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>boost::geometry::collected_vector&lt; T, Geometry, SideStrategy, CSTag &gt;</label>
+        <link refid="structboost_1_1geometry_1_1collected__vector"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>boost::geometry::nyi::not_implemented_tag</label>
+        <link refid="structboost_1_1geometry_1_1nyi_1_1not__implemented__tag"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="62" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="60" bodyend="62"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

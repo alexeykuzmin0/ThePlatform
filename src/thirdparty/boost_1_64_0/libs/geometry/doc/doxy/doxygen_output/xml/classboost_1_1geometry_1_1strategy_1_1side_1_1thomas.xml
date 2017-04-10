@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::side::thomas</compoundname>
+    <basecompoundref refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic" prot="public" virt="non-virtual">boost::geometry::strategy::side::geographic&lt; strategy::thomas, Spheroid, CalculationType &gt;</basecompoundref>
+    <includes local="no">side_thomas.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Spheroid</type>
+        <defval><ref refid="classboost_1_1geometry_1_1srs_1_1spheroid" kindref="compound">srs::spheroid</ref>&lt;double&gt;</defval>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas_1a7cb772fba5b25c23abeaced619a2853e" prot="private" static="no">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic" kindref="compound">side::geographic</ref>&lt; <ref refid="structboost_1_1geometry_1_1strategy_1_1thomas" kindref="compound">strategy::thomas</ref>, Spheroid, CalculationType &gt;</type>
+        <definition>typedef side::geographic&lt;strategy::thomas, Spheroid, CalculationType&gt; boost::geometry::strategy::side::thomas&lt; Spheroid, CalculationType &gt;::base_t</definition>
+        <argsstring></argsstring>
+        <name>base_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side_thomas.hpp" line="43" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side_thomas.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas_1a5f5f174b3badd242dcca5feeb4d7f162" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::side::thomas&lt; Spheroid, CalculationType &gt;::thomas</definition>
+        <argsstring>()</argsstring>
+        <name>thomas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side_thomas.hpp" line="46" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side_thomas.hpp" bodystart="46" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas_1acc594a6abfc2b34b9f30c86dcfa436a1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::side::thomas&lt; Spheroid, CalculationType &gt;::thomas</definition>
+        <argsstring>(Spheroid const &amp;model)</argsstring>
+        <name>thomas</name>
+        <param>
+          <type>Spheroid const &amp;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side_thomas.hpp" line="49" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side_thomas.hpp" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Check at which side of a segment a point lies left of segment (&gt; 0), right of segment (&lt; 0), on segment (0) </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Spheroid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference model of coordinate system. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CalculationType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1752">
+        <label>boost::geometry::strategy::side::geographic&lt; strategy::thomas, Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic"/>
+      </node>
+      <node id="1751">
+        <label>boost::geometry::strategy::side::thomas&lt; Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas"/>
+        <childnode refid="1752" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1754">
+        <label>boost::geometry::strategy::side::geographic&lt; strategy::thomas, Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic"/>
+      </node>
+      <node id="1753">
+        <label>boost::geometry::strategy::side::thomas&lt; Spheroid, CalculationType &gt;</label>
+        <link refid="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas"/>
+        <childnode refid="1754" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/geographic/side_thomas.hpp" line="42" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/geographic/side_thomas.hpp" bodystart="40" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1aeb6a34245c7520b0b16f35ba71e8a2db" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::thomas</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas_1a7cb772fba5b25c23abeaced619a2853e" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::side::thomas</scope><name>base_t</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1af7c9ac464c2d41aa63086e95e67881a3" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::thomas</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1geographic_1ab688890cbca6d0966cfebad809bc1d84" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::thomas</scope><name>geographic</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas_1a5f5f174b3badd242dcca5feeb4d7f162" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::thomas</scope><name>thomas</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1side_1_1thomas_1acc594a6abfc2b34b9f30c86dcfa436a1" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::side::thomas</scope><name>thomas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

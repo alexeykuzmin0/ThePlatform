@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1_1point__in__geometry__strategy" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::ecef_segments::point_in_geometry_strategy</compoundname>
+    <includes local="no">intersection.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Geometry1</type>
+      </param>
+      <param>
+        <type>typename Geometry2</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1_1point__in__geometry__strategy_1a5a42f3cdda3d9b2b1b12c27daae0c1b0" prot="public" static="no">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding" kindref="compound">strategy::within::winding</ref>&lt; typename <ref refid="structboost_1_1geometry_1_1point__type" kindref="compound">point_type</ref>&lt; Geometry1 &gt;::<ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1_1point__in__geometry__strategy_1a5a42f3cdda3d9b2b1b12c27daae0c1b0" kindref="member">type</ref>, typename <ref refid="structboost_1_1geometry_1_1point__type" kindref="compound">point_type</ref>&lt; Geometry2 &gt;::<ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1_1point__in__geometry__strategy_1a5a42f3cdda3d9b2b1b12c27daae0c1b0" kindref="member">type</ref>, <ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1aae179add63b2182836e64fee7d282fb0" kindref="member">side_strategy_type</ref>, CalculationType &gt;</type>
+        <definition>typedef strategy::within::winding&lt; typename point_type&lt;Geometry1&gt;::type, typename point_type&lt;Geometry2&gt;::type, side_strategy_type, CalculationType &gt; boost::geometry::strategy::intersection::ecef_segments&lt; CalcPolicy, CalculationType &gt;::point_in_geometry_strategy&lt; Geometry1, Geometry2 &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="102" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="95" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="94" bodyend="103"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1ecef__segments_1_1point__in__geometry__strategy_1a5a42f3cdda3d9b2b1b12c27daae0c1b0" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::ecef_segments::point_in_geometry_strategy</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

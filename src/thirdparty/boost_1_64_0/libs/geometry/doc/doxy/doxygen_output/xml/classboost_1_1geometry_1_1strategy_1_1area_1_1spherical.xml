@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical" kind="class" prot="public">
+    <compoundname>boost::geometry::strategy::area::spherical</compoundname>
+    <includes local="no">area.hpp</includes>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum" prot="protected">boost::geometry::strategy::area::spherical::excess_sum</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename PointOfSegment</type>
+      </param>
+      <param>
+        <type>typename CalculationType</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a99c885a0b419fecb3248944e1dbedc63" prot="private" static="no">
+        <type>boost::mpl::if_c&lt; boost::is_void&lt; CalculationType &gt;::type::value, typename <ref refid="structboost_1_1geometry_1_1select__most__precise" kindref="compound">select_most_precise</ref>&lt; typename <ref refid="structboost_1_1geometry_1_1coordinate__type" kindref="compound">coordinate_type</ref>&lt; PointOfSegment &gt;::type, double &gt;::type, CalculationType &gt;::type</type>
+        <definition>typedef boost::mpl::if_c&lt; boost::is_void&lt;CalculationType&gt;::type::value, typename select_most_precise &lt; typename coordinate_type&lt;PointOfSegment&gt;::type, double &gt;::type, CalculationType &gt;::type boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::CT</definition>
+        <argsstring></argsstring>
+        <name>CT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="58" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a33c96c42f5155d7b871de8b692e3f401" prot="public" static="no">
+        <type>CT</type>
+        <definition>typedef CT boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::return_type</definition>
+        <argsstring></argsstring>
+        <name>return_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="105" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1aa71b6ed4620a6264422409bcd8fc7d07" prot="public" static="no">
+        <type>PointOfSegment</type>
+        <definition>typedef PointOfSegment boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::segment_point_type</definition>
+        <argsstring></argsstring>
+        <name>segment_point_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="106" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1acc0e0c26ebbe5043e9d36f7df3674ccf" prot="public" static="no">
+        <type><ref refid="classboost_1_1geometry_1_1srs_1_1sphere" kindref="compound">geometry::srs::sphere</ref>&lt; CT &gt;</type>
+        <definition>typedef geometry::srs::sphere&lt;CT&gt; boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::sphere_type</definition>
+        <argsstring></argsstring>
+        <name>sphere_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="108" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1af9d417b1c2efb7438775188ff28d5f70" prot="public" static="no">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum" kindref="compound">excess_sum</ref></type>
+        <definition>typedef excess_sum boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::state_type</definition>
+        <argsstring></argsstring>
+        <name>state_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="107" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a9779c9a028244a55248bf0680076b003" prot="private" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::LongSegment</definition>
+        <argsstring></argsstring>
+        <name>LongSegment</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="47" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1aaaf6cde8cb92ae9f134d7f7eeda8ea66" prot="private" static="no" mutable="no">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1acc0e0c26ebbe5043e9d36f7df3674ccf" kindref="member">sphere_type</ref></type>
+        <definition>sphere_type boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::m_sphere</definition>
+        <argsstring></argsstring>
+        <name>m_sphere</name>
+        <briefdescription>
+<para>srs Sphere </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="148" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1ac8e0620ab22dab7422b38da852b7745e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::apply</definition>
+        <argsstring>(PointOfSegment const &amp;p1, PointOfSegment const &amp;p2, excess_sum &amp;state) const </argsstring>
+        <name>apply</name>
+        <param>
+          <type>PointOfSegment const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>PointOfSegment const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum" kindref="compound">excess_sum</ref> &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="124" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="124" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1ab46e69a08916f1248100d94e6f9a8474" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a33c96c42f5155d7b871de8b692e3f401" kindref="member">return_type</ref></type>
+        <definition>return_type boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::result</definition>
+        <argsstring>(excess_sum const &amp;state) const </argsstring>
+        <name>result</name>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1_1excess__sum" kindref="compound">excess_sum</ref> const &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="141" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a343447dfad4bd916918ab973a874f098" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::spherical</definition>
+        <argsstring>()</argsstring>
+        <name>spherical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="111" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="111" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1affef0f409b3f6935958c04fe1062fbdd" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::spherical</definition>
+        <argsstring>(geometry::srs::sphere&lt; T &gt; const &amp;sphere)</argsstring>
+        <name>spherical</name>
+        <param>
+          <type><ref refid="classboost_1_1geometry_1_1srs_1_1sphere" kindref="compound">geometry::srs::sphere</ref>&lt; T &gt; const &amp;</type>
+          <declname>sphere</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="116" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1aad99055dfd3bfc36ca179e4becad1c65" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::area::spherical&lt; PointOfSegment, CalculationType &gt;::spherical</definition>
+        <argsstring>(CT const &amp;radius)</argsstring>
+        <name>spherical</name>
+        <param>
+          <type>CT const &amp;</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="120" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="120" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Spherical area calculation. </para>    </briefdescription>
+    <detaileddescription>
+<para>Calculates area on the surface of a sphere using the trapezoidal rule <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>PointOfSegment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>segment point type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CalculationType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+ <qbk>
+[heading See also]
+[link geometry.reference.algorithms.area.area_2_with_strategy area (with strategy)]
+</qbk>  </para>    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" line="45" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/area.hpp" bodystart="44" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1ac8e0620ab22dab7422b38da852b7745e" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>apply</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a99c885a0b419fecb3248944e1dbedc63" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>CT</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a9779c9a028244a55248bf0680076b003" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>LongSegment</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1aaaf6cde8cb92ae9f134d7f7eeda8ea66" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>m_sphere</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1ab46e69a08916f1248100d94e6f9a8474" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>result</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a33c96c42f5155d7b871de8b692e3f401" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>return_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1aa71b6ed4620a6264422409bcd8fc7d07" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>segment_point_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1acc0e0c26ebbe5043e9d36f7df3674ccf" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>sphere_type</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1a343447dfad4bd916918ab973a874f098" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>spherical</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1affef0f409b3f6935958c04fe1062fbdd" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>spherical</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1aad99055dfd3bfc36ca179e4becad1c65" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>spherical</name></member>
+      <member refid="classboost_1_1geometry_1_1strategy_1_1area_1_1spherical_1af9d417b1c2efb7438775188ff28d5f70" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::area::spherical</scope><name>state_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

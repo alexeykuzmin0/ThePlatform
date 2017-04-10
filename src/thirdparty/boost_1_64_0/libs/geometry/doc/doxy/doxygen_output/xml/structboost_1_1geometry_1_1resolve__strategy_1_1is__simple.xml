@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1resolve__strategy_1_1is__simple" kind="struct" prot="public">
+    <compoundname>boost::geometry::resolve_strategy::is_simple</compoundname>
+    <includes local="no">interface.hpp</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__strategy_1_1is__simple_1aa7f6852ec64ac66b57bbf9d1f4d53276" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry</type>
+          </param>
+          <param>
+            <type>typename Strategy</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::resolve_strategy::is_simple::apply</definition>
+        <argsstring>(Geometry const &amp;geometry, Strategy const &amp;strategy)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Geometry const &amp;</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type>Strategy const &amp;</type>
+          <declname>strategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="35" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__strategy_1_1is__simple_1a6644d6eccbb6fe0801dc13a041d2ca65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Geometry</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool boost::geometry::resolve_strategy::is_simple::apply</definition>
+        <argsstring>(Geometry const &amp;geometry, default_strategy)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>Geometry const &amp;</type>
+          <declname>geometry</declname>
+        </param>
+        <param>
+          <type><ref refid="structboost_1_1geometry_1_1default__strategy" kindref="compound">default_strategy</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="42" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="42" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="33" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="32" bodyend="53"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1resolve__strategy_1_1is__simple_1aa7f6852ec64ac66b57bbf9d1f4d53276" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_strategy::is_simple</scope><name>apply</name></member>
+      <member refid="structboost_1_1geometry_1_1resolve__strategy_1_1is__simple_1a6644d6eccbb6fe0801dc13a041d2ca65" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_strategy::is_simple</scope><name>apply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

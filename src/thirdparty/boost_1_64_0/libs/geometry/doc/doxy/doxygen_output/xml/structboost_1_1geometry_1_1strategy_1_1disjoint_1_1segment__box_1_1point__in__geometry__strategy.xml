@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1_1point__in__geometry__strategy" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::disjoint::segment_box::point_in_geometry_strategy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">services::default_strategy&lt; point_type&lt; Segment &gt;::type, Box &gt;</basecompoundref>
+    <includes local="no">disjoint_segment_box.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Segment</type>
+      </param>
+      <param>
+        <type>typename Box</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1545">
+        <label>boost::geometry::strategy::disjoint::segment_box::point_in_geometry_strategy&lt; Segment, Box &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1_1point__in__geometry__strategy"/>
+        <childnode refid="1546" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1546">
+        <label>services::default_strategy&lt; point_type&lt; Segment &gt;::type, Box &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1547">
+        <label>boost::geometry::strategy::disjoint::segment_box::point_in_geometry_strategy&lt; Segment, Box &gt;</label>
+        <link refid="structboost_1_1geometry_1_1strategy_1_1disjoint_1_1segment__box_1_1point__in__geometry__strategy"/>
+        <childnode refid="1548" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1548">
+        <label>services::default_strategy&lt; point_type&lt; Segment &gt;::type, Box &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" line="255" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/disjoint_segment_box.hpp" bodystart="249" bodyend="255"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

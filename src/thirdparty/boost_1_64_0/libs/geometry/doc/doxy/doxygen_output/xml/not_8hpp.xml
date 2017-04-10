@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="not_8hpp" kind="file">
+    <compoundname>not.hpp</compoundname>
+    <includedby refid="pointlike__linear_8hpp" local="no">/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/pointlike_linear.hpp</includedby>
+    <invincdepgraph>
+      <node id="29285">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/pointlike_linear.hpp</label>
+        <link refid="pointlike__linear_8hpp"/>
+        <childnode refid="29286" relation="include">
+        </childnode>
+      </node>
+      <node id="29284">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/not.hpp</label>
+        <link refid="not.hpp"/>
+        <childnode refid="29285" relation="include">
+        </childnode>
+      </node>
+      <node id="29293">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/multi.hpp</label>
+        <link refid="multi_8hpp"/>
+        <childnode refid="29292" relation="include">
+        </childnode>
+      </node>
+      <node id="29287">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/difference.hpp</label>
+        <link refid="difference_8hpp"/>
+      </node>
+      <node id="29292">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/implementation.hpp</label>
+        <link refid="intersection_2implementation_8hpp"/>
+        <childnode refid="29289" relation="include">
+        </childnode>
+      </node>
+      <node id="29286">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/intersection_insert.hpp</label>
+        <link refid="intersection__insert_8hpp"/>
+        <childnode refid="29287" relation="include">
+        </childnode>
+        <childnode refid="29288" relation="include">
+        </childnode>
+      </node>
+      <node id="29288">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp</label>
+        <link refid="intersection_2interface_8hpp"/>
+        <childnode refid="29289" relation="include">
+        </childnode>
+        <childnode refid="29291" relation="include">
+        </childnode>
+        <childnode refid="29293" relation="include">
+        </childnode>
+      </node>
+      <node id="29290">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp</label>
+        <link refid="sym__difference_8hpp"/>
+      </node>
+      <node id="29289">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/intersection.hpp</label>
+        <link refid="algorithms_2intersection_8hpp"/>
+        <childnode refid="29290" relation="include">
+        </childnode>
+      </node>
+      <node id="29291">
+        <label>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/box_box.hpp</label>
+        <link refid="intersection_2box__box_8hpp"/>
+        <childnode refid="29292" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceboost">boost</innernamespace>
+    <innernamespace refid="namespaceboost_1_1geometry">boost::geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/not.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane" kind="struct" prot="public">
+    <compoundname>boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane</compoundname>
+    <includes local="no">intersection.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Point3d</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1a28f3c955ab040c32ec9d03e1182b0436" prot="public" static="no">
+        <type><ref refid="structboost_1_1geometry_1_1coordinate__type" kindref="compound">coordinate_type</ref>&lt; Point3d &gt;::type</type>
+        <definition>typedef coordinate_type&lt;Point3d&gt;::type boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane&lt; Point3d &gt;::coord_t</definition>
+        <argsstring></argsstring>
+        <name>coord_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="810" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="810" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1ae743970170d8aacaa3e2837dbee2d5d0" prot="public" static="no" mutable="no">
+        <type>Point3d</type>
+        <definition>Point3d boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane&lt; Point3d &gt;::normal</definition>
+        <argsstring></argsstring>
+        <name>normal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="834" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="834" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1aac981e81c4dc3a785e4200571d067395" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1a28f3c955ab040c32ec9d03e1182b0436" kindref="member">coord_t</ref></type>
+        <definition>coord_t boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane&lt; Point3d &gt;::cos_angle_between</definition>
+        <argsstring>(Point3d const &amp;p1, Point3d const &amp;p2, bool &amp;is_forward) const </argsstring>
+        <name>cos_angle_between</name>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>is_forward</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="827" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="827" bodyend="832"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1adf17f286408678619d2b9578f1db3c88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane&lt; Point3d &gt;::plane</definition>
+        <argsstring>(Point3d const &amp;p1, Point3d const &amp;p2)</argsstring>
+        <name>plane</name>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="813" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="813" bodyend="815"/>
+      </memberdef>
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1a19e7454824a0b78a9fe145dcd27d4365" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane&lt; Point3d &gt;::side_value</definition>
+        <argsstring>(Point3d const &amp;pt) const </argsstring>
+        <name>side_value</name>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="817" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="817" bodyend="820"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1ae51648e63347081b3029e2c720a58876" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1a28f3c955ab040c32ec9d03e1182b0436" kindref="member">coord_t</ref></type>
+        <definition>static coord_t boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane&lt; Point3d &gt;::cos_angle_between</definition>
+        <argsstring>(Point3d const &amp;p1, Point3d const &amp;p2)</argsstring>
+        <name>cos_angle_between</name>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Point3d const &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="822" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="822" bodyend="825"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="809" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="808" bodyend="835"/>
+    <listofallmembers>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1a28f3c955ab040c32ec9d03e1182b0436" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane</scope><name>coord_t</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1ae51648e63347081b3029e2c720a58876" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane</scope><name>cos_angle_between</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1aac981e81c4dc3a785e4200571d067395" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane</scope><name>cos_angle_between</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1ae743970170d8aacaa3e2837dbee2d5d0" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane</scope><name>normal</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1adf17f286408678619d2b9578f1db3c88" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane</scope><name>plane</name></member>
+      <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1spherical__segments__calc__policy_1_1plane_1a19e7454824a0b78a9fe145dcd27d4365" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::spherical_segments_calc_policy::plane</scope><name>side_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
