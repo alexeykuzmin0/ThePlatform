@@ -250,3 +250,12 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Boost build files
+*.lib
+*.exe
+project-config.jam
+project-cache.jam
+test-*link-source
+test-hardlink
+/src/thirdparty/boost_1_64_0/bin.v2/standalone/ac
